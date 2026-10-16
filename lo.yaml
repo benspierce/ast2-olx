@@ -1,0 +1,11 @@
+# lo.yaml — repository metadata for the author catalog (read by get_repositories).
+#
+# Git conventions come first: the catalog takes the description from README.md
+# and licensing/attribution from LICENSE.TXT / CONTRIBUTORS.TXT. This file is
+# ONLY for fields those conventions don't cover.
+#
+# NOT a deployment manifest — routes/namespace live in
+# unit1-investigating-matter/manifest.yaml.
+
+title: Ambitious Science Teaching
+discipline: Science Education

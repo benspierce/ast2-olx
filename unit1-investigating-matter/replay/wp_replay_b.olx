@@ -1,0 +1,147 @@
+<!-- Replay, Episode B: Aaliyah. Transcribed from notes/replay/ep-b.md per
+     notes/replay/CONTRACT.md. Text verbatim; nothing added.
+
+     Macros used in this file, substituted verbatim from the contract's table:
+       ALL_CODES    = @wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code,
+                      @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code,
+                      @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code,
+                      @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code,
+                      @wp_rh1.code, @wp_rh2.code
+       MINUTE       = Math.floor(10 + sum([ALL_CODES]) / 60)
+       A_WIDENED    = @wp_ra1.value === 'widen'
+       A_TO_AALIYAH = @wp_ra2.value === 'to_aaliyah'
+-->
+
+<Vertical id="wp_rb" title="Aaliyah">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rb_reveal">
+
+<Markdown id="wp_rb_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty.*</Markdown>
+
+<Markdown id="wp_rb_s02" when="@wp_ra2.value === 'to_aaliyah'">*Aaliyah is looking at Marcus, not at you.*</Markdown>
+
+<TalkBubble id="wp_rb_l03" who="Aaliyah" face="serious" side="primary" when="@wp_ra2.value === 'to_aaliyah'">
+<Markdown id="wp_rb_l03_md">It don't fit. The cold came from the sky at my house too, and the ice was inside the pipe, not on top of anything. It busted our pipes in the freeze. My mama said the ice did it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l04" who="Aaliyah" face="awe" side="primary" when="@wp_ra1.value === 'widen'">
+<Markdown id="wp_rb_l04_md">Ice at my house did something. It busted our pipes in the freeze and water went all in the hallway. My mama said the ice broke the pipe.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l05" who="Aaliyah" face="calm" side="primary" when="!(@wp_ra1.value === 'widen') &amp;&amp; !(@wp_ra2.value === 'to_aaliyah')">
+<Markdown id="wp_rb_l05_md">In the big freeze our pipes busted at my house and water went all in the hallway. My mama said the ice broke the pipe.</Markdown>
+</TalkBubble>
+
+<ChoiceInput id="wp_rb1">
+<Markdown id="wp_rb1_prompt">Aaliyah has just said Lesson 3 out loud, and the physics the class did with rocks in November. It is not on your anticipated list. What do you say?</Markdown>
+  <Key id="wp_rb1_redirect" value="redirect" code="45" >"Ooh, pipes. We'll get to ice and pipes later. Right now let's stay with our lake. Who else?"</Key>
+  <Key id="wp_rb1_park"     value="park"     code="75" >"That's a good one, Aaliyah. That's Lesson 3. I'm writing it down."</Key>
+  <Key id="wp_rb1_take_up"  value="take_up"  code="120">"Say more. What did your mama say the ice did?"</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rb_s06" when="@wp_rb1.value === 'redirect'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Aaliyah's hand goes down. Bri, who had hers halfway up, puts it down, then up again, lower.*</Markdown>
+
+<Markdown id="wp_rb_s07" when="@wp_rb1.value === 'redirect' &amp;&amp; @wp_ra2.value === 'to_aaliyah'">*Marcus looks at Aaliyah, then at you.*</Markdown>
+
+<Markdown id="wp_rb_s08" when="@wp_rb1.value === 'park'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker under WONDER: "Aaliyah: pipes busted in the freeze." Aaliyah watches you write her name. She does not say more, and she does not put her hand down either.*</Markdown>
+
+<Markdown id="wp_rb_s09" when="@wp_rb1.value === 'park'">*Bri's hand goes all the way up.*</Markdown>
+
+<Markdown id="wp_rb_s10" when="@wp_rb1.value === 'take_up'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}.*</Markdown>
+
+<TalkBubble id="wp_rb_l11" who="Aaliyah" face="explaining" side="primary" when="@wp_rb1.value === 'take_up'">
+<Markdown id="wp_rb_l11_md">She said the water froze in the pipe and it got bigger, and the pipe couldn't hold it so it split. We had to take baths at my auntie's.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l12" who="Kenny" face="cheeky" side="primary" when="@wp_rb1.value === 'take_up'">
+<Markdown id="wp_rb_l12_md">Ours too. The whole building.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rb_s13" when="@wp_rb1.value === 'take_up'">*Kenny did not raise his hand. Three children have turned round to look at Aaliyah.*</Markdown>
+
+<ChoiceInput id="wp_rb2" when="@wp_rb1.value === 'take_up'">
+<Markdown id="wp_rb2_prompt">The mechanism is in the room, in her mother's words. Your plan says Lesson 3, and it says do not answer them early. What do you say?</Markdown>
+  <Key id="wp_rb2_name_it"       value="name_it"       code="30" >"So Aaliyah is saying the water got bigger when it froze, and the pipe couldn't hold it. That is exactly where we're going in Lesson 3, and it's what we did with the rocks in November. On the chart. Hold that thought."</Key>
+  <Key id="wp_rb2_press_science" value="press_science" code="90" >"Bigger? Water gets bigger when it freezes? Are you sure?"</Key>
+  <Key id="wp_rb2_ask_room"      value="ask_room"      code="150">"Who else had pipes?"</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rb_s14" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'name_it'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker under WONDER: "Aaliyah: ice busted the pipes. L3. Rocks (Nov)."*</Markdown>
+
+<TalkBubble id="wp_rb_l15" who="Aaliyah" face="smile" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'name_it'">
+<Markdown id="wp_rb_l15_md">Like the rock that split.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l16" who="Amani" face="calm" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'name_it'">
+<Markdown id="wp_rb_l16_md">Frost wedging. That was my drawing.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rb_s17" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'name_it'">*Amani has looked up from his handout. Next hand.*</Markdown>
+
+<Markdown id="wp_rb_s18" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'press_science'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}.*</Markdown>
+
+<TalkBubble id="wp_rb_l19" who="Aaliyah" face="serious" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'press_science'">
+<Markdown id="wp_rb_l19_md">Yes. My mama said. She showed me the pipe after.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l20" who="Bri" face="awe" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'press_science'">
+<Markdown id="wp_rb_l20_md">That's why it floats! If it's bigger it's, like, spread out.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l21" who="Darnell" face="cheeky" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'press_science'">
+<Markdown id="wp_rb_l21_md">Ice is lighter.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rb_s22" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'press_science'">*Bri did not raise her hand. Your plan, in your own hand: do not answer them early, it spends the surprise. Blue marker, because there is nowhere else to put it: "bigger when it freezes? (Aaliyah) · why ice floats? (Bri)".*</Markdown>
+
+<Markdown id="wp_rb_s23" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Nine hands.*</Markdown>
+
+<TalkBubble id="wp_rb_l24" who="Jaylen" face="smile" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room'">
+<Markdown id="wp_rb_l24_md">Our whole building. We went to my cousin's.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l25" who="Keisha" face="calm" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room'">
+<Markdown id="wp_rb_l25_md">We had to boil the water. For five days.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l26" who="Thuy" face="solemn" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room'">
+<Markdown id="wp_rb_l26_md">We still don't got hot water.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rb_s27" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room'">*The room goes quiet for a second, and then does not. The lake is on the screen behind you and nobody is looking at it.*</Markdown>
+
+<ChoiceInput id="wp_rb3" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room'">
+<Markdown id="wp_rb3_prompt">Every hand in the room is about a house. What do you say?</Markdown>
+  <Key id="wp_rb3_bridge" value="bridge" code="30">"Okay. So if ice can break a pipe, what is it doing to our lake? Turn back round. Look at it."</Key>
+  <Key id="wp_rb3_run"    value="run"    code="90">"Go ahead. Espy, then Amani. Everybody who had one gets a turn."</Key>
+  <Key id="wp_rb3_cut"    value="cut"    code="10">"Okay. Okay. Hands down. That is a lot of pipes. Back to Torch Lake."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rb_s28" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'bridge'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Heads turn.*</Markdown>
+
+<TalkBubble id="wp_rb_l29" who="Marcus" face="calm" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'bridge'">
+<Markdown id="wp_rb_l29_md">It's not breaking it. It's just sitting on top.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l30" who="Bri" face="awe" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'bridge'">
+<Markdown id="wp_rb_l30_md">But it's the same ice.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rb_s31" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'bridge'">*Blue marker: "same ice: busts a pipe, sits on a lake?" Four minutes since Aaliyah put her hand up.*</Markdown>
+
+<Markdown id="wp_rb_s32" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'run'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}.*</Markdown>
+
+<TalkBubble id="wp_rb_l33" who="Espy" face="explaining" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'run'">
+<Markdown id="wp_rb_l33_md">My tío's truck had ice inside it. On the inside of the window.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rb_l34" who="Espy" face="calm" side="primary" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'run'">
+<Markdown id="wp_rb_l34_md">Amani says his building had no water either. Two days.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rb_s35" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'run'">*Amani said it to Espy, not to the room. Kenny's building again, Jaylen's cousin's again. Two children at the back table are on something else. Two minutes. You have not said the word solid.*</Markdown>
+
+<Markdown id="wp_rb_s36" when="@wp_rb1.value === 'take_up' &amp;&amp; @wp_rb2.value === 'ask_room' &amp;&amp; @wp_rb3.value === 'cut'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Hands down. The room comes back slowly. Jaylen's hand stays up, then does not.*</Markdown>
+
+</NextReveal>
+</Vertical>

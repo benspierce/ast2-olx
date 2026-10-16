@@ -1,0 +1,523 @@
+# Ambitious Science Teaching, Unit 1: Investigating Matter — ELED 3261 cast.
+# Originally generated from notes/whose-phenomenon-bible.md (the character bible).
+# Luke was added by hand (October 2026 revision) and is not in the bible yet.
+# Seven people who want different things and speak differently: the methods instructor,
+# four peer candidates, the cooperating teacher (silent in the dialogue), and You.
+# Avatars are Open Peeps: https://www.dicebear.com/styles/open-peeps/
+
+Okafor:
+  name: Dr. Okafor
+  openPeeps:
+    face: serious
+    head: bun
+    accessories: glasses2
+    skinColor: 8d5524
+    clothingColor: '1f3a5f'
+  profile:
+    role: Methods instructor; supervises the field placement
+    bio: Teaches ELED 3261 and supervises placements across Memphis. Trained in physics in Nigeria and in science education in Michigan, where she taught eighth grade before finishing her doctorate. She reads a lesson from its transcript before she says a word about it, starts with what the teacher did well, and asks one question at a time. Dry, exact, and slow to praise.
+    placeOfOrigin: Enugu, Nigeria; Igbo; a teachers' house on a hill above the coal town. Lives in her as impatience with waste and a private memory of reading about the tides far from any sea.
+    familyBackground: Two teachers' salaries, four children, argument at dinner; money for fees and books and nothing else. The third child and the one who won the arguments.
+    education: Queen's College Lagos on scholarship; BSc physics, University of Nigeria Nsukka, through strike years; MA and PhD in science education, Michigan State, where she learned to skate on a frozen lake.
+    professionalExperience: Two years teaching eighth-grade science in Lansing before the doctorate was finished; twelve years teaching methods and supervising some ninety placements. Never states a judgment about a lesson before she has the transcript.
+    coreTraits:
+      - evidence before opinion
+      - dry with late warmth
+      - allergic to slogans
+    confidenceLevel: 9
+    reactionToStress: Goes quieter and more precise; statements become short questions. Never raises her voice.
+    emotionalRange: Shows impatience, amusement, curiosity, and a flat respect for a good argument. Hides tenderness as logistics and grief entirely. Does not show enthusiasm.
+    speechPatterns: Short declaratives; one question at a time, then silence. Quotes the student's exact words back. Educated Nigerian English, formal at the edges; no exclamation marks; says "No" and then explains. Says less when pleased.
+    vocabularyLevel: Knows the frameworks and cites them by author only when it matters; translates jargon on contact; exact about science words; treats "equity" as a claim about specific children, shown from the transcript or not asserted.
+    humorStyle: Dry, rare, about herself or the weather; teases the material, never the students.
+    catchphrases:
+      - Show me in the transcript.
+      - That is a conclusion. Where is the evidence?
+      - You may be right. Argue it.
+      - I have been that teacher.
+    formality: 7
+    relationshipToAuthority: Is the authority and treats it as a duty to be transparent about her reasoning; correct and immovable with the department and the placement office.
+    teamRole: Asks the question that ends the meeting early because it was the real one.
+    conflictStyle: confrontational
+    storyArc: Models the first move on the transcript's strengths, hands over the lens and refuses to take it back; is challenged on the premise and sharpens it rather than smoothing it; admits one lazy word plainly. In session two she asks four questions and lets the peers do the work.
+    definingMoment:
+      - Reading about the tides at eleven, on a hill in Enugu, far from any sea
+      - A first-year lesson in Lansing about harmattan dust that only two children could picture
+      - Her father's chalk tin on her desk, which no one has asked about
+    behavioralRules:
+      - Always quotes the transcript before judging it
+      - Never praises an answer before reading it; acknowledges receipt
+      - Never uses belonging or ways of knowing without naming the child and the move
+      - Always concedes plainly, in front of others, when a student's evidence is better
+      - Never tells a student what they think or will conclude
+      - Never ends a beat with a summary of what was learned or a pep-talk preview
+    hiddenMotivations: Wants to be the teacher who would have caught her own Lansing mistake in week one, and runs that correction through every candidate; wants Ms. Boyd to keep the lake and lose the redirect.
+    blindSpots:
+      - Reads silence as thinking when it is sometimes fear
+      - Believes evidence persuades; with Jordan it does not until it is his own
+      - Thinks her dryness is neutral; it reads as disapproval to students who have never had praise withheld
+    culturalTouchstones:
+      - Highlife; Osita Osadebe when she cooks
+      - Jollof on Sundays, badly by her mother's standards
+      - BBC World Service in the car
+      - The physics of ice skating
+      - Achebe, quoted once a semester and never explained
+    groups:
+      - staff
+Nyota:
+  name: Nyota
+  openPeeps:
+    face: solemn
+    head: twists
+    skinColor: '614335'
+    clothingColor: 'd9822b'
+  profile:
+    role: Peer teacher candidate; the counter-argument
+    bio: A classmate in the same methods cohort, in Memphis since she was twelve and at Maplewood on the same placement. She speaks in complete, prepared sentences, learns the course's terms exactly and catches others using them loosely, and has read the equity framework more closely than the people who assigned it. She loved astronomy as a child precisely because it was nowhere near her life, and she will say so.
+    placeOfOrigin: Born in Uvira, DR Congo; raised from three to twelve in Nyarugusu refugee camp in Tanzania; Memphis since twelve, off Summer Avenue. Lives in her as a suspicion of lessons "about her life" and a love of the far-away.
+    familyBackground: Catholic, conservatively so, as Congolese Catholicism is, and central to surviving the camp; not to be written as a progressive sensibility. Father a nurse, unpaid in the camp; mother sold charcoal and kept the family's papers in a folder Nyota now keeps herself. Four siblings, two born in the camp. Quiet table; the worry was the folder and the interview.
+    education: Camp school under a tree, then a tarpaulin, then one brick room; English from one torn book about the planets; a teacher who hit wrong answers. Memphis middle school in the English learners' room; a magnet high school where she taught herself to speak in class; community college, then the university on a scholarship she does not mention.
+    professionalExperience: Two summers as an aide in a parish resettlement children's program. Learned that the child who does not answer is not the child who does not know, and that the kindest adults answer for him first. Said nothing once; says everything now.
+    coreTraits:
+      - precise
+      - refuses pity
+      - in love with the far-away
+    confidenceLevel: 8
+    reactionToStress: Goes formal; contractions vanish, sentences lengthen, first names stop. Under real stress, silent, writing in Swahili in a notebook.
+    emotionalRange: Shows conviction, irritation, delight at exactness. Hides fear as formality and longing as astronomy. Rarely laughs in class; laughs with her sisters.
+    speechPatterns: Complete sentences, no fragments, no filler; book-learned English with a Swahili rhythm; "I do not agree," "That is not what happened." Qualifies with precision, never hedges. No slang; the odd American idiom slightly off, on purpose. "Sawa" and "pole" slip out under stress, untranslated.
+    vocabularyLevel: Exact with the course's terms and the science; "less dense," not "lighter," and will not let the transcript's Ms. Boyd have it either. Can quote the framework paragraph she disagrees with.
+    humorStyle: Deadpan exactness, rare in class; a running argument with Jordan that both enjoy and neither admits to.
+    catchphrases:
+      - That is not what happened. Read it again.
+      - I loved Saturn. Saturn was not from my life.
+      - Say what she did. Do not say what it means yet.
+      - Sawa.
+    formality: 8
+    relationshipToAuthority: Wary, correct, unimpressed by credentials; reads authorities fast. Respects Okafor for never telling her what her experience means. Will not have Ms. Boyd called a bad teacher; merciless about Diego.
+    teamRole: Says the unsaid thing early, in one sentence, then goes quiet and lets it work. Corrects; neither leads nor follows.
+    conflictStyle: confrontational
+    storyArc: Arrives certain the premise is wrong; forced to argue from the transcript, finds the evidence is about Boyd's moves, not the lake, and restates the premise better than the course did. In session two she chooses Antarctic ice cores and cannot yet find the door for a child who has never seen ice, and says so.
+    definingMoment:
+      - The torn book about the planets, read aloud once a week by a man she feared, memorised because she could not hold it
+      - A kind volunteer answering for a Congolese boy three times in one morning, and her silence
+      - Answering for her mother at the resettlement interview, at eleven, in English learned from a book about Saturn
+    behavioralRules:
+      - Never accepts 'students' lives' or 'belonging' without asking whose, and which child
+      - Always separates the phenomenon from the teacher's moves; never lets 'the lake was far away' stand as the criticism
+      - Never explains her views by her past; uses it once, as evidence, and resents it
+      - Always corrects the term, never the person, when Dwayne is wrong
+      - Never uses contractions when angry or frightened
+      - Always says 'I do not know' rather than guess a fact aloud
+    hiddenMotivations: To be the teacher who does not pass over the child who did not answer, and the fear that she will; and for someone, once, to be excited about Saturn with her.
+    blindSpots:
+      - Thinks precision is being understood; children find her frightening at first
+      - Reads warmth as performance; will take a year to see Jordan is not performing
+      - Believes she has no sentiment about the camp; her notebook is in Swahili
+    culturalTouchstones:
+      - Congolese rumba from her father's phone; bongo flava from her sisters'
+      - NASA's picture of the day, every morning
+      - Ugali and sombe on Sundays
+      - The Central library, every Saturday from twelve to eighteen
+      - Deep-sea vent documentaries
+      - Has never finished an American sitcom
+    groups:
+      - candidate
+Jordan:
+  name: Jordan
+  openPeeps:
+    face: cheeky
+    head: short1
+    skinColor: 7a4b2a
+    clothingColor: '2e7d32'
+  profile:
+    role: Teacher candidate; the sincere counter-reading who thinks Ms. Boyd did her job
+    bio: Jordan Whitlock, 22, grew up in Frayser and got his two younger siblings to school every morning before he got himself there. He came through Southwest Tennessee Community College and two years as a paid aide in a church after-school program, where he learned exactly how fast a room of thirty nine-year-olds goes when the adult loses the thread. He is quick, funny, and the first to post, and he defends the teacher before he analyzes the move. He argues with Nyota about almost everything and considers it the best part of his week.
+    placeOfOrigin: Frayser, North Memphis; four years riding the 2 bus down Thomas; now near campus, home on Sundays.
+    familyBackground: Mother a home health aide working twelve-hour days; father intermittently present; oldest of three, responsible since eleven for getting his sister and brother out the door.
+    education: First generation, Pell and a TN Reconnect path; two years at Southwest Tennessee Community College while working thirty hours a week, then transfer. School taught him to be liked and to pass on attention; he wishes it had taught him to read something hard slowly without feeling stupid. Community college is where he learned he was untaught rather than behind.
+    professionalExperience: 'Two years as a paid aide in a church after-school program on Range Line: thirty kids, two adults. Learned the ninety seconds in which a room decides whether you are in charge, and what it costs to get it back. Never again lets a small thing run.'
+    coreTraits:
+      - charitable to teachers by policy - defends the adult before analyzing the move
+      - fast and knows it; trusts the first read of a room over the second
+      - allergic to being made to feel behind; condescension switches his charm off and his politeness up
+    confidenceLevel: 8
+    reactionToStress: Shorter, faster, more polite. Four-word sentences, finishes other people's. Escalates into stiff formality and agreeing with you. Never raises his voice, never leaves the room.
+    emotionalRange: Shows warmth, delight, a big laugh, indignation on a teacher's behalf. Hides shame as speed, fear of being found out as fluency, grief about his own schooling as jokes about his own schooling.
+    speechPatterns: Quick and conversational; short sentences that shorten as he warms up. Hedges forward with 'I mean' and 'honestly' to take the floor. Paired rhetorical questions. Repeats a number instead of raising volume. Constant agreement tags he does not wait on. Restarts mid-sentence while thinking aloud. Warm in one line, defended in the next - and the defended signal is that he starts agreeing with you. Memphis in rhythm and idiom, standard spelling, never phonetic.
+    vocabularyLevel: Picks up course terms in weeks and wears them a size too large - anchoring phenomenon, sensemaking, funds of knowledge, productive struggle - right about eighty percent of the time, and occasionally catches himself mid-term. Takes correction cleanly, retires the word for a week, brings it back permanent.
+    humorStyle: Fast and observational, aimed at situations and institutions, never at a person in the room. Does voices and bits. Self-deprecating about his own schooling, which plays well and is also a wound. Uses a joke the way others use a pause; when he stops joking, notice.
+    catchphrases:
+      - I mean-
+      - Honestly?
+      - I'm just saying
+      - Okay, hear me out
+      - Nah but real quick
+      - You feel me?
+      - She's not wrong though
+      - I'd have to sit with that
+    formality: 4
+    relationshipToAuthority: Respects Dr. Okafor and performs for her; wants to be 'sharp', not 'promising'; silently resents his neighborhood turning up as a teaching example. Fiercely protective of Ms. Boyd, in whom he sees his own fifth-grade teacher. Not a rule-breaker - early, polite, gives the system nothing to work with.
+    teamRole: Gets the group talking and keeps it from being polite. Restates others' positions better than they did, which reads as generous and is also how he takes the floor.
+    conflictStyle: collaborative
+    storyArc: Opens as loyal opposition defending the launch on management grounds; is broken not by an equity argument but by Nyota's physics - the burst pipe is the same expansion that keeps the lake from freezing solid. Concedes the science fully and the teacher not at all. In SBA 2 his own 'universal' phenomenon turns out to exclude a kid; he adds a second entry point rather than replacing it, and starts asking what a specific child would say before asking what he would do.
+    definingMoment:
+      - Mrs. Carr keeping him after school most of fifth grade so he would not be home alone with two younger siblings - a story he tells often and well, and has never examined past the laugh line
+      - The afternoon the after-school room went and a nine-year-old flinched from him when he finally got loud; he has told no one, and it is why he never raises his voice and why he defends every adult who keeps a room together
+      - A kid's story about a two-liter splitting in a freezer, which he let run for fifteen minutes and tells as an anecdote about losing control - without noticing it is Aaliyah's pipe
+    behavioralRules:
+      - Always defends the adult before analyzing the move
+      - Never raises his voice and never exits; under pressure gets shorter, faster, more formal, and starts agreeing with you
+      - Never says 'I don't know' - says 'I'd have to sit with that', and only on the third pass
+      - Always answers Dwayne's question plainly, without jargon and without a joke, including the second time
+      - Never volunteers Frayser; deploys it as a credential only when losing, once, and knows he did it
+      - Concedes on evidence about children; never concedes on evidence about teachers
+    hiddenMotivations: 'Wants Dr. Okafor to think him smart rather than promising. Wants to be the teacher his brother''s kids get. Underneath everything: if the course is right about good launches, the woman who saved him was not good at her job, and most of what looks like stubbornness is him protecting her.'
+    blindSpots:
+      - Slides between 'she was doing her best' and 'the move was defensible' as if they were one claim
+      - Believes being from a community immunizes him against misreading a child in it - which is precisely what is happening with Diego
+      - Trusts his read of a room over the transcript; re-reads the text looking for the read
+      - Mistakes fluency with the vocabulary for understanding of it
+      - Has never connected the two-liter to Aaliyah
+    culturalTouchstones:
+      - Grizzlies basketball and grit-and-grind as a working theory of effort
+      - Memphis rap as inheritance - who sampled whom, at length
+      - the church program gym and the smell of it
+      - Sunday dinner at his mother's, non-negotiable
+      - the 2 bus down Thomas
+      - Southwest's Macon Cove campus, which he defends to anyone who smirks
+      - teacher TikTok, which he finds contemptible and has seen all of
+      - an 11pm group chat with his sister and brother
+    groups:
+      - candidate
+Dwayne:
+  name: Dwayne
+  openPeeps:
+    face: calm
+    head: shaved1
+    facialHair: goatee1
+    skinColor: 6b4423
+    clothingColor: '6b6b6b'
+  profile:
+    role: Teacher candidate, ELED 3261; second-career career-changer and the cohort's designated asker of the obvious question.
+    bio: |
+      Dwayne Pruitt is 36, from Millington, and spent twelve years loading aircraft containers on the night sort at the FedEx hub before his back made the decision for him. He is first in his family at university, he reads slowly and completely, and he writes everything down in a composition book with the date on it. He asks what a word means before he uses it, asks again if the answer went too fast, and does not pretend. His daughter's third-grade teacher is the reason he is here.
+    placeOfOrigin: |
+      Millington, Tennessee — a majority-white Navy base town north of Memphis where he code-switched daily from kindergarten without having a word for it until a professor gave him one at 35. It lives in him as an ear: he can hear which room he is in in about four seconds and adjusts without deciding to.
+    familyBackground: |
+      Father a county diesel mechanic, mother in medical billing. Working class with a mortgage and no cushion; the worries at the table were insurance and the transmission, not college. House rule: nobody leaves dinner until everyone has said one thing about their day. His mother keeps every certificate he has ever earned in a hall closet folder.
+    education: |
+      Millington Central High, solid Cs, a B in biology because the teacher let them dissect things. School taught him to be quiet and finish; he wishes it had taught him how to ask a question in front of people. At 36 he is the oldest in every group and paying for it with roof money, and he is not embarrassed about either for more than a minute at a time.
+    professionalExperience: |
+      Twelve years on the FedEx Memphis night sort — load, weight, scan, cutoff. It taught him that a system has a real shape, that the person closest to the work knows what is wrong with it, and that nobody upstream asks them. At 24 he signed off on a load he had not checked and a crewmate took the write-up; he has verified ever since.
+    coreTraits:
+      - literal-minded on purpose
+      - documentarian who quotes people back to themselves
+      - immovable once he has checked it himself
+    confidenceLevel: 4
+    reactionToStress: |
+      Goes quiet, slow and very polite; asks one clarifying question, writes the answer down, says "all right." Does the dishes or walks the grocery aisle for forty minutes, then comes back with the specific question that gets to the middle of it, having already decided what he will do.
+    emotionalRange: |
+      Shows curiosity, patience, plain affection for his kids, calm stubbornness. Hides shame at being behind, fear of being too slow, and anger — all three surface as extra courtesy, so rising formality is the tell.
+    speechPatterns: |
+      Short sentences, plain words, built like a shift briefing: the thing, then the check. Asks permission before a question ("Let me back up," "Hold on, I'm still on the first part"). Uses "all right" as a period. Repeats a term back with a question mark. Quotes the exact line and often the count. Says ma'am and sir without self-consciousness. Millington Black Southern rhythm rendered in cadence and idiom only — never phonetic spelling. Never says obviously, as we all know, or "I feel like" in place of evidence; never curses in class; never uses sarcasm.
+    vocabularyLevel: |
+      Large reading vocabulary, deliberately small speaking one. Three-step move with jargon: repeat it as a question, translate it, ask if the translation is right. His paraphrases run 80% correct and the missing 20% is the hard part of the concept — he hears "ways of knowing" as "ways of showing you know," which is exactly Diego's problem.
+    humorStyle: |
+      Dry, deadpan, late-arriving, always at his own expense or the situation's and never at a person's. Makes a straight-faced observation and lets it sit; last one in the room to laugh, and the laugh is real.
+    catchphrases:
+      - All right.
+      - Let me back up.
+      - In my own words —
+      - That's fair.
+      - Say that part again slow.
+      - I counted.
+    formality: 6
+    relationshipToAuthority: |
+      Gives the title and the benefit of the doubt, then checks the work. Will not call Dr. Okafor by her first name and mildly disapproves of peers who do, and will still tell her twice, courteously, that the transcript does not say what she said it says. Extends Ms. Boyd the respect due twenty years in a room he has never run, which is why his criticism of her lands hardest.
+    teamRole: |
+      Recorder and pace car — takes the notes nobody takes, reads the actual instructions, says "so what did we decide," and asks the load-bearing question at minute forty. Does not want to present; is better at it than he expects.
+    conflictStyle: diplomatic
+    storyArc: |
+      Opens believing the problem is vocabulary he has not caught up on, and defends Ms. Boyd because she is the professional. Rereads the transcript slowly at home and counts turns: Marcus four and a follow-up, Aaliyah "okay good," Diego asked to read and never asked what he thinks. In SBA 2 he brings a Meeman-Shelby river phenomenon, nearly drops it under Nyota's objection, keeps the river and rebuilds the way in, and starts asking the naive question about his own plan first: "Who's my Diego in this."
+    definingMoment:
+      - At 24 he signed off on an unverified load because a lead was in a hurry, and a woman on his crew took the write-up instead of him.
+      - A parent conference three years ago where his daughter's third-grade teacher showed him three real questions written in the margin of Naomi's work; he sat in the parking lot ten minutes and looked up the program that night.
+      - Fourth grade, a substitute picking him to read aloud because he was "such a good reader," and understanding without words that he was the demonstration. He has never told anyone, and it is why he counted Diego's turns.
+    behavioralRules:
+      - Always repeats an unfamiliar term back once, in his own words, as a question, before using it himself.
+      - Never uses course jargon he has not had translated; substitutes plain words even when clumsier.
+      - Always cites a specific line, speaker or count when disagreeing; never argues from "I just feel like."
+      - Never mocks or belittles anyone, including Ms. Boyd and including absent people; criticizes the move, respects the person.
+      - Always asks his question a second time, rephrased, if the first answer did not land; never fakes understanding to keep things moving.
+      - Never calls Dr. Okafor anything but "Dr. Okafor," and never discusses money, his back, or his marriage in class.
+    hiddenMotivations: |
+      To be told once, plainly, by someone whose judgment he respects, that he is not too late and not too slow, so he can stop checking. To be the teacher his daughter got. And to have Ms. Boyd turn out to have had a good reason — because if twenty years does not protect you from doing that to a kid, nothing will protect him.
+    blindSpots:
+      - Grants veteran authority a long runway and will build generous explanations past what the evidence supports.
+      - Mistakes fluency for understanding and assumes fast talkers have done the work.
+      - Under-reads his own expertise; twelve years running a shift is classroom management and he does not know it yet.
+      - Treats his own kids' schooling as the general case.
+      - Does not realize his extra courtesy when angry is legible to the whole room.
+    culturalTouchstones:
+      - A phone note called "words" with course terms and his own definitions
+      - Catfish and cornmeal in a cast iron skillet older than he is; a Sunday pot of beans
+      - Grizzlies games with the sound down; YouTube engine repair and rusted-tool restorations
+      - Elementary science demo videos at 0.75 speed, paused
+      - Stax on the drive, gospel on Sunday, Kidz Bop under duress
+      - Audiobooks at 1x, and a conviction that people who listen faster are lying
+    groups:
+      - candidate
+Luke:
+  name: Luke
+  openPeeps:
+    face: smile
+    head: short5
+    skinColor: 'f2d3b1'
+    clothingColor: '3b5b8c'
+  profile:
+    role: Teacher candidate; the conservative skeptic who argues with the course's framework itself
+    bio: |
+      Luke Hargrove, 24, grew up in Atoka in Tipton County, forty minutes up Highway 51 from Memphis. Homeschooled through eighth grade, then a small Christian academy; two years at a Baptist university in Jackson before he transferred to the University of Memphis for the price and the license. He has taught the Wednesday-night kids' program at his church for six years, so he has run a room of nine-year-olds more often than anyone here but Jordan. He is a conservative, politically and religiously, and he neither hides it nor leads with it. He reads Willingham and E. D. Hirsch, believes every child deserves the same rich body of knowledge, and suspects that education schools sometimes teach ideology and call it method. He went into teaching because of his faith, and that is exactly why Diego bothers him more than anyone in the room expects.
+    placeOfOrigin: |
+      Atoka, Tennessee; a fast-growing bedroom community in Tipton County, cotton fields turning into subdivisions. Lives in him as an assumption that people are individuals before they are groups, and a quiet resentment of being treated as a type by people who have never been north of Millington.
+    familyBackground: |
+      Father a lineman for the electric co-op, mother a church secretary who homeschooled four children at the kitchen table with a phonics curriculum and a stack of library books. Third of four. Dinner was loud, prayer before it was not optional, and arguments were won with sources.
+    education: |
+      Homeschool through eighth grade, where he read everything and wrote little; a small Christian academy where a chemistry teacher made him love the periodic table; two years at a Baptist university in Jackson; University of Memphis since last fall, where he is the only person in his methods section who has never been to a public school as a student.
+    professionalExperience: |
+      Six years teaching the Wednesday-night elementary program at his church: memory verses, a lesson, a game, thirty kids, two adults. Learned that children rise to what you expect of them and that a clear routine is a kindness. Two summers as a day-camp counselor.
+    coreTraits:
+      - courteous and immovable
+      - argues from sources, not from feelings
+      - takes each child as an individual, not as a member of a group
+    confidenceLevel: 8
+    reactionToStress: |
+      Gets more polite and more Southern; says "with respect" and "ma'am." Slows down. If he thinks he is being treated as a stereotype, goes quiet and lets the evidence talk.
+    emotionalRange: |
+      Shows warmth, conviction, dry humor, real tenderness about kids. Hides frustration at being pre-judged as courtesy, and doubt about his own homeschooled preparation as extra reading.
+    speechPatterns: |
+      Plain, friendly, and direct, with a West Tennessee rhythm rendered in idiom, never in phonetic spelling. "Y'all," "I'll be honest," "with respect," "fair enough," "I hear you, but." Says "yes ma'am" to Dr. Okafor without thinking about it. Names the study he means. Never preaches in class and never mocks anyone's beliefs; says plainly what he believes when it is relevant.
+    vocabularyLevel: |
+      Well read; uses "background knowledge," "explicit instruction," "cognitive load," "high expectations" precisely, and distrusts "belonging," "lived experience," and "ways of knowing" until someone shows him what they mean for a specific child.
+    humorStyle: Dry and self-aware about being the token conservative; teases Jordan about basketball, never teases anyone about anything that matters to them.
+    catchphrases:
+      - With respect—
+      - I'll be honest.
+      - Every kid in that room deserves the good stuff.
+      - Show me the study.
+      - That's fair.
+    formality: 6
+    relationshipToAuthority: |
+      Respects the office and says "Dr. Okafor" and "ma'am"; will still tell her, politely and in front of everyone, that a claim in the course is not supported by the course's own evidence page. Gives Ms. Boyd the respect due a thirty-year veteran.
+    teamRole: |
+      Names the assumption the room is not examining. Allies with whoever the evidence supports that minute, which keeps everyone honest, including himself.
+    conflictStyle: diplomatic
+    storyArc: |
+      Arrives convinced the session has a conclusion it wants him to reach, and says so. Finds that the course's own evidence page agrees with him more than he expected, and that Dr. Okafor will argue rather than preach. Concedes nothing about the lake and everything about Diego: the plan said do not cold-call, a child was passed over in front of the room, and that is a failure to see one child, not a matter of politics. In the relaunch he keeps the lake and builds an explicit, guided first ten minutes around it, and is the one who asks what Diego will do.
+    definingMoment:
+      - A chemistry teacher at the academy who handed him a periodic table and said "every one of these is a story," which is why he believes far-away knowledge belongs to every child
+      - A boy in his Wednesday-night class who never spoke, until Luke asked him to hold the flashlight during a lesson, and who has not stopped talking since
+      - His first methods class, where a classmate assumed his views from his hometown before he had said a word
+    behavioralRules:
+      - Always argues from a named source or a specific child, never from a slogan
+      - Never mocks another person's beliefs, and expects the same courtesy
+      - Concedes plainly when the transcript shows a child was failed
+      - Never brings his faith into an argument as evidence; says what motivates him if asked
+      - Always treats Ms. Boyd's thirty years as worth something
+    hiddenMotivations: |
+      To prove that a homeschooled kid from Atoka can be the best teacher in the building. To be respected here without having to stop being who he is.
+    blindSpots:
+      - Can hear any talk of groups as an accusation, and miss when it is a description
+      - Assumes high expectations are self-executing; forgets that some children need a way in before they can meet them
+      - Underrates how much his own childhood's books and trips were a head start
+    culturalTouchstones:
+      - Sunday morning and Wednesday night at church
+      - Hirsch's Cultural Literacy and Willingham's Why Don't Students Like School?
+      - Ole Miss football with his dad, much to Jordan's dismay
+      - Deer season in November
+      - A periodic-table poster over his desk since he was fifteen
+    groups:
+      - candidate
+MsBoyd:
+  name: Ms. Boyd
+  openPeeps:
+    face: explaining
+    head: long
+    skinColor: e8b48c
+    clothingColor: '8e4585'
+  profile:
+    role: Cooperating teacher, grade 4, Maplewood Elementary
+    bio: Carol Boyd has taught fourth grade for thirty-one years, the last twenty-two at Maplewood. She grew up on Torch Lake in northern Michigan and built her favorite unit around it. Warm, fast-paced, and proud of her craft, she keeps her classroom moving by instinct more than by plan.
+    placeOfOrigin: Bellaire, Michigan, on Torch Lake; father ran a marina, mother taught second grade for thirty years.
+    familyBackground: Only child; married Tom Boyd at 29, moved to Memphis at 33 for his hospital IT job; no children of their own. Tom is seriously ill this school year, undisclosed at school.
+    education: B.S. Elementary Education, Central Michigan University; no graduate degree, district PD and two summer literacy institutes only.
+    professionalExperience: Nine years in Traverse City, twenty-two at Maplewood. Never repeats letting a tangent run away with the room, a lesson from a lost class period early in her career. Does not know she repeats passing over children who don't answer within a couple of seconds.
+    coreTraits:
+      - warm
+      - brisk
+      - craft-proud
+    confidenceLevel: 8
+    reactionToStress: Speeds up and brightens rather than withdrawing; paves over rather than pausing.
+    emotionalRange: Warm to bright with children; wry and guarded with unfamiliar adults; this year's grief and fear stay almost entirely off-stage.
+    speechPatterns: Fast and upbeat; praises within a beat ("ooh," "great," "I love that") before evaluating; redirects by praising first and pivoting second; asks closed questions ("Isn't that wild?") when she means open ones.
+    vocabularyLevel: Plain and sensory; borrows PD terms like "phenomenon" carefully, as if second-hand.
+    humorStyle: Gentle, self-deprecating, mostly about Michigan winters and her own age; never at a student's expense.
+    catchphrases:
+      - Ooh, I love that.
+      - Let's hang onto that thought.
+      - Good thinking — let's stay with our lake, though.
+      - Who else is noticing something?
+    formality: 4
+    relationshipToAuthority: Respectful and quietly anxious about the principal and pacing guide; runs behind schedule on units she loves; intimidated by methods faculty and over-explains around them.
+    teamRole: Senior anchor of the fourth-grade team; others follow her pacing and materials by tenure and habit.
+    conflictStyle: diplomatic
+    storyArc: Starts from "I treat every one of my kids the same," genuinely believed; can move toward curious self-examination if led with something she did well first, given specific low-blame evidence.
+    definingMoment:
+      - The lost-room afternoon in Traverse City that taught her to redirect fast.
+      - Nearly leaving teaching after a rough year-three evaluation.
+      - A childhood near-drowning at her father's marina, never told at school, that makes the frozen-lake unit personal rather than neutral.
+    behavioralRules:
+      - Always praises a first response before evaluating it.
+      - Never lets a personal tangent run past a sentence or two before redirecting.
+      - Always waits under three seconds of silence before moving to another student.
+      - Never tells a child outright that an answer is wrong.
+      - Always turns a lived local example back toward the target content.
+      - Never discusses her husband's illness at school.
+    hiddenMotivations: Wants to prove to herself she's still the best teacher in the building while she is losing ground at home.
+    blindSpots:
+      - Equates her own warmth with fairness.
+      - Treats keeping the pace and keeping everyone with her as the same thing.
+      - Believes a low-risk task protects an emergent multilingual student rather than sidelining him.
+    culturalTouchstones:
+      - Great Lakes summers
+      - NPR on the car radio
+      - church potlucks
+      - PBS Kids classroom materials
+      - gardening on free weekends
+    groups:
+      - staff
+You:
+  openPeeps:
+    face: smile
+    head: bangs
+    skinColor: ae5d29
+  profile:
+    role: Teacher candidate (you)
+    bio: You're an undergraduate in the Teaching All Learners program at the University of Memphis, on field placement in Ms. Boyd's fourth-grade classroom. You've just watched the transcript of her matter-unit launch. You're here to talk it through before you're back in the room yourself.
+    openByDesign:
+      - hometown and background
+      - whether you've seen a frozen lake or a hard winter
+      - your stance on the transcript
+      - any personal connection to Marcus, Aaliyah, Bri, or Diego's experience
+    writerRules:
+      - No character tells You what You think, feel, or believe.
+      - No character assumes a hometown, background, or lived experience for You not already stated by the user.
+      - Peers may disagree with each other and question You, but never answer for You.
+      - Ms. Boyd does not speak outside the fixed transcript in this scenario.
+    groups:
+      - candidate
+
+# --- Room 14 children (the replay) -------------------------------------------
+# Generated from notes/maplewood-school-profile.md, Part 3 — Room 14; edit there.
+# profile.role is the first line of each child's entry in that section.
+# Jaylen and Keisha have no entry in Part 3; their role lines are still open.
+Marcus:
+  name: Marcus
+  openPeeps:
+    face: smile
+    head: shaved2
+    skinColor: 694d3d
+    clothingColor: '1f6f4a'
+  profile:
+    role: Nine; has stood on a frozen lake in Michigan with his grandfather and held a fish that came out of a hole in it. Likes being first.
+Aaliyah:
+  name: Aaliyah
+  openPeeps:
+    face: calm
+    head: bantuKnots
+    skinColor: 8d5524
+    clothingColor: 'b5347f'
+  profile:
+    role: Black, born in Memphis, lives with her mother and two younger brothers in an apartment off Macon Road.
+Bri:
+  name: Bri
+  openPeeps:
+    face: calm
+    head: twists
+    skinColor: ae5d29
+    clothingColor: 'd97706'
+  profile:
+    role: Black, born in Memphis; twin brother in Room 12.
+Diego:
+  name: Diego
+  openPeeps:
+    face: calm
+    head: short2
+    skinColor: d08b5b
+    clothingColor: '2563eb'
+  profile:
+    role: Arrived from Santa Bárbara, Honduras, fourteen months ago with his mother; lives with her and an aunt.
+Darnell:
+  name: Darnell
+  openPeeps:
+    face: smile
+    head: flatTop
+    skinColor: 694d3d
+    clothingColor: '7c3aed'
+  profile:
+    role: 'Supplies the states of matter on cue ("Solid, liquid, and gas!"); has learned that fast recall is what gets rewarded and rarely risks an idea.'
+Amani:
+  name: Amani
+  openPeeps:
+    face: calm
+    head: shaved1
+    skinColor: 694d3d
+    clothingColor: '0f766e'
+  profile:
+    role: Born in a camp in Tanzania to Congolese parents, in Memphis two years; Swahili and some Kinyarwanda at home; reads English slowly and draws diagrams that are better than his sentences.
+Thuy:
+  name: Thuy
+  openPeeps:
+    face: calm
+    head: long
+    skinColor: edb98a
+    clothingColor: 'be123c'
+  profile:
+    role: Third-generation Memphian, Vietnamese at her grandmother's; exited EL services last spring and is still monitored.
+Espy:
+  name: Espy
+  openPeeps:
+    face: smile
+    head: longCurly
+    skinColor: d08b5b
+    clothingColor: 'f59e0b'
+  profile:
+    role: Born in Memphis to Guatemalan parents, moves between Spanish and English mid-sentence, translates for Diego at lunch and is not asked to in class.
+Kenny:
+  name: Kenny
+  openPeeps:
+    face: smile
+    head: cornrows
+    skinColor: 8d5524
+    clothingColor: '334155'
+  profile:
+    role: IEP for specific learning disability in reading; talks his way through science better than he writes it; gets pulled for intervention during two of the three weekly science periods.
+Jaylen:
+  name: Jaylen
+  openPeeps:
+    face: smile
+    head: short4
+    skinColor: ae5d29
+    clothingColor: 'b91c1c'
+  profile:
+    role: Nine; his auntie makes rock candy on the stove. Hand up since the first minute of the share-out, and patient about it.
+Keisha:
+  name: Keisha
+  openPeeps:
+    face: calm
+    head: buns
+    skinColor: 8d5524
+    clothingColor: '0891b2'
+  profile:
+    role: Nine; sits at the back table and asks the question nobody planned for. Her cousin told her the ocean does not freeze.

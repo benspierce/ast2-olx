@@ -1,0 +1,48 @@
+<!-- wp_replay_d.olx — Episode D: Five hands. Transcribed from notes/replay/ep-d.md. -->
+
+<Vertical id="wp_rd" title="Five hands">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rd_reveal">
+
+<Markdown id="wp_rd_s01" when="!(@wp_ra2.value === 'press_again')">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty. Thuy asks how thick the ice is. Kenny asks if anybody is fishing right now, in the video. Both go under WONDER.*</Markdown>
+
+<Markdown id="wp_rd_s02" when="@wp_ra2.value === 'press_again'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty. Thuy asks how thick the ice is. Marcus, without a hand, says his grandpa's ice was a foot thick and you could drive a truck on it. Kenny's question about fishing does not get asked.*</Markdown>
+
+<Markdown id="wp_rd_s03">*Somebody asks if you have been there. Twenty seconds, the photo from Christmas 1998, as the plan allows. Then: so what is the ice? What do we call it?*</Markdown>
+
+<TalkBubble id="wp_rd_l04" who="Darnell" face="smileBig" side="primary">
+<Markdown id="wp_rd_l04_md">It's a solid! Solid, liquid, and gas!</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rd_s05" when="@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room'">*That is five hands, and the plan says five. Still up: Jaylen's, since Marcus, and Keisha's, since Marcus.*</Markdown>
+
+<Markdown id="wp_rd_s06" when="!(@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">*That is five hands, and the plan says five. Still up: Jaylen's, since Marcus, and Keisha's, at the back, just now.*</Markdown>
+
+<Markdown id="wp_rd_s07" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 20">*Your plan, in your own hand: watch the 20-minute mark.*</Markdown>
+
+<ChoiceInput id="wp_rd1">
+<Markdown id="wp_rd1_prompt">The plan caps the share-out at five. There are two more hands. What do you do?</Markdown>
+  <Key id="wp_rd1_five_slides" value="five_slides" code="345">"That's five. Thank you, everybody. Eyes up here, slides."</Key>
+  <Key id="wp_rd1_jaylen"      value="jaylen"      code="345">"Two more. Jaylen."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rd_s08" when="@wp_rd1.value === 'five_slides'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Jaylen's hand comes down. Keisha's does not.*</Markdown>
+
+<Markdown id="wp_rd_s09" when="@wp_rd1.value === 'jaylen'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Jaylen sits up. Keisha's hand stays up.*</Markdown>
+
+<ChoiceInput id="wp_rd2">
+<Markdown id="wp_rd2_prompt">Keisha's hand is still up. What about her?</Markdown>
+  <Key id="wp_rd2_keisha"    value="keisha"    code="0">"Keisha. Go ahead."</Key>
+  <Key id="wp_rd2_no_keisha" value="no_keisha" code="0">"Keisha, hold that one. Slides."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rd_s10" when="@wp_rd2.value === 'keisha' &amp;&amp; (@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Her hand has been up since Marcus. It comes down when you say her name.*</Markdown>
+
+<Markdown id="wp_rd_s11" when="@wp_rd2.value === 'keisha' &amp;&amp; !(@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Her hand went up a minute ago. It comes down when you say her name.*</Markdown>
+
+<Markdown id="wp_rd_s12" when="@wp_rd2.value === 'no_keisha' &amp;&amp; (@wp_rd1.value === 'jaylen')">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Keisha's hand comes down. Jaylen got his. She looks at the chart.*</Markdown>
+
+<Markdown id="wp_rd_s13" when="@wp_rd2.value === 'no_keisha' &amp;&amp; !(@wp_rd1.value === 'jaylen')">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Keisha's hand comes down.*</Markdown>
+
+</NextReveal>
+</Vertical>

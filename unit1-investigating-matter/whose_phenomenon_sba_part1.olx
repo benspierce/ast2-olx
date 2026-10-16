@@ -1,0 +1,112 @@
+<!-- Ambitious Science Teaching, Unit 1: Investigating Matter — ELED 3261 Elementary
+     Science Methods SBA (shell). Formerly titled "Whose Phenomenon?"; renamed after
+     the September 2026 review. Block ids keep their wp_ prefix. -->
+
+<!--
+---
+description: "Ambitious Science Teaching, Unit 1: Investigating Matter. Before a placement block, a teacher candidate and four classmates study the transcript of their cooperating teacher launching a fourth-grade unit on matter with a frozen Michigan lake, argue about what it did with what four children offered, replay it making her moves against the clock, and plan a launch of their own for the same room."
+category: whose_phenomenon
+index: 96
+lang: en-Latn-US
+---
+-->
+
+<!-- The Course is the non-linear half: what the sidebar offers is the unit and
+     the things you look up while you are in it. The linear path is the unit's
+     own Sequential, one screen at a time. Later units are not built yet.
+
+     Cast is a transparent wrapper (it propthreads the cast to its children and
+     renders them unchanged), so it composes with Course as it did with Tabs.
+     Course reads each nav label off the REFERENCED block's own title=, so the
+     Sequential labels itself and every Reference item whose target is untitled
+     is wrapped in a titled Vertical.
+
+     GATING (October 2026). Each screen after the first two appears in the
+     Sequential only once the screen before it is finished: when="@wp_ok_sN.value"
+     reads the latch that screen sets on its last step (see the head of
+     wp_session.olx). Replay episodes are gated on their own choices instead; the
+     expressions below spell out "every fork that arose in that episode has been
+     answered" (A_DONE … H_DONE in the comments). -->
+<Cast cast="characters.cast" id="wp_sba_part1"
+      title="Ambitious Science Teaching · Unit 1: Investigating Matter"
+      launchable="true">
+
+<Course id="wp_course" title="Ambitious Science Teaching">
+
+  <Sequential id="wp_unit1" title="Unit 1 · Investigating Matter">
+    <Use ref="wp_s1" />
+    <Use ref="wp_s2" />
+    <Use ref="wp_s3" when="@wp_ok_s2.value" />
+    <Use ref="wp_s4" when="@wp_ok_s3.value" />
+    <Use ref="wp_s5" when="@wp_ok_s4.value" />
+    <Use ref="wp_s6" when="@wp_ok_s5.value" />
+    <Use ref="wp_s7" when="@wp_ok_s6.value" />
+    <Use ref="wp_s8" when="@wp_ok_s7.value" />
+    <Use ref="wp_s9" when="@wp_ok_s8.value" />
+    <Use ref="wp_rintro" when="@wp_ok_s9.value" />
+    <Use ref="wp_ra" when="@wp_ok_s9.value" />
+    <!-- A_DONE -->
+    <Use ref="wp_rb" when="@wp_ra1.value &amp;&amp; (@wp_ra1.value !== 'press' || @wp_ra2.value)" />
+    <!-- B_DONE -->
+    <Use ref="wp_rc" when="@wp_rb1.value &amp;&amp; (@wp_rb1.value !== 'take_up' || (@wp_rb2.value &amp;&amp; (@wp_rb2.value !== 'ask_room' || @wp_rb3.value)))" />
+    <!-- C_DONE -->
+    <Use ref="wp_rd" when="@wp_rc1.value &amp;&amp; (@wp_rc1.value !== 'hand_to_room' || @wp_rc2.value)" />
+    <!-- D_DONE and Jaylen taken -->
+    <Use ref="wp_re" when="@wp_rd1.value === 'jaylen' &amp;&amp; @wp_rd2.value" />
+    <!-- Keisha taken, and E_DONE if Jaylen was taken -->
+    <Use ref="wp_rf" when="@wp_rd2.value === 'keisha' &amp;&amp; (@wp_rd1.value !== 'jaylen' || (@wp_re1.value &amp;&amp; (@wp_re1.value !== 'take_up' || @wp_re2.value)))" />
+    <!-- D_DONE, plus E_DONE and F_DONE where those episodes arose -->
+    <Use ref="wp_rg" when="@wp_rd1.value &amp;&amp; @wp_rd2.value &amp;&amp; (@wp_rd1.value !== 'jaylen' || (@wp_re1.value &amp;&amp; (@wp_re1.value !== 'take_up' || @wp_re2.value))) &amp;&amp; (@wp_rd2.value !== 'keisha' || (@wp_rf1.value &amp;&amp; (@wp_rf1.value !== 'take_up' || @wp_rf2.value)))" />
+    <!-- G_DONE -->
+    <Use ref="wp_rh" when="@wp_rg1.value &amp;&amp; @wp_rg2.value &amp;&amp; (@wp_rg2.value !== 'wait' || @wp_rg3.value)" />
+    <!-- H_DONE -->
+    <Use ref="wp_rend" when="@wp_rh1.value &amp;&amp; (@wp_rh1.value !== 'cold_call' || @wp_rh2.value)" />
+    <Use ref="wp_rdebrief" when="wordcount(@wp_replay_reflection.value) &gt;= 12" />
+    <Use ref="wp_s12" when="wordcount(@wp_replay_reflection.value) &gt;= 12" />
+    <Use ref="wp_s13" when="@wp_ok_s12.value" />
+  </Sequential>
+
+  <!-- What you look up without losing your place in the unit. -->
+  <Chapter id="wp_ref" title="Reference">
+
+    <!-- Her materials, the standards behind them, and the frameworks: three tabs
+         on one page (October 2026, at Wesam Salem's request), replacing the
+         separate "Standards, curricula, frameworks" item. -->
+    <Vertical id="wp_ref_materials" title="Lesson materials and standards">
+      <Use ref="wp_materials" />
+    </Vertical>
+
+    <Vertical id="wp_ref_roster" title="Class roster">
+      <Use ref="wp_roster" />
+    </Vertical>
+
+    <Vertical id="wp_ref_school" title="School">
+      <Use ref="wp_school" />
+    </Vertical>
+
+    <Vertical id="wp_ref_evidence" title="The evidence">
+      <Use ref="wp_evidence" />
+    </Vertical>
+
+    <!-- Course honours when= on a chapter child and drops it from the nav
+         until the condition holds, so this appears once the launch is read. -->
+    <Vertical id="wp_ref_notes" title="Notes on the transcript" when="@wp_launch_read.value">
+      <Markdown id="wp_notes_intro">Mark up the transcript as you read. Your notes stay here.</Markdown>
+      <Annotate id="wp_notes">
+        <Use ref="wp_transcript_body" />
+      </Annotate>
+    </Vertical>
+
+    <Vertical id="wp_ref_study" title="My Launch Study">
+      <Use ref="wp_artifact" />
+    </Vertical>
+
+    <Vertical id="wp_ref_people" title="My team">
+      <TeamDirectory id="wp_people_dir" title="Who's here" />
+    </Vertical>
+
+  </Chapter>
+
+</Course>
+
+</Cast>

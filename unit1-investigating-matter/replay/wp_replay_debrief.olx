@@ -1,0 +1,249 @@
+<!-- Replay debrief: What they saw. Transcribed from notes/replay/debrief.md
+     per notes/replay/CONTRACT.md. Text verbatim; nothing added.
+
+     New block id wp_rdebrief; the old wp_s11 in wp_session.olx is removed by
+     the integrator. Macros substituted verbatim from the contract's table;
+     see the macro table at the head of wp_replay_meters.olx.
+-->
+
+<Vertical id="wp_rdebrief" title="What they saw">
+<NextReveal id="wp_rdebrief_reveal">
+
+<!-- October 2026: the opening question ("Go back to the fork that cost you the
+     most. Take the other road...") and its text box (wp_replay_reflection2) were
+     cut at the September review: answering it meant clicking Back through the
+     replay, and the reflection at the end of "The pile" already asks for the
+     trade-offs. -->
+<TalkBubble id="wp_rdebrief_l01" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_rdebrief_l01_md">Back at the table. You've written what your choices made possible and what they cost. Now listen to what the others saw in your run.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l02" who="Jordan" face="concerned" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41" side="secondary">
+<Markdown id="wp_rdebrief_l02_md">You ended past the bell. No ticket. I mean, I'm not saying the trades were wrong. I'm saying somebody's got to do Lesson 2 tomorrow with no piles. Last year she lost it too. She wrote "watch the 20-minute mark" in her own plan because of it. You had the plan.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l03" who="Jordan" face="serious" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 37 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 41" side="secondary">
+<Markdown id="wp_rdebrief_l03_md">Two minutes. Twenty-two sheets with half a lake on them. Honestly? That's not a ticket, that's a receipt.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l04" who="Jordan" face="cheeky" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 33 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 37" side="secondary">
+<Markdown id="wp_rdebrief_l04_md">Four minutes. That's a real ticket. I'd take that trade. She's not wrong though, about the twenty-minute mark. Look where you were at twenty.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l05" who="Jordan" face="cheeky" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 33" side="secondary">
+<Markdown id="wp_rdebrief_l05_md">On time, with the ticket. That's the version I'd have taught. Ask Nyota what it cost.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l06" who="Jordan" face="serious" when="@wp_rb2.value === 'press_science'" side="secondary">
+<Markdown id="wp_rdebrief_l06_md">Okay, hear me out. Her plan says do not answer them early, it spends the surprise. In her own hand. You spent it at minute thirteen. Bri got there on her own, I'll give you that. Lesson 3 is still spent.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l07" who="Nyota" face="serious" side="primary">
+<Markdown id="wp_rdebrief_l07_md">Look at the strip. Say who is out. Do not say what it means yet.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l08" who="Nyota" face="solemn" when="@wp_rb1.value === 'redirect'" side="primary">
+<Markdown id="wp_rdebrief_l08_md">Aaliyah put her hand down at minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code]) / 60)}}. You did that. It cost you nothing on the clock, and I would like you to say what else it cost.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l09" who="Nyota" face="solemn" when="@wp_rb2.value === 'ask_room'" side="primary">
+<Markdown id="wp_rdebrief_l09_md">You asked a room of children to tell each other what the freeze did to their houses. Aaliyah offered hers. The other eight did not. Thuy told you she still has no hot water. That is not on the chart, and it should not be, and now it is in the room.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l10" who="Nyota" face="smile" when="@wp_rf1.value === 'take_up'" side="primary">
+<Markdown id="wp_rdebrief_l10_md">Keisha said salt does not like ice. Marcus said the lake is not salty. Jaylen said then it can freeze. The room built a correct rule out of three sentences, and you had not said a word.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l11" who="Nyota" face="solemn" when="@wp_rh1.value === 'cold_call'" side="primary">
+<Markdown id="wp_rdebrief_l11_md">Her plan said do not cold-call Diego. You had it open. You did it anyway. I want to know why, because she had a reason too, and it was the clock.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l12" who="Nyota" face="smile" when="@wp_rh1.value === 'together'" side="primary">
+<Markdown id="wp_rdebrief_l12_md">He said "solid." Out loud, in English, after twenty-one other people said it. That is the first thing he has said in science this year, and it cost you thirty seconds.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l13" who="Dwayne" face="calm" when="@wp_rb1.value === 'take_up'" side="secondary">
+<Markdown id="wp_rdebrief_l13_md">Let me ask you something. You said "say more." All right. Then what? My own words: the then-what is the move. Is that right? Because I had it as, did you let her talk. That's not it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l14" who="Dwayne" face="concerned" when="@wp_rf1.value === 'take_up'" side="secondary">
+<Markdown id="wp_rdebrief_l14_md">Nyota, hold on. The ocean does freeze, though. Antarctica. I looked it up while you were talking. Keisha's cousin is half right, and the rule has a hole in it, and it is still the best thing that got said in there. All right.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l15" who="Dwayne" face="calm" when="@wp_rg2.value === 'wait'" side="secondary">
+<Markdown id="wp_rdebrief_l15_md">You counted to five. I counted with you. Kenny said same, Thuy said it'll crack. That's two predictions that slide never got in fifteen years. All right.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l16" who="Dwayne" face="concerned" when="(@wp_rg1.value === 'predict') &amp;&amp; ((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2" side="secondary">
+<Markdown id="wp_rdebrief_l16_md">Can I back up. The prediction one. You asked, and Darnell said same, and that was it. Two of them had already been told not today. I wrote down who. That's not me, that's the strip.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l17" who="Dwayne" face="concerned" when="@wp_ra2.value === 'chart'" side="secondary">
+<Markdown id="wp_rdebrief_l17_md">"Cold comes from the sky." It's on the chart. Hold on, I'm still on that one. Is that right? Because I don't think it is, and it's up there in blue until February.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l18" who="Okafor" face="serious" when="@wp_rb2.value === 'press_science'" side="primary">
+<Markdown id="wp_rdebrief_l18_md">Jordan is reading her plan, and he is right about the plan. I am reading Howe. A child who elaborates on another child's mechanism and questions it is doing the one kind of talk that predicted learning in seventy-two classrooms. Bri did that at minute thirteen. Both things are true. Argue which you would rather have in January.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l19" who="Okafor" face="serious" when="(@wp_rb3.value === 'bridge') &amp;&amp; (@wp_rc1.value === 'hand_to_room')" side="primary">
+<Markdown id="wp_rdebrief_l19_md">You ran two turn-and-talks in a share-out. The one that bridged back was teaching. The one that ran was weather.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l20" who="Okafor" face="serious" when="@wp_rb3.value === 'run'" side="primary">
+<Markdown id="wp_rdebrief_l20_md">You let it run. Show me in the transcript what the room learned about the lake between the fourteenth minute and the sixteenth. Not what it felt like. What was said.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l21" who="Okafor" face="serious" when="@wp_re1.value === 'park' || @wp_re2.value === 'distinction'" side="primary">
+<Markdown id="wp_rdebrief_l21_md">You parked the candy and kept the room. That is the skill: not taking up everything, but telling what is on the path from what is not. The evidence, under Reference, has a paragraph on unguided exploration. Read it against what you just did.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l22" who="Okafor" face="serious" when="@wp_ra2.value === 'press_again' &amp;&amp; @wp_rh1.value === 'volunteer'" side="primary">
+<Markdown id="wp_rdebrief_l22_md">Marcus was pressed twice, Marcus was first at every "who else," and Marcus read the board. Show me in the transcript where anyone else learned it was safe to be wrong.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_luke1" who="Luke" face="serious" when="@wp_rh1.value === 'cold_call'" side="secondary">
+<Markdown id="wp_rdebrief_luke1_md">I'd have called on him too, honestly. I believe in calling on every kid, not just the volunteers. But her plan said not him, not like that, and you had it open. High expectations need a way in.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_luke2" who="Luke" face="smile" when="@wp_rh1.value === 'together' || @wp_rh1.value === 'desk_check'" side="secondary">
+<Markdown id="wp_rdebrief_luke2_md">That's what I'd want for Diego. Everybody reads it, then him. Nobody gets let off the hook, and nobody gets put on the spot.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_luke3" who="Luke" face="serious" when="@wp_rg2.value === 'as_authored'" side="secondary">
+<Markdown id="wp_rdebrief_luke3_md">For what it's worth, naming the three states and moving on isn't the crime this room thinks it is. My problem is the red text on slide six. "Lighter" isn't right. If you're going to teach it explicitly, it has to be explicitly right.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_luke4" who="Luke" face="smile" when="@wp_rg3.value === 'rewrite'" side="secondary">
+<Markdown id="wp_rdebrief_luke4_md">"Ice takes up more room." That's the one. That's not a framework, that's just teaching the right thing clearly.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rdebrief_l23" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_rdebrief_l23_md">Nobody in this room will tell you your path was right. The evidence will not either. It says guided sensemaking works and unguided exploration does not, that minutes are real, and that Lesson 3 was in a child's mouth at minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code]) / 60)}} of Lesson 1. What you do with those three facts is teaching.</Markdown>
+</TalkBubble>
+
+<Collapsible id="wp_rdebrief_pathmap" title="Path map (for instructors)">
+<Mermaid id="wp_rdebrief_pathmap_graph">
+graph TD
+  A1["wp_ra1 — Marcus"]
+  A1 --> A1a["praise_next 150s"]
+  A1 --> A1b["press 195s"]
+  A1 --> A1c["widen 180s"]
+  A1 --> A1d["thank_next 150s"]
+  A2["wp_ra2 — the cold from the sky (wp_ra1 = press)"]
+  A2 --> A2a["press_again +45s"]
+  A2 --> A2b["to_aaliyah +60s"]
+  A2 --> A2c["chart +15s"]
+  A1b --> A2
+  B1["wp_rb1 — Aaliyah"]
+  B1 --> B1a["redirect 45s"]
+  B1 --> B1b["park 75s"]
+  B1 --> B1c["take_up 120s"]
+  B2["wp_rb2 — say more (wp_rb1 = take_up)"]
+  B2 --> B2a["name_it +30s"]
+  B2 --> B2b["press_science +90s"]
+  B2 --> B2c["ask_room +150s"]
+  B1c --> B2
+  B3["wp_rb3 — the room (wp_rb2 = ask_room)"]
+  B3 --> B3a["bridge +30s"]
+  B3 --> B3b["run +90s"]
+  B3 --> B3c["cut +10s"]
+  B2c --> B3
+  C1["wp_rc1 — Bri"]
+  C1 --> C1a["hold 60s"]
+  C1 --> C1b["answer 60s"]
+  C1 --> C1c["hand_to_room 210s"]
+  C2["wp_rc2 — after the room (wp_rc1 = hand_to_room)"]
+  C2 --> C2a["chart_all +30s"]
+  C2 --> C2b["ask_diego +20s"]
+  C1c --> C2
+  D1["wp_rd1 — two more hands"]
+  D1 --> D1a["jaylen 345s"]
+  D1 --> D1b["five_slides 345s"]
+  D2["wp_rd2 — Keisha waiting"]
+  D2 --> D2a["keisha 0s"]
+  D2 --> D2b["no_keisha 0s"]
+  E1["wp_re1 — Jaylen's rock candy (E_TAKEN)"]
+  E1 --> E1a["take_up 120s"]
+  E1 --> E1b["park 50s"]
+  E1 --> E1c["redirect 20s"]
+  E2["wp_re2 — the candy taken up (wp_re1 = take_up)"]
+  E2 --> E2a["distinction +30s"]
+  E2 --> E2b["run +60s"]
+  E1a --> E2
+  F1["wp_rf1 — Keisha's salt (F_TAKEN)"]
+  F1 --> F1a["take_up 90s"]
+  F1 --> F1b["park 50s"]
+  F1 --> F1c["redirect 30s"]
+  F2["wp_rf2 — the salt taken up (wp_rf1 = take_up)"]
+  F2 --> F2a["chart_rule +20s"]
+  F2 --> F2b["correct +15s"]
+  F2 --> F2c["ask_ocean +40s"]
+  F1a --> F2
+  G1["wp_rg1 — slide five"]
+  G1 --> G1a["as_written 540s"]
+  G1 --> G1b["predict 600s"]
+  G2["wp_rg2 — the build"]
+  G2 --> G2a["as_authored 0s"]
+  G2 --> G2b["wait 90s"]
+  G3["wp_rg3 — after the wait (wp_rg2 = wait)"]
+  G3 --> G3a["reveal +0s"]
+  G3 --> G3b["rewrite +15s"]
+  G2b --> G3
+  H1["wp_rh1 — Diego and the ticket"]
+  H1 --> H1a["cold_call 60s"]
+  H1 --> H1b["volunteer 55s"]
+  H1 --> H1c["together 90s"]
+  H1 --> H1d["desk_check 70s"]
+  H2["wp_rh2 — after the cold call (wp_rh1 = cold_call)"]
+  H2 --> H2a["rescue +0s"]
+  H2 --> H2b["wait +10s"]
+  H2 --> H2c["point +10s"]
+  H1a --> H2
+  A1a --> B1
+  A2a --> B1
+  A2b --> B1
+  A2c --> B1
+  A1c --> B1
+  A1d --> B1
+  B1a --> C1
+  B1b --> C1
+  B2a --> C1
+  B2b --> C1
+  B3a --> C1
+  B3b --> C1
+  B3c --> C1
+  C1a --> D1
+  C1b --> D1
+  C2a --> D1
+  C2b --> D1
+  D1a --> D2
+  D1b --> D2
+  D2a --> E1
+  D2b --> E1
+  E2a --> F1
+  E2b --> F1
+  E1b --> F1
+  E1c --> F1
+  F2a --> G1
+  F2b --> G1
+  F2c --> G1
+  F1b --> G1
+  F1c --> G1
+  G1a --> G2
+  G1b --> G2
+  G2a --> H1
+  G3a --> H1
+  G3b --> H1
+  H2a --> ENDP["The pile"]
+  H2b --> ENDP["The pile"]
+  H2c --> ENDP["The pile"]
+  H1b --> ENDP["The pile"]
+  H1c --> ENDP["The pile"]
+  H1d --> ENDP["The pile"]
+</Mermaid>
+<Markdown id="wp_rdebrief_pathline">Your path: {{@wp_ra1.value}} → {{@wp_ra2.value}} → {{@wp_rb1.value}} → {{@wp_rb2.value}} → {{@wp_rb3.value}} → {{@wp_rc1.value}} → {{@wp_rc2.value}} → {{@wp_rd1.value}} → {{@wp_rd2.value}} → {{@wp_re1.value}} → {{@wp_re2.value}} → {{@wp_rf1.value}} → {{@wp_rf2.value}} → {{@wp_rg1.value}} → {{@wp_rg2.value}} → {{@wp_rg3.value}} → {{@wp_rh1.value}} → {{@wp_rh2.value}}</Markdown>
+</Collapsible>
+
+</NextReveal>
+</Vertical>

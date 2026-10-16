@@ -1,0 +1,45 @@
+<!-- wp_replay_intro.olx — the replay's introduction (October 2026 revision).
+     In the September review neither the instructor nor the course team could
+     tell how the replay worked on first pass: the clock, the "taken up" bar,
+     and the roster strip had no explanation. This screen comes before Episode A
+     and says plainly what they are and that no path takes up every child and
+     still makes the exit ticket. A short version of the same explanation also
+     sits in a Collapsible at the top of every episode (wp_meters_howto in
+     wp_replay_meters.olx). -->
+
+<Vertical id="wp_rintro" title="Your turn: replay the launch">
+<NextReveal id="wp_rintro_reveal">
+
+<TalkBubble id="wp_rintro_l01" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_rintro_l01_md">Enough talking about her choices. Now you make them. You're Ms. Boyd. It's minute ten, the lights just came up from the turn-and-talk, and her plan is in your hand. Every fork you'll hit is a real decision she faced, or one she would have faced if a different child had raised a hand.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rintro_how">
+## How the replay works
+
+- **You choose what to say.** At each fork, pick one move. Choose what you would actually do in that room, not what you think Dr. Okafor wants.
+- **Every move costs time.** The **clock** at the top of each screen moves with every choice. The share-out started at minute 10; her plan puts the slides at 20 and the exit ticket at 30, and the bell rings at 45.
+- **The second bar counts children.** It goes up each time a child's idea is *taken up*: built on, written on the chart, or handed to the class. Praise alone doesn't count. Six children have ideas you could take up.
+- **The strip under the bars** shows where each child is right now: hand up, taken up, on the chart, set aside, passed over.
+- **There's no winning path.** No route through this launch takes up every child and still gets to the exit ticket on time. Every choice buys something and costs something. At the end you'll see the exit tickets your class turned in, and you'll explain the trade-offs you chose.
+</Markdown>
+
+<Vertical id="wp_rintro_meters_demo">
+<Markdown id="wp_rintro_meters_md">Here's what the two bars look like before you've made a move. They'll be at the top of every screen of the replay.</Markdown>
+<Use ref="wp_meters" />
+</Vertical>
+
+<TalkBubble id="wp_rintro_l02" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_rintro_l02_md">Twenty minutes to the ticket, eight hands up, and a pipe story coming. Okay. Let's see y'all do better than her.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rintro_l03" who="Luke" face="smile" side="secondary">
+<Markdown id="wp_rintro_l03_md">My money's on "nobody does better than her, we just pay for different things."</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rintro_l04" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_rintro_l04_md">Luke may be right. Find out. Click Next at the bottom of the page when you're ready to start.</Markdown>
+</TalkBubble>
+
+</NextReveal>
+</Vertical>

@@ -1,0 +1,85 @@
+<!-- Replay, Episode A: Marcus. Transcribed from notes/replay/ep-a.md per
+     notes/replay/CONTRACT.md. Text verbatim; nothing added.
+
+     Macros used in this file, substituted verbatim from the contract's table:
+       ALL_CODES = @wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code,
+                   @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code,
+                   @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code,
+                   @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code,
+                   @wp_rh1.code, @wp_rh2.code
+       MINUTE    = Math.floor(10 + sum([ALL_CODES]) / 60)
+-->
+
+<Vertical id="wp_ra" title="Marcus">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_ra_reveal">
+
+<Markdown id="wp_ra_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty.*</Markdown>
+
+<Markdown id="wp_ra_s02">*Lights up. Eight hands. The NOTICE / WONDER chart has two lines from the turn and talk: the lake is frozen, people are skating. The marker is in your hand.*</Markdown>
+
+<TalkBubble id="wp_ra_l03" who="Marcus" face="smileBig" side="primary">
+<Markdown id="wp_ra_l03_md">My grandpa takes me ice fishing when we go up north to my cousins. You drill a hole and the fish is right there. They're fine because the ice is only on the top part.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_ra_l04" who="Kenny" face="cheeky" side="primary">
+<Markdown id="wp_ra_l04_md">I been fishing. Not in ice though.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_ra_s05">*Kenny did not raise his hand. Seven hands still up.*</Markdown>
+
+<ChoiceInput id="wp_ra1">
+<Markdown id="wp_ra1_prompt">Marcus has given you the answer the lesson wants, from a lake like yours. What do you say?</Markdown>
+  <Key id="wp_ra1_praise_next" value="praise_next" code="150">"That's exactly right, Marcus. Ice fishing! Okay, who else?"</Key>
+  <Key id="wp_ra1_press"       value="press"       code="195">"Exactly, Marcus. So why only on top? Why doesn't the whole lake freeze?"</Key>
+  <Key id="wp_ra1_widen"       value="widen"       code="180">"That's a good one, Marcus. Marcus has seen ice on top of a lake. Who has seen ice do something else, somewhere else?"</Key>
+  <Key id="wp_ra1_thank_next"  value="thank_next"  code="150">"Thank you, Marcus. Next hand."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_ra_s06" when="@wp_ra1.value === 'praise_next'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Marcus sits back. His hand is up again before you finish saying "who else."*</Markdown>
+
+<TalkBubble id="wp_ra_l07" who="Marcus" face="smileBig" side="primary" when="@wp_ra1.value === 'praise_next'">
+<Markdown id="wp_ra_l07_md">And one time the hole froze back over while we were eating lunch. You could see it going.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_ra_s08" when="@wp_ra1.value === 'praise_next'">*He was not called on. Aaliyah's hand is up.*</Markdown>
+
+<Markdown id="wp_ra_s09" when="@wp_ra1.value === 'press'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Marcus looks at the ceiling for a second.*</Markdown>
+
+<TalkBubble id="wp_ra_l10" who="Marcus" face="explaining" side="primary" when="@wp_ra1.value === 'press'">
+<Markdown id="wp_ra_l10_md">Because the cold comes from the sky. So the top gets it first, and the bottom is far away from the sky.</Markdown>
+</TalkBubble>
+
+<ChoiceInput id="wp_ra2" when="@wp_ra1.value === 'press'">
+<Markdown id="wp_ra2_prompt">That is an idea, and it is not on your anticipated list. What do you say?</Markdown>
+  <Key id="wp_ra2_press_again" value="press_again" code="45">"Say more. Does the bottom ever freeze?"</Key>
+  <Key id="wp_ra2_to_aaliyah"  value="to_aaliyah"  code="60">"Aaliyah, your hand was up. Does that fit with what Marcus said?"</Key>
+  <Key id="wp_ra2_chart"       value="chart"       code="15">"'The cold comes from the sky.' I'm writing that down."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_ra_s11" when="@wp_ra1.value === 'press' &amp;&amp; @wp_ra2.value === 'press_again'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}.*</Markdown>
+
+<TalkBubble id="wp_ra_l12" who="Marcus" face="smile" side="primary" when="@wp_ra1.value === 'press' &amp;&amp; @wp_ra2.value === 'press_again'">
+<Markdown id="wp_ra_l12_md">No. Because it's deep. My grandpa said the fish go down to the bottom where it's warmer.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_ra_l13" who="Darnell" face="cheeky" side="primary" when="@wp_ra1.value === 'press' &amp;&amp; @wp_ra2.value === 'press_again'">
+<Markdown id="wp_ra_l13_md">The bottom's not warm. It's water.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_ra_s14" when="@wp_ra1.value === 'press' &amp;&amp; @wp_ra2.value === 'press_again'">*Three answers from Marcus. Darnell did not raise his hand. Bri's hand has started to wave.*</Markdown>
+
+<Markdown id="wp_ra_s15" when="@wp_ra1.value === 'press' &amp;&amp; @wp_ra2.value === 'to_aaliyah'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Aaliyah puts her hand down and turns in her seat towards Marcus, not towards you.*</Markdown>
+
+<Markdown id="wp_ra_s16" when="@wp_ra1.value === 'press' &amp;&amp; @wp_ra2.value === 'chart'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker under NOTICE: "the cold comes from the sky (Marcus)." Marcus reads his name on the wall. Next hand.*</Markdown>
+
+<Markdown id="wp_ra_s17" when="@wp_ra1.value === 'widen'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Four hands go up that were not up before. Aaliyah's is first and she is not waiting to be called. Keisha's is up at the back table and stays up.*</Markdown>
+
+<TalkBubble id="wp_ra_l18" who="Kenny" face="cheeky" side="primary" when="@wp_ra1.value === 'widen'">
+<Markdown id="wp_ra_l18_md">The ice on my grandmama's steps. I fell on it.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_ra_s19" when="@wp_ra1.value === 'thank_next'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Marcus's hand goes half down. Aaliyah's is up.*</Markdown>
+
+</NextReveal>
+</Vertical>

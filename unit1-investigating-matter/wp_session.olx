@@ -1,0 +1,1103 @@
+<!--
+---
+description: "Ambitious Science Teaching, Unit 1: Investigating Matter — the session. The setting and the room, the word, the framework, Ms. Boyd's four-minute launch read against her own plan, the argument about whose experience the launch assumed, a mirror, a replay of the launch against the clock (replay/), a lesson plan of your own for the same room, and Dr. Okafor's reading of the whole Launch Study."
+category: whose_phenomenon
+index: 95
+lang: en-Latn-US
+---
+-->
+
+<!-- A file needs one document root, so the screens and the print page sit inside
+     one container, the way wp_reference.olx holds the reference pages. Nothing
+     mounts this wrapper: the unit's Sequential (whose_phenomenon_sba_part1.olx)
+     reaches each screen by id.
+
+     ===================================================================
+     HOW THE GATES WORK (October 2026 revision; item 21 of the meeting notes)
+     ===================================================================
+     NextReveal has no gate of its own, and the Sequential's Next button ignores
+     what is happening inside a screen. So progress is held in two places:
+
+     1. Inside a screen. After each check, the rest of the screen sits in an
+        IntakeGate whose first child is a short "do this to continue" note and
+        whose second child is an inner NextReveal with everything that follows.
+        ready= is the check's own condition OR the screen's latch, so a screen a
+        student has finished stays open even if they later change an answer.
+
+     2. Between screens. The last revealed step of each screen carries an
+        OnShow that writes "yes" into that screen's latch (a LineInput parked in
+        the Hidden block below). The next screen's <Use> in the Sequential has
+        when="@wp_ok_sN.value", so the unit's Next button stays disabled until
+        the screen before it is done. Latches never unset.
+
+     The replay episodes need no latches: every fork's later content is already
+     when-gated on its choice, and a chosen radio cannot be un-chosen, so the
+     Sequential gates them on their own choices directly.
+-->
+<Vertical id="wp_session_screens">
+
+<Hidden>
+  <LineInput id="wp_ok_s2" />
+  <LineInput id="wp_ok_s3" />
+  <LineInput id="wp_ok_s4" />
+  <LineInput id="wp_ok_s5" />
+  <LineInput id="wp_ok_s6" />
+  <LineInput id="wp_ok_s7" />
+  <LineInput id="wp_ok_s8" />
+  <LineInput id="wp_ok_s9" />
+  <LineInput id="wp_ok_s12" />
+</Hidden>
+
+<!-- ===================================================================
+     PART 1 — BEFORE YOU GO BACK IN
+     =================================================================== -->
+
+<Vertical id="wp_s1" title="Before you go back in">
+<Markdown id="wp_s1_intro">
+## Unit 1 · Investigating Matter
+
+**Thursday, 8:30 a.m., the methods seminar room in Ball Hall.**
+
+On Tuesday afternoon you were at the back of Room 14 at Maplewood Elementary when your cooperating teacher, Ms. Boyd, opened her new fourth-grade unit, *Investigating Matter*. With her permission, the first four minutes were recorded and transcribed for your methods course.
+
+This morning, before you go back in for your next placement block, Dr. Okafor (your ELED 3261 instructor, who also supervises the Maplewood placements) is meeting with the five candidates placed at the school: you, Jordan, Nyota, Dwayne, and Luke. Everyone has read the transcript. Not everyone agrees about what it shows, and Dr. Okafor won't settle it for you. She'll ask you to show her.
+
+**In this unit you will:**
+
+- read the room before you read the lesson;
+- learn the framework's vocabulary by using it;
+- read those four minutes closely, against Ms. Boyd's own plan;
+- argue about whose experience the launch assumed, with people who don't agree with you or each other;
+- replay the launch yourself, making her decisions against the clock; and
+- plan a launch of your own for the same room.
+
+**How it works.** Click **Next** to move through each conversation. When a step asks you to do something (match terms, answer a question, write a few sentences), the conversation picks up as soon as you've done it. Your work collects in **Reference › My Launch Study**.
+
+> 📎 **Reference**, in the menu on the left, holds everything you might want to look up: Ms. Boyd's lesson materials and the standards behind them, the class roster, the school, the research, your notes on the transcript, and your own Launch Study. The conversation will point you there when it matters. You can open it any time; clicking **Unit 1** in the menu brings you back to where you were.
+</Markdown>
+</Vertical>
+
+<Vertical id="wp_s2" title="Room 14">
+<NextReveal id="wp_s2_reveal">
+
+<TalkBubble id="wp_s2_okafor" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s2_okafor_md">Before we get to the lesson, here's the file I'd want in your hand walking into that room. Twenty-two kids. Four of them talk in the four minutes we recorded, and I want you to know who they are before you read a word they said. The same sentence from a teacher lands differently on each of them, and that's most of what we're doing today. Read through it, then tell me your first impression of the room.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s2_file">
+<Use ref="wp_room14" />
+<Markdown id="wp_s2_file_pointer">
+> 📎 This file stays in **Reference › School** and **Reference › Class roster** for the rest of the unit.
+</Markdown>
+</Vertical>
+
+<Vertical id="wp_s2_impression">
+<Use ref="wp_room14_impression_input" />
+<IntakeGate id="wp_s2_g1" ready="wordcount(@wp_room14_impression.value) &gt;= 12 || @wp_ok_s2.value">
+<Markdown id="wp_s2_lock1"> </Markdown>
+<NextReveal id="wp_s2_reveal_b">
+
+<TalkBubble id="wp_s2_dwayne1" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s2_dwayne1_md">Twenty-six percent English learners. The district's under eight. I didn't know that about Maplewood.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s2_jordan1" who="Jordan" face="serious" side="secondary">
+<Markdown id="wp_s2_jordan1_md">And science is three periods a week, right after lunch, and it's the first thing that gets eaten once February hits. Honestly that's the real story on that page.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s2_luke1" who="Luke" face="smile" side="secondary">
+<Markdown id="wp_s2_luke1_md">Reading levels from late first grade to sixth, and the two farthest apart sit at the same table. Y'all, that's the part that would keep me up at night.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s2_end">
+<TalkBubble id="wp_s2_okafor2" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s2_okafor2_md">Good. You're already reading it like teachers. Keep all of that in your head, because all of it is in play on Tuesday. Now let's get the vocabulary straight.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s2_latch"><SetFieldAction id="wp_s2_latch_set" target="wp_ok_s2" field="value" value="yes" /></OnShow>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<Vertical id="wp_s3" title="What a phenomenon is">
+<NextReveal id="wp_s3_reveal">
+
+<TalkBubble id="wp_s3_okafor1" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s3_okafor1_md">Ms. Boyd opens her unit with what the field calls an *anchoring phenomenon*, so before we look at her, let's get that word straight. A phenomenon is something that *happens*: an event, in a particular place and time, that you'd need to know something to explain. A topic is what the chapter's about.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_dwayne1" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s3_dwayne1_md">Let me back up. "The states of matter." Yesterday I'd have called that a phenomenon. Is it?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s3_nyota1_md">No. Nothing happens in it; it's the chapter title. It's a good question, though. The word was the only part that was off.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_luke1" who="Luke" face="smile" side="secondary">
+<Markdown id="wp_s3_luke1_md">Fair. But somebody still has to teach the chapter title. The kids need those words at some point.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_nyota2" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s3_nyota2_md">Nobody said they don't. The question is which comes first.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_okafor2" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s3_okafor2_md">That argument runs through this whole unit, so let's not settle it in minute two. Start with the vocabulary.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s3_lookfors">
+<Use ref="wp_lookfors_match_problem" />
+<IntakeGate id="wp_s3_g1" ready="@wp_lookfors_match_grader.correct === correctness.correct || @wp_ok_s3.value">
+<Markdown id="wp_s3_lock1">🔒 *Get all five matched correctly and the conversation continues.*</Markdown>
+<NextReveal id="wp_s3_reveal_b">
+
+<TalkBubble id="wp_s3_jordan1" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_s3_jordan1_md">Okay, "held open" is the one I'd have missed. So the teacher's not supposed to answer it? Like, at all?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_okafor3" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s3_okafor3_md">Not in the first five minutes. The class keeps working on it across the unit. One quick check, then you'll put it in your own words.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s3_topic">
+<Use ref="wp_pk_topic_problem" />
+<IntakeGate id="wp_s3_g2" ready="@wp_pk_topic_grader.correct === correctness.correct || @wp_ok_s3.value">
+<Markdown id="wp_s3_lock2">🔒 *Find the phenomenon and the conversation continues.*</Markdown>
+<NextReveal id="wp_s3_reveal_c">
+
+<TalkBubble id="wp_s3_jordan2" who="Jordan" face="smile" side="secondary">
+<Markdown id="wp_s3_jordan2_md">The maple tree got me. A tree doesn't just drop every leaf in three days. That's a "wait, why?"</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s3_okafor4" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s3_okafor4_md">Exactly. Now say the difference between a phenomenon and a topic in your own words. Not the list's words. Yours.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s3_define">
+<Use ref="wp_pk_define_input" />
+<IntakeGate id="wp_s3_g3" ready="wordcount(@wp_pk_define.value) &gt;= 12 || @wp_ok_s3.value">
+<Markdown id="wp_s3_lock3"> </Markdown>
+<NextReveal id="wp_s3_reveal_d">
+<Vertical id="wp_s3_end">
+<TalkBubble id="wp_s3_okafor5" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s3_okafor5_md">Keep that definition handy. We're about to test it against a real launch.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s3_latch"><SetFieldAction id="wp_s3_latch_set" target="wp_ok_s3" field="value" value="yes" /></OnShow>
+</Vertical>
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<Vertical id="wp_s4" title="Ambitious Science Teaching">
+<NextReveal id="wp_s4_reveal">
+
+<TalkBubble id="wp_s4_okafor1" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s4_okafor1_md">The framework this course teaches is called Ambitious Science Teaching. Its first set of practices is the one you just learned the vocabulary for: pick a phenomenon worth explaining, launch it, and draw out what students already think, so that their ideas, not the teacher's, drive the lessons that follow. There's also a critical and cultural reading of it, which adds a question: whose experiences does the phenomenon assume, and whose contributions get taken up? That's the reading Ms. Boyd's launch is going to be held to.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_luke1" who="Luke" face="serious" side="secondary">
+<Markdown id="wp_s4_luke1_md">With respect, Dr. Okafor, can I ask something before we start? Is this a framework we're learning, or a conclusion we're supposed to get to? Because the evidence page says nobody's ever run a trial of AST as a whole.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_okafor2" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s4_okafor2_md">Both halves of that are true. It's the framework this course teaches, and it hasn't been tested as a package. That's on the evidence page because I put it there. If you think it's wrong, argue it, from the transcript and the research.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s4_nyota1_md">For the record, I don't buy the second half yet either. Not for Luke's reasons. I'll make my case when we have the transcript in front of us.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_jordan1" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_s4_jordan1_md">Okay, I love this already. Two people out before we've even read it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_okafor3" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s4_okafor3_md">Three words you'll hear used as if they meant the same thing. They don't. A *standard* is like a growth chart: what most kids should be able to do by the end of a grade, and the state tests it. A *curriculum* is a menu: a sequence of units and materials that usually gets a class there. A *framework*, and AST is one, is advice about how to cook. Standards bind. Menus and advice don't, and a teacher who treats them as if they do can't adjust anything for the kid in front of her.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_jordan2" who="Jordan" face="serious" side="secondary">
+<Markdown id="wp_s4_jordan2_md">I mean, tell that to the pacing guide. And the test in April. Everybody gets measured on the growth chart, so the menu turns into the law about a week after school starts.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s4_okafor4_and_pointer">
+<TalkBubble id="wp_s4_okafor4" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s4_okafor4_md">Yes. That's why she guards her minutes, and later today you'll defend her for it, and you'll be partly right. Keep the difference anyway. A good default menu is a gift; nobody should have to invent breakfast from scratch every morning. But following the guide no matter who's in front of you isn't alignment. It's a treadmill.</Markdown>
+</TalkBubble>
+<Markdown id="wp_s4_std_pointer">
+> 📎 The actual Tennessee standards and the national ones, laid out next to Ms. Boyd's plan, are in **Reference › Lesson materials**, under the **Standards behind the plan** tab.
+</Markdown>
+<ActionButton id="wp_s4_go_materials" label="Open Lesson materials in Reference">
+<SetFieldAction id="wp_s4_go_materials_sel" target="wp_course" field="selectedChild" value="wp/wp_ref_materials" />
+<SetFieldAction id="wp_s4_go_materials_exp" target="wp_course" field="expandedChapter" value="wp_ref" />
+</ActionButton>
+</Vertical>
+
+<TalkBubble id="wp_s4_jordan3" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_s4_jordan3_md">Also, for the record, I've seen her do the lake thing in person. It's good. Kids love it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_dwayne1" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s4_dwayne1_md">I'd like to read it before I decide. I read slow. But first, these question words. I don't have all of them yet.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s4_discourse">
+<Use ref="wp_discourse_match_problem" />
+<IntakeGate id="wp_s4_g1" ready="@wp_discourse_match_grader.correct === correctness.correct || @wp_ok_s4.value">
+<Markdown id="wp_s4_lock1">🔒 *Get all six matched correctly and the conversation continues.*</Markdown>
+<NextReveal id="wp_s4_reveal_b">
+
+<TalkBubble id="wp_s4_dwayne2" who="Dwayne" face="concerned" side="secondary">
+<Markdown id="wp_s4_dwayne2_md">Funneling and focusing took me four tries. Is "pressing for reasoning" basically just asking "why" a lot?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_nyota2" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s4_nyota2_md">Not quite. It's asking a child why *they* think it, so the reason has to come from them. Asking "why?" after you've already given the answer is something else.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s4_luke2" who="Luke" face="serious" side="secondary">
+<Markdown id="wp_s4_luke2_md">I'd add one thing. None of these moves work if the kids don't know anything yet. You can't press a nine-year-old for reasoning about why ice floats if nobody's ever taught them what floating depends on.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s4_okafor5_and_pointer">
+<TalkBubble id="wp_s4_okafor5" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s4_okafor5_md">That's Willingham's argument, and it's on the evidence page. You'll want it later. Speaking of which: the research is in Reference, both sides of it, with the design of every study named. When anyone in this room, including me, says "research shows," ask which study.</Markdown>
+</TalkBubble>
+<Markdown id="wp_s4_evidence_pointer">
+> 📎 **Reference › The evidence**: what supports phenomenon-based, responsive science teaching, and what cuts against it.
+</Markdown>
+</Vertical>
+
+<Vertical id="wp_s4_end">
+<TalkBubble id="wp_s4_okafor6" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s4_okafor6_md">One ground rule for the rest of today: nobody says what a move *meant* until they've quoted it.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s4_latch"><SetFieldAction id="wp_s4_latch_set" target="wp_ok_s4" field="value" value="yes" /></OnShow>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<!-- ===================================================================
+     PART 2 — THE PHENOMENON AND THE ARGUMENT
+     =================================================================== -->
+
+<Vertical id="wp_s5" title="The phenomenon">
+<NextReveal id="wp_s5_reveal">
+
+<Vertical id="wp_s5_scene">
+<Markdown id="wp_s5_scene_md">
+*Dr. Okafor passes around a printout: one page, the first four minutes of Tuesday's lesson, word for word. Nobody talks while everyone reads.*
+
+**Tuesday, 1:15 p.m., Room 14.** It's the second week back from winter break, and the hard freeze was last week. You were at the back of the room. Read it once all the way through, the way you watched it.
+</Markdown>
+<Markdown id="wp_s5_materials_pointer">
+> 📎 Ms. Boyd's lesson plan, including the answers she expected the children to give, is in **Reference › Lesson materials**. You don't need it yet. You will in a few minutes.
+</Markdown>
+</Vertical>
+
+<Use ref="wp_transcript_body" />
+
+<Markdown id="wp_s5_shift">
+*Pens down. From here on it's the six of you around the table, talking about the transcript you just read.*
+</Markdown>
+
+<TalkBubble id="wp_s5_okafor1" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s5_okafor1_md">I'll go first, once, and then it's yours. She opens with a mystery a nine-year-old can't leave alone: how are the fish still alive under there? And she has them turn and talk before anyone answers. Those are real strengths. Don't lose them in what comes next.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s5_jordan1" who="Jordan" face="smile" side="secondary">
+<Markdown id="wp_s5_jordan1_md">See, that's what I'm saying. Every kid in that room is talking in the first minute. Half the teachers I had never did that all year.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s5_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s5_nyota1_md">Every kid is talking. And then Marcus talks first. Keep reading.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s5_dwayne1" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s5_dwayne1_md">I counted turns. Fourteen for her, one each for four kids, one for the whole class. I don't know yet if that means anything. Writing it down.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s5_end">
+<TalkBubble id="wp_s5_luke1" who="Luke" face="smile" side="secondary">
+<Markdown id="wp_s5_luke1_md">Fourteen to four isn't crazy for a launch, honestly. Somebody has to set it up. What I want to know is what she did with the four.</Markdown>
+</TalkBubble>
+<Markdown id="wp_s5_done_md">**I've read the transcript.** (Marking this also opens **Reference › Notes on the transcript**, where you can highlight and annotate it.)</Markdown>
+<Done id="wp_launch_read" align="left" label="I've read it" />
+<OnShow id="wp_s5_latch"><SetFieldAction id="wp_s5_latch_set" target="wp_ok_s5" field="value" value="yes" /></OnShow>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<Vertical id="wp_s6" title="Her questions">
+<NextReveal id="wp_s6_reveal">
+
+<TalkBubble id="wp_s6_okafor1" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s6_okafor1_md">She asks eight questions in four minutes, and they don't all do the same job. Sort them.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s6_questions">
+<Collapsible id="wp_s6_transcript" title="The transcript, for reference">
+<Use ref="wp_transcript_body" />
+</Collapsible>
+<Use ref="wp_questions_problem" />
+<IntakeGate id="wp_s6_g1" ready="@wp_questions_grader.submitCount &gt; 0 || @wp_ok_s6.value">
+<Markdown id="wp_s6_lock1">🔒 *Sort all eight and press **Check**; the conversation continues once you've seen how your sort compares.*</Markdown>
+<NextReveal id="wp_s6_reveal_b">
+
+<TalkBubble id="wp_s6_dwayne1" who="Dwayne" face="concerned" side="secondary">
+<Markdown id="wp_s6_dwayne1_md">Okay, the freezer one. "What would happen to a bottle of water left in the freezer?" That's a prediction, so I had it as opening up thinking. Then she answered it in the same breath. So which is it?</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s6_okafor2_and_slides">
+<TalkBubble id="wp_s6_okafor2" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s6_okafor2_md">Both, which is why the third column is there: a good question she didn't let them have. Now look at slide six in her deck. The answer is printed right under the question, in red, with no click in between. She didn't run out of time. She built it that way, years ago.</Markdown>
+</TalkBubble>
+<Collapsible id="wp_s6_slides" title="Her slides">
+<Use ref="wp_mat_deck_md" />
+</Collapsible>
+</Vertical>
+
+<TalkBubble id="wp_s6_jordan1" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_s6_jordan1_md">To be fair, she had like thirty seconds before the bell on that one.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s6_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s6_nyota1_md">She had four minutes, and she spent one of them on "name the three states of matter."</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s6_luke1" who="Luke" face="serious" side="secondary">
+<Markdown id="wp_s6_luke1_md">I'll defend that one, actually. Darnell knew the words, and that's not nothing. Willingham's whole point is you can't think about what you don't know.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s6_okafor3" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s6_okafor3_md">Agreed, it's not nothing. So what did knowing the words let Darnell do next?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s6_dwayne2" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s6_dwayne2_md">Nothing. She moved on. It's right here: "Yes! Solid, liquid, gas," and then the next question.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s6_luke2" who="Luke" face="concerned" side="secondary">
+<Markdown id="wp_s6_luke2_md">That's fair. Knowing the words was supposed to be the start of something.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s6_okafor4" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s6_okafor4_md">Your turn. Choose two of her questions: one that opened up the children's thinking and one that shut it down. For each, quote the question exactly, then explain what it did to how the children were thinking about the science.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s6_analysis">
+<Use ref="wp_discourse_analysis_input" />
+<IntakeGate id="wp_s6_g2" ready="wordcount(@wp_discourse_analysis.value) &gt;= 12 || @wp_ok_s6.value">
+<Markdown id="wp_s6_lock2"> </Markdown>
+<NextReveal id="wp_s6_reveal_c">
+<Vertical id="wp_s6_end">
+<TalkBubble id="wp_s6_okafor5" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s6_okafor5_md">That's one lens: the science talk. The next one needs her plan open.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s6_latch"><SetFieldAction id="wp_s6_latch_set" target="wp_ok_s6" field="value" value="yes" /></OnShow>
+</Vertical>
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<Vertical id="wp_s7" title="The plan">
+<NextReveal id="wp_s7_reveal">
+
+<Vertical id="wp_s7_sources">
+<Markdown id="wp_s7_intro">
+## What her plan says
+
+Her unit plan, her lesson plan for Tuesday, and the standards behind them are folded below. Open them; the next few minutes are about one moment, Aaliyah's pipes, read against what she planned.
+</Markdown>
+<Collapsible id="wp_s7_unit" title="Her unit plan">
+<Use ref="wp_mat_unit_md" />
+</Collapsible>
+<Collapsible id="wp_s7_lesson" title="Her lesson plan, Lesson 1">
+<Use ref="wp_mat_lesson_md" />
+</Collapsible>
+<Collapsible id="wp_s7_standards" title="The standards behind her plan">
+<Use ref="wp_std_crosswalk" />
+</Collapsible>
+</Vertical>
+
+<TalkBubble id="wp_s7_dwayne1" who="Dwayne" face="concerned" side="secondary">
+<Markdown id="wp_s7_dwayne1_md">I looked up the codes on her unit plan. 4.PS1.1. Tennessee doesn't have a fourth-grade matter standard; it's third grade and fifth. Am I reading that wrong?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_okafor1" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s7_okafor1_md">You're not. Those codes came off the kit's alignment sheet in 2009, and nobody's checked them since. Honestly, nobody needed to. A standard says what most fourth graders should be able to do by June, not what Room 14 does in January. The unit itself hangs together: it reviews third grade, reaches back to the weathering unit, and builds toward fifth. That last table under "The standards behind her plan" shows how. Today's question is what she did with what a child said.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_luke1" who="Luke" face="cheeky" side="secondary">
+<Markdown id="wp_s7_luke1_md">Which is kind of my whole problem with "alignment." Half the codes on every plan I've ever seen are decoration.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_dwayne2" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s7_dwayne2_md">Noted. Writing it down anyway.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s7_nyota1_md">Then let's read her own plan. Lesson 3 is water expanding when it freezes. Aaliyah said exactly that in Lesson 1, and the class did the same physics with rocks back in November. Nobody in the room said so.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_jordan1" who="Jordan" face="serious" side="secondary">
+<Markdown id="wp_s7_jordan1_md">And it's the one thing she didn't plan for. Look at her list. "Why does ice float": she expected that, she starred it, it's got a lesson number next to it. Pipes aren't on the list. That's not her being unfair. That's a plan running into a room.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_nyota2" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s7_nyota2_md">I agree with all of that. Now say what it cost Aaliyah.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_jordan2" who="Jordan" face="concerned" side="secondary">
+<Markdown id="wp_s7_jordan2_md">Ninety seconds she didn't have, if she'd taken it. Last year this exact lesson ran twelve minutes over and she never got to the exit ticket. It's in her notes.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_nyota3" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s7_nyota3_md">One line of marker on the chart paper. "Aaliyah: pipes." Twenty seconds. Bri's question got that. Aaliyah's didn't.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s7_okafor2" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s7_okafor2_md">Three questions, and answer them from the plan and the transcript. Was the pipe on the unit's path? What would taking it up have cost, in minutes and in anything else? And what did setting it aside cost?</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s7_analysis">
+<Use ref="wp_plan_analysis_input" />
+<IntakeGate id="wp_s7_g1" ready="wordcount(@wp_plan_analysis.value) &gt;= 12 || @wp_ok_s7.value">
+<Markdown id="wp_s7_lock1"> </Markdown>
+<NextReveal id="wp_s7_reveal_b">
+<Vertical id="wp_s7_end">
+<TalkBubble id="wp_s7_okafor3" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s7_okafor3_md">Jordan and Nyota are both right, and they still disagree. Get used to that. It's most of teaching.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s7_latch"><SetFieldAction id="wp_s7_latch_set" target="wp_ok_s7" field="value" value="yes" /></OnShow>
+</Vertical>
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<Vertical id="wp_s8" title="Who belongs here?">
+<NextReveal id="wp_s8_reveal">
+
+<TalkBubble id="wp_s8_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s8_nyota1_md">I want to say this before anyone else does: I don't agree with the premise of this session. When I was nine I loved Saturn. Saturn was not from my life. That was the whole point of Saturn. If the criticism is that her lake is far away, the criticism is wrong.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_luke1" who="Luke" face="smile" side="secondary">
+<Markdown id="wp_s8_luke1_md">Okay, I did not expect to agree with Nyota this early, but yes. Kids deserve windows, not just mirrors. A kid in Memphis doesn't only get to care about Memphis.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_nyota2" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s8_nyota2_md">We don't agree, Luke. We got to the same sentence from different places.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_jordan1" who="Jordan" face="serious" side="secondary">
+<Markdown id="wp_s8_jordan1_md">And that's not even the criticism I'd make. My thing is, she did fine. She got ideas out, she had them talk, and Aaliyah's story was going to eat the lesson. Y'all haven't had twenty-two nine-year-olds at 1:15. That story takes them for the rest of the hour.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_okafor1" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s8_okafor1_md">You might all be right. Jordan has run a room, so listen to him about the room. But argue it from the transcript. Find the lines where the launch told the children something about whose experience counts here. Then we'll see whether it's the lake or something else.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s8_moments">
+<Use ref="wp_equity_moments" />
+<IntakeGate id="wp_s8_g1" ready="@wp_equity_moments_grader.submitCount &gt; 0 || @wp_ok_s8.value">
+<Markdown id="wp_s8_lock1">🔒 *Mark her lines and press **Check**; the conversation continues once you've seen the feedback.*</Markdown>
+<NextReveal id="wp_s8_reveal_b">
+
+<TalkBubble id="wp_s8_nyota3" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s8_nyota3_md">Okay, then here's the transcript. The lake is four lines. What she does with Aaliyah is one line, and it's worse than the lake. The pipe was the same science. She sent it back to its seat.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_jordan2" who="Jordan" face="concerned" side="secondary">
+<Markdown id="wp_s8_jordan2_md">Yeah. No, that one I can't defend on the science. I can defend it on the room.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_nyota4" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s8_nyota4_md">Then say that. Say she was worried about losing the room. Don't say the pipe was off topic.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_dwayne1" who="Dwayne" face="concerned" side="secondary">
+<Markdown id="wp_s8_dwayne1_md">Can I ask the dumb one? Diego. Y'all keep saying "ways of knowing." I hear that as "ways of showing you know." He didn't get one. Is that what it means, or am I off?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_okafor2" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s8_okafor2_md">You're not off. That's closer than the framework's own definition. He was asked to perform knowing: in front of the room, in his second language, in the fastest minute of the lesson. Then he was passed over in about three seconds. And her plan says, in her own handwriting, don't cold-call Diego. She did it anyway, with the clock running.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_luke2" who="Luke" face="concerned" side="secondary">
+<Markdown id="wp_s8_luke2_md">That's the part I can't get past. I'll be honest, I don't love "whose experiences count." To me every kid's experience counts or none of them do. But that's exactly why Diego bothers me. Forget groups. That's one kid, in front of everybody, and her own plan told her not to.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_okafor3" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s8_okafor3_md">Then you, Nyota, and I agree about Diego, and we can argue about the rest. Let me add something from outside this country. When I was in primary school in Enugu, the "relevance" question wasn't about phenomena at all. It was about language. National policy said the first years should be taught in the language of the community, which for us was Igbo. Most schools taught in English anyway, because the exams were in English and the exams were the door out. Nobody there called that culturally responsive teaching. Diego's question is a language question first.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_nyota5" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s8_nyota5_md">In the camp in Tanzania, we were taught the Congolese curriculum, in French, for an exam in a country most of us had never seen. Nobody wanted lessons about the camp. The lessons about our lives were the ones that told us we'd be staying. Amani, in Room 14, was born in a camp like mine, twenty years later. I'd like to know what he wants before anyone decides it's pipes.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s8_jordan3" who="Jordan" face="serious" side="secondary">
+<Markdown id="wp_s8_jordan3_md">Okay. That's... yeah. I'd have to sit with that.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s8_outside_pointer">
+<Markdown id="wp_s8_outside_md">
+> 📎 More on what "culturally responsive" can mean outside the U.S. (Nigeria, Tanzania, refugee education, Aotearoa New Zealand) is in **Reference › Lesson materials**, under the **Frameworks** tab.
+</Markdown>
+</Vertical>
+
+<TalkBubble id="wp_s8_okafor4" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s8_okafor4_md">Now answer Jordan directly. Whose experiences does the launch assume? What did it do with the ones it didn't assume? And what did that tell the room about who does science here? Argue it from the transcript, not from how you feel about any of us.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s8_analysis">
+<Use ref="wp_equity_analysis_input" />
+<IntakeGate id="wp_s8_g2" ready="wordcount(@wp_equity_analysis.value) &gt;= 12 || @wp_ok_s8.value">
+<Markdown id="wp_s8_lock2"> </Markdown>
+<NextReveal id="wp_s8_reveal_c">
+<Vertical id="wp_s8_end">
+<TalkBubble id="wp_s8_okafor5" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s8_okafor5_md">Whatever you concluded, you argued it from the transcript. Keep that habit.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s8_latch"><SetFieldAction id="wp_s8_latch_set" target="wp_ok_s8" field="value" value="yes" /></OnShow>
+</Vertical>
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<Vertical id="wp_s9" title="A mirror">
+<NextReveal id="wp_s9_reveal">
+
+<TalkBubble id="wp_s9_okafor1" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s9_okafor1_md">Before anyone fixes anything, a mirror. Would you have picked her lake? What in your own life makes a phenomenon feel rigorous, or fun, to you? And who might that leave out? If you think I've got this whole session wrong, this is the place to say so.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s9_okafor2" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s9_okafor2_md">I'll go first, because I've been that teacher. My first year teaching in Lansing, I built a whole lesson around harmattan: the dry wind that comes down off the Sahara every December and turns the sky over Enugu orange with dust. I loved it. Two kids in that room could picture it. It was my lake.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s9_jordan1" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_s9_jordan1_md">I'd have picked it. Anything with a video and ice in it, I'm picking. That's probably the problem, and I know it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s9_dwayne1" who="Dwayne" face="calm" side="secondary">
+<Markdown id="wp_s9_dwayne1_md">I'd have picked the river. Meeman-Shelby, my uncle, catfish. And then I'd have found out half the class has never been.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s9_luke1" who="Luke" face="smile" side="secondary">
+<Markdown id="wp_s9_luke1_md">I'd pick the lake again. My Wednesday-night kids at church have never seen a frozen lake either, and they'd love it. I don't think that's a problem. I think it's a window.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s9_nyota1" who="Nyota" face="solemn" side="primary">
+<Markdown id="wp_s9_nyota1_md">A window needs somewhere to stand, Luke. I'd still pick Saturn. I haven't decided whether that's a problem.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s9_reflect">
+<Use ref="wp_reflect" />
+<Use ref="wp_self_reflect_input" />
+<IntakeGate id="wp_s9_g1" ready="wordcount(@wp_self_reflect.value) &gt;= 12 || @wp_ok_s9.value">
+<Markdown id="wp_s9_lock1"> </Markdown>
+<NextReveal id="wp_s9_reveal_b">
+
+<TalkBubble id="wp_s9_okafor3" who="Okafor" face="calm" side="primary">
+<Markdown id="wp_s9_okafor3_md">Thanks for writing it straight, whichever way it went.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s9_jordan2" who="Jordan" face="cheeky" side="secondary">
+<Markdown id="wp_s9_jordan2_md">So when do we get to try it ourselves? Because I'm pretty sure I'd do it better. I'm also pretty sure that's what everybody in here thinks.</Markdown>
+</TalkBubble>
+
+<Vertical id="wp_s9_end">
+<TalkBubble id="wp_s9_okafor4" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s9_okafor4_md">Right now.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s9_latch"><SetFieldAction id="wp_s9_latch_set" target="wp_ok_s9" field="value" value="yes" /></OnShow>
+</Vertical>
+
+</NextReveal>
+</IntakeGate>
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+<!-- ===================================================================
+     PART 3 — THE REPLAY
+     Lives in replay/: the introduction (wp_rintro), one file per episode
+     (wp_ra … wp_rh), the ending (wp_rend), the meters and roster strip
+     (wp_meters), and the debrief (wp_rdebrief). The fork catalogue and state
+     macros are in the head of replay/wp_replay_meters.olx.
+     =================================================================== -->
+
+<!-- ===================================================================
+     PART 4 — YOUR OWN LAUNCH (items 5 and 17 of the September meeting notes)
+     DRAFT for Wesam Salem's revision. This screen is a lesson plan in the
+     shape of Ms. Boyd's own (objective, standards, timeline, anticipated
+     responses), plus targeted questions about the phenomenon and about
+     culturally responsive teaching for specific children in Room 14. It is a
+     form, not a conversation: candidates move around it and revise. The
+     checklist at the bottom holds the last screen until the core is done.
+     =================================================================== -->
+
+<Vertical id="wp_s12" title="Plan your own launch">
+
+<Markdown id="wp_s12_intro">
+## Plan your own launch
+
+**Same room, same science, your forty-five minutes.** Ms. Boyd has agreed to let you teach a launch of the same science to Room 14 next week, in her usual period. Keep the science: water expands when it freezes, so ice floats, a full bottle cracks, a pipe bursts, and a rock splits along a wet crack (the weathering this class studied in November). Everything else is yours to decide.
+
+Write it as a plan a substitute could run, not as an essay. You can move around this page and revise anything. The checklist at the bottom shows what's needed before Dr. Okafor reads it.
+</Markdown>
+
+<TalkBubble id="wp_s12_okafor1" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s12_okafor1_md">Pick your anchor first. Then plan it the way she did, in blocks of time. Say what you expect the children to say, including at least two things her list didn't have. And for three particular children, tell me what they'll actually do, not what you'll say about them.</Markdown>
+</TalkBubble>
+
+<Collapsible id="wp_s12_refs" title="Open her plan, the roster, the standards, and the science while you work">
+<Collapsible id="wp_s12_ref_target" title="The science, at a fourth-grade level">
+<Use ref="wp_science_target" />
+</Collapsible>
+<Collapsible id="wp_s12_ref_lesson" title="Her Lesson 1 plan, for comparison">
+<Use ref="wp_mat_lesson_md" />
+</Collapsible>
+<Collapsible id="wp_s12_ref_roster" title="The children in Room 14">
+<Use ref="wp_room14_kids" />
+</Collapsible>
+<Collapsible id="wp_s12_ref_standards" title="The standards behind the unit">
+<Use ref="wp_std_crosswalk" />
+</Collapsible>
+</Collapsible>
+
+<!-- 1. Anchor -->
+<Markdown id="wp_s12_h1">### 1. Your anchor</Markdown>
+<Use ref="wp_anchor_choice" />
+<UseDynamic id="wp_redesign_branch" targetRef="wp_anchor_choice" when="@wp_anchor_choice.value" />
+
+<TalkBubble id="wp_s12_jordan1" who="Jordan" face="cheeky" when="@wp_anchor_choice.value === 'wp_branch_memphis_freeze'" side="secondary">
+<Markdown id="wp_s12_jordan1_md">Same, I'm taking the freeze too. It's the obvious one. Nyota's about to say it's the easy way out.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s12_nyota1" who="Nyota" face="solemn" when="@wp_anchor_choice.value === 'wp_branch_memphis_freeze'" side="primary">
+<Markdown id="wp_s12_nyota1_md">It is the easy way out. It's also correct. Those aren't opposites. Just remember Thuy still doesn't have hot water. Decide before Tuesday what you'll do when a child tells you something like that.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s12_nyota2" who="Nyota" face="solemn" when="@wp_anchor_choice.value === 'wp_branch_far'" side="primary">
+<Markdown id="wp_s12_nyota2_md">I'm doing ice cores from Antarctica. I know what you're going to ask, and I don't know yet how a child who's never seen ice outside a freezer gets in. I'd rather say that than pretend.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s12_dwayne1" who="Dwayne" face="calm" when="@wp_anchor_choice.value === 'wp_branch_own_phenomenon'" side="secondary">
+<Markdown id="wp_s12_dwayne1_md">I'm doing the river at Meeman-Shelby. And I'm going to find out who's never been before I plan it, not after.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_s12_luke1" who="Luke" face="smile" when="@wp_anchor_choice.value === 'wp_branch_lake_reframed'" side="secondary">
+<Markdown id="wp_s12_luke1_md">Lake for me too. But I'm putting a jar of water in the freezer in front of them on Monday, so on Tuesday every kid in the room has seen ice do something, not just Marcus. Then the lake. Guided, not a guessing game.</Markdown>
+</TalkBubble>
+
+<!-- 2. Standards -->
+<Markdown id="wp_s12_h2">
+### 2. Which standards does your launch serve?
+
+Check every one your launch is really working toward. Look back at the crosswalk if you need to; a launch usually serves one or two well, not all of them.
+</Markdown>
+<CheckboxInput id="wp_plan_standards">
+  <Key id="wp_ps_tn3" value="tn_3ps11">Tennessee 3.PS1.1: a model of solids, liquids, and gases made of particles too small to see</Key>
+  <Key id="wp_ps_tn4" value="tn_4ess21">Tennessee 4.ESS2.1: mechanical weathering, including frost wedging</Key>
+  <Key id="wp_ps_tn5" value="tn_5ps11">Tennessee 5.PS1.1: explaining phase changes from observations and measurements</Key>
+  <Key id="wp_ps_ng2" value="ngss_2ps14">NGSS 2-PS1-4: some changes caused by heating or cooling can be reversed, and some cannot</Key>
+  <Key id="wp_ps_ng5" value="ngss_5ps11">NGSS 5-PS1-1: matter is made of particles too small to be seen</Key>
+  <Key id="wp_ps_ng4" value="ngss_4ess21">NGSS 4-ESS2-1: evidence of weathering by water, ice, wind, or vegetation</Key>
+</CheckboxInput>
+
+<!-- 3. Objective and the phenomenon -->
+<Markdown id="wp_s12_h3">### 3. The objective and the phenomenon</Markdown>
+<Markdown id="wp_s12_objective_md">**Your objective,** written the way Ms. Boyd wrote hers, for the children to read on the board.</Markdown>
+<LineInput id="wp_plan_objective" placeholder="I can..." />
+<Markdown id="wp_s12_question_md">**The exact question you'll open with.** This is the question the whole unit is going to work on.</Markdown>
+<LineInput id="wp_plan_question" placeholder="The question you'll pose to launch the phenomenon" />
+<Markdown id="wp_s12_puzzle_md">**What makes it puzzling?** What will the children in Room 14 expect to happen, and what happens instead? How will you keep that question open past minute ten instead of answering it?</Markdown>
+<TextArea id="wp_plan_puzzle" rows="3" placeholder="They'll expect... Instead... I'll keep it open by..." />
+
+<!-- 4. Timeline -->
+<Markdown id="wp_s12_h4">
+### 4. Your forty-five minutes
+
+The same blocks Ms. Boyd used, so you can compare. For each block: what happens, and what you say or ask. A line or two is enough.
+</Markdown>
+<Markdown id="wp_s12_t1_md">**0–5 min**</Markdown>
+<TextArea id="wp_plan_t1" rows="2" placeholder="What happens, and what you say or ask" />
+<Markdown id="wp_s12_t2_md">**5–10 min**</Markdown>
+<TextArea id="wp_plan_t2" rows="2" placeholder="What happens, and what you say or ask" />
+<Markdown id="wp_s12_t3_md">**10–20 min**</Markdown>
+<TextArea id="wp_plan_t3" rows="2" placeholder="What happens, and what you say or ask" />
+<Markdown id="wp_s12_t4_md">**20–30 min**</Markdown>
+<TextArea id="wp_plan_t4" rows="2" placeholder="What happens, and what you say or ask" />
+<Markdown id="wp_s12_t5_md">**30–40 min**</Markdown>
+<TextArea id="wp_plan_t5" rows="2" placeholder="What happens, and what you say or ask" />
+<Markdown id="wp_s12_t6_md">**40–45 min**</Markdown>
+<TextArea id="wp_plan_t6" rows="2" placeholder="What happens, and what you say or ask" />
+
+<!-- 5. Anticipated responses -->
+<Markdown id="wp_s12_h5">
+### 5. What you expect them to say, and what you'll do
+
+Three things a child might say, and your move for each. At least two should be things Ms. Boyd's list didn't have: think of Aaliyah's pipe, Jaylen's rock candy, Keisha's salt, Marcus's "the cold comes from the sky."
+</Markdown>
+<Markdown id="wp_s12_a1_md">**A child might say:**</Markdown>
+<LineInput id="wp_plan_ant1" placeholder="What a child might say" />
+<Markdown id="wp_s12_m1_md">**Your move:**</Markdown>
+<LineInput id="wp_plan_move1" placeholder="What you'll do or say next" />
+<Markdown id="wp_s12_a2_md">**A child might say:**</Markdown>
+<LineInput id="wp_plan_ant2" placeholder="What a child might say" />
+<Markdown id="wp_s12_m2_md">**Your move:**</Markdown>
+<LineInput id="wp_plan_move2" placeholder="What you'll do or say next" />
+<Markdown id="wp_s12_a3_md">**A child might say:**</Markdown>
+<LineInput id="wp_plan_ant3" placeholder="What a child might say" />
+<Markdown id="wp_s12_m3_md">**Your move:**</Markdown>
+<LineInput id="wp_plan_move3" placeholder="What you'll do or say next" />
+
+<!-- 6. Who gets in, and how (targeted questions on culturally responsive teaching and access) -->
+<Markdown id="wp_s12_h6">
+### 6. Who gets in, and how
+
+Three children from the roster. For each, describe what they will *do* in your launch, not what you'll say about them.
+</Markdown>
+<Markdown id="wp_s12_diego_md">**Diego.** Fourteen months from Honduras; WIDA composite 2.1, with listening and speaking ahead of reading and writing; reads Spanish comfortably; fastest in the room at multi-digit subtraction; has seen ice only in a cup. What does he do in your first ten minutes?</Markdown>
+<TextArea id="wp_plan_diego" rows="3" placeholder="In the first ten minutes, Diego will..." />
+<Markdown id="wp_s12_kenny_md">**Kenny.** IEP for a reading disability; talks his way through science better than he writes it; pulled out for intervention two of the three science periods a week, so he may miss the lesson after yours. How does he get in, and how will he catch up?</Markdown>
+<TextArea id="wp_plan_kenny" rows="3" placeholder="Kenny will... If he misses the next lesson..." />
+<Markdown id="wp_s12_home_md">**Knowledge from home.** Whose knowledge from home or from the community will you invite, and how will you take it up instead of setting it aside? And what will you do if a child tells you something painful, the way Thuy did in the replay ("we still don't got hot water")?</Markdown>
+<TextArea id="wp_plan_home" rows="3" placeholder="I'll invite... I'll take it up by... If a child shares something painful, I'll..." />
+
+<!-- 7. Off the path -->
+<Markdown id="wp_s12_h7">
+### 7. When it goes off the path
+
+A child says something interesting that isn't on the path. How will you tell an idea that belongs on the chart today (Keisha's salt) from one that belongs to a different unit (Jaylen's rock candy), and what will you do with each?
+</Markdown>
+<TextArea id="wp_plan_offpath" rows="3" placeholder="When a child says something interesting and off the path, I will..." />
+
+<!-- 8. Exit ticket -->
+<Markdown id="wp_s12_h8">
+### 8. How you'll know what they think
+
+What will you collect at the end, and what will it tell you about each child's thinking that you can use in the next lesson?
+</Markdown>
+<TextArea id="wp_plan_exit" rows="3" placeholder="At the end I'll collect... It will tell me..." />
+
+<!-- 9. Make your case -->
+<Markdown id="wp_s12_h9">
+### 9. Make your case
+
+Why is your launch scientifically rigorous, culturally relevant, and accessible to every learner in Room 14?
+</Markdown>
+<Use ref="wp_redesign_justify_input" />
+
+<!-- The checklist. Shown until the core is done; then Dr. Okafor's line and the latch. -->
+<IntakeGate id="wp_s12_g1" ready="(@wp_anchor_choice.value &amp;&amp; isFilled(@wp_plan_objective.value) &amp;&amp; isFilled(@wp_plan_question.value) &amp;&amp; countFilled([@wp_plan_t1.value, @wp_plan_t2.value, @wp_plan_t3.value, @wp_plan_t4.value, @wp_plan_t5.value, @wp_plan_t6.value]) &gt;= 3 &amp;&amp; wordcount(@wp_redesign_justify.value) &gt;= 12) || @wp_ok_s12.value">
+<Markdown id="wp_s12_checklist">
+**Before Dr. Okafor reads your plan:**
+
+{{@wp_anchor_choice.value ? '✅' : '⬜'}} Choose an anchor
+
+{{isFilled(@wp_plan_objective.value) ? '✅' : '⬜'}} Write your objective
+
+{{isFilled(@wp_plan_question.value) ? '✅' : '⬜'}} Write your opening question
+
+{{countFilled([@wp_plan_t1.value, @wp_plan_t2.value, @wp_plan_t3.value, @wp_plan_t4.value, @wp_plan_t5.value, @wp_plan_t6.value]) &gt;= 3 ? '✅' : '⬜'}} Fill in at least three blocks of your timeline ({{countFilled([@wp_plan_t1.value, @wp_plan_t2.value, @wp_plan_t3.value, @wp_plan_t4.value, @wp_plan_t5.value, @wp_plan_t6.value])}} of 6 so far)
+
+{{wordcount(@wp_redesign_justify.value) &gt;= 12 ? '✅' : '⬜'}} Make your case (at least 12 words)
+
+*The rest of the plan is up to you, and the more of it you fill in, the more Dr. Okafor has to work with.*
+</Markdown>
+<Vertical id="wp_s12_end">
+<TalkBubble id="wp_s12_okafor2" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s12_okafor2_md">That's a plan someone could run. Keep revising it if you like; when you're ready, I'll read the whole study.</Markdown>
+</TalkBubble>
+<OnShow id="wp_s12_latch"><SetFieldAction id="wp_s12_latch_set" target="wp_ok_s12" field="value" value="yes" /></OnShow>
+</Vertical>
+</IntakeGate>
+
+</Vertical>
+
+<!-- ===================================================================
+     PART 5 — WHAT DR. OKAFOR SEES
+     =================================================================== -->
+
+<Vertical id="wp_s13" title="What Dr. Okafor sees">
+<NextReveal id="wp_s13_reveal">
+
+<Vertical id="wp_s13_chunk1"><Vertical id="wp_s13_llm">
+<Markdown id="wp_s13_leadin">Give her a minute or two; she reads everything before she says anything.</Markdown>
+<LLMFeedback id="wp_synthesis_feedback" render="markdown" />
+<ActionButton id="wp_synthesis_btn" label="Read my Launch Study back to me">
+<LLMAction id="wp_synthesis_action" target="wp_synthesis_feedback">
+You are Dr. Adaeze Okafor, methods instructor, reading a teacher candidate's Launch Study back to them. Your rules, which you never break: you quote the candidate's own words before you say anything about them; you never praise before you have read; you say "No" and then explain when you disagree; you never use "belonging" or "ways of knowing" without naming the specific child and the specific move; you never tell the candidate what they think; you never end with a summary of what they have learned or a pep talk about next time. Short sentences. One question at a time. No exclamation marks. Dry; your warmth arrives late and briefly.
+
+The session: the candidate read the transcript of Ms. Boyd launching her fourth-grade unit, Investigating Matter, with a frozen Michigan lake, with her unit plan and lesson plan in hand. Facts the candidate could find: the unit's standard codes are copied from a 2009 kit and do not exist in Tennessee, which the session treats as decoration, since a standard is a growth chart and not a menu; the unit itself reviews Tennessee 3.PS1.1, reaches back to 4.ESS2.1 (frost wedging) and builds toward 5.PS1.1; Aaliyah's burst pipe at minute six was Lesson 3 of the unit and the same physics as the weathering unit the class did in November; Bri's question was on the anticipated list and got charted, Aaliyah's was not and got "later"; the plan said do not cold-call Diego and she did. Four peers argued with the candidate: Jordan, who defends Ms. Boyd on classroom management; Nyota, who rejects the premise that a phenomenon must come from children's lives; Dwayne, who asks the plain question; and Luke, a conservative who argues for explicit instruction and a knowledge-rich curriculum, distrusts the equity framing, and agrees that Diego was failed. The candidate then replayed the launch making Ms. Boyd's moves against the clock, and planned their own launch of the same science for the same room.
+
+What the candidate wrote (quote from these; do not invent):
+Discourse read: <Ref id="wp_fb_discourse" target="wp_discourse_analysis" />
+The plan against the moment: <Ref id="wp_fb_plan" target="wp_plan_analysis" />
+Equity read, answering Jordan: <Ref id="wp_fb_equity" target="wp_equity_analysis" />
+Mirror: <Ref id="wp_fb_mirror" target="wp_self_reflect" />
+Replay path, as Ms. Boyd, from minute 10 (a blank means that fork never arose on their path): Marcus: <Ref id="wp_fb_ra1" target="wp_ra1" /> · Marcus, second move: <Ref id="wp_fb_ra2" target="wp_ra2" /> · Aaliyah: <Ref id="wp_fb_rb1" target="wp_rb1" /> · Aaliyah, second move: <Ref id="wp_fb_rb2" target="wp_rb2" /> · Aaliyah, third move: <Ref id="wp_fb_rb3" target="wp_rb3" /> · Bri: <Ref id="wp_fb_rc1" target="wp_rc1" /> · Bri, second move: <Ref id="wp_fb_rc2" target="wp_rc2" /> · sixth hand, Jaylen: <Ref id="wp_fb_rd1" target="wp_rd1" /> · seventh hand, Keisha: <Ref id="wp_fb_rd2" target="wp_rd2" /> · Jaylen: <Ref id="wp_fb_re1" target="wp_re1" /> · Jaylen, second move: <Ref id="wp_fb_re2" target="wp_re2" /> · Keisha: <Ref id="wp_fb_rf1" target="wp_rf1" /> · Keisha, second move: <Ref id="wp_fb_rf2" target="wp_rf2" /> · slide five: <Ref id="wp_fb_rg1" target="wp_rg1" /> · the freezer question: <Ref id="wp_fb_rg2" target="wp_rg2" /> · after the predictions: <Ref id="wp_fb_rg3" target="wp_rg3" /> · the board: <Ref id="wp_fb_rh1" target="wp_rh1" /> · after the cold call: <Ref id="wp_fb_rh2" target="wp_rh2" />.
+Their account of their participation choices, what those choices made possible and what they cost: <Ref id="wp_fb_replay" target="wp_replay_reflection" />
+Their plan. Anchor: <Ref id="wp_fb_anchor" target="wp_anchor_choice" />. Standards they chose: <Ref id="wp_fb_standards" target="wp_plan_standards" />. Objective: <Ref id="wp_fb_objective" target="wp_plan_objective" />. Opening question: <Ref id="wp_fb_question" target="wp_plan_question" />. What makes it puzzling: <Ref id="wp_fb_puzzle" target="wp_plan_puzzle" />. Timeline: 0–5 <Ref id="wp_fb_t1" target="wp_plan_t1" /> · 5–10 <Ref id="wp_fb_t2" target="wp_plan_t2" /> · 10–20 <Ref id="wp_fb_t3" target="wp_plan_t3" /> · 20–30 <Ref id="wp_fb_t4" target="wp_plan_t4" /> · 30–40 <Ref id="wp_fb_t5" target="wp_plan_t5" /> · 40–45 <Ref id="wp_fb_t6" target="wp_plan_t6" />. Anticipated responses and moves: <Ref id="wp_fb_ant1" target="wp_plan_ant1" /> → <Ref id="wp_fb_move1" target="wp_plan_move1" /> · <Ref id="wp_fb_ant2" target="wp_plan_ant2" /> → <Ref id="wp_fb_move2" target="wp_plan_move2" /> · <Ref id="wp_fb_ant3" target="wp_plan_ant3" /> → <Ref id="wp_fb_move3" target="wp_plan_move3" />. What Diego does: <Ref id="wp_fb_diego" target="wp_plan_diego" />. How Kenny gets in: <Ref id="wp_fb_kenny" target="wp_plan_kenny" />. Knowledge from home, and a painful disclosure: <Ref id="wp_fb_home" target="wp_plan_home" />. Off the path: <Ref id="wp_fb_offpath" target="wp_plan_offpath" />. Exit ticket: <Ref id="wp_fb_exit" target="wp_plan_exit" />. Justification: <Ref id="wp_fb_justify" target="wp_redesign_justify" />
+
+Write five to eight sentences of Markdown, first person, as yourself. In order: quote one strong move of theirs, from the plan or the replay, and say why it is strong in terms of a named child. Then press on one thing, the most useful of: whether their plan keeps guidance and knowledge-building visible rather than hoping they emerge from the phenomenon (the evidence on unguided exploration is against hoping); whether their off-path plan can tell Jaylen's candy from Keisha's salt; whether Diego has a way in that is a thing he does, not a sentence about him; or whether their account of their participation choices names what those choices cost. Tie the press to their words. If the candidate rejected the premise of the session anywhere, restate their argument fairly in one sentence, say what in the transcript supports it and what cuts against it, and do not pretend they agreed; a well-argued dissent is a strong study. End with exactly one open question. If what they wrote is mostly blank, say so plainly and stop.
+</LLMAction>
+</ActionButton>
+<Markdown id="wp_s13_offline_note">*(Dr. Okafor's response appears above when this runs on the course server. Either way, use the self-review below to check your own work against what she looks for.)*</Markdown>
+</Vertical>
+
+<Collapsible id="wp_selfreview" title="Self-review: what a strong Launch Study looks like">
+<Markdown id="wp_selfreview_md">
+Open this and read your own study against it. It's what Dr. Okafor, and the rubric, look for.
+
+- **Phenomena as anchors.** A strong study says exactly what the phenomenon is meant to anchor (water expands when it freezes, so ice floats and pipes crack) and points to *where the launch builds* the need to know (the fish puzzle, the turn-and-talk) and *where it loses it* (answering Bri's question, sliding to "the three states of matter").
+- **Scientific discourse.** It quotes *specific* questions and separates the ones that asked children to reason or predict ("why does the ice float?") from the ones that only asked for a recalled word ("name the three states of matter"), and it notices what she did with her best questions (answered them herself).
+- **Equity.** It reads *selection and framing as one decision*, using transcript evidence (Marcus rewarded, Aaliyah redirected, Diego passed over) to name what the launch told the room about who does science here. It doesn't treat equity as tone or kindness. If it disagrees with the premise, it says so and argues from the transcript.
+- **Participation choices.** It names what your replay choices made possible and what they cost, with a child and a minute.
+- **Your plan.** It keeps the science target and is rigorous **and** culturally relevant **and** accessible: guidance and knowledge-building are visible in the timeline, more than one child has a real way in, and Diego *does* something in the first ten minutes.
+</Markdown>
+</Collapsible>
+
+<Markdown id="wp_selfassess_intro">
+### Rate yourself
+
+Before you export, put yourself on each line honestly. Nobody grades this; it's the same rubric you'll use when you bring your own plan back to this room.
+</Markdown>
+<TabularMCQ id="wp_selfassess">
+cols: Emerging, Developing, Proficient
+rows:
+  - Phenomena as anchors — I can say what a phenomenon anchors and where a launch builds or loses the need to know.|r1
+  - Scientific discourse — I can tell reasoning questions from recall questions and see what each does to student thinking.|r2
+  - Equity — I can read phenomenon choice and framing as one equity decision, with evidence.|r3
+  - Self-examination — I honestly examined my own assumptions about a good phenomenon.|r4
+  - Planning — my launch keeps the science and is rigorous, culturally relevant, and accessible, with a real way in for specific children.|r5
+</TabularMCQ>
+
+<Use ref="wp_print" />
+</Vertical>
+
+</NextReveal>
+</Vertical>
+
+
+<!-- ===================================================================
+     THE PRINT PAGE — modelled on wj3_print. Everything is mounted, always,
+     with a dash wherever nothing has been written yet: the controls first
+     (kept out of the PDF), then the candidate's own prose, then the
+     structured answers, then the generated text last.
+     =================================================================== -->
+
+<Vertical id="wp_print">
+
+<Vertical id="wp_print_controls" print="false">
+
+<CheckboxInput id="wp_completion">
+<Markdown id="wp_completion_md">**When your Launch Study is complete, confirm you're done.**</Markdown>
+<Key id="wp_finished" value="wp_finished">I've finished my analysis, reflection, and plan.</Key>
+</CheckboxInput>
+
+<Markdown id="wp_complete_md" when="@wp_completion.value.length > 0">
+## Launch Study complete
+
+You read one launch against its own plan, argued it with people who didn't agree, made its moves yourself against the clock, and planned your own. Nobody told you which trade was right. The next session asks you to design a whole activity, not around this framework, but with its principles set beside the others you know (guided practice, worked examples, time on task), and to say where they pull against each other and what you did about it.
+</Markdown>
+
+<Markdown id="wp_next_stage_md">
+**Next: redesigning a classroom activity.** Not "make it AST." Take an activity you've seen taught and rework it so that a phenomenon and the children's ideas do real work in it, without giving up the guidance, the practice, and the minutes that the other half of the evidence says novices need. You'll bring the plan and the trade-offs, and this room will read it.
+</Markdown>
+
+<ActionButton id="wp_print_btn" label="Export as PDF" when="@wp_completion.value.length > 0">
+<PrintAction id="wp_print_action" />
+</ActionButton>
+
+</Vertical>
+
+<Markdown id="wp_print_title">
+# My Launch Study
+
+Ambitious Science Teaching · Unit 1: Investigating Matter
+
+## My first impression of Room 14
+</Markdown>
+<Ref id="wp_print_impression" target="wp_room14_impression" format="text" />
+<Markdown id="wp_print_impression_dash" when="!isFilled(@wp_room14_impression.value)">—</Markdown>
+
+<Markdown id="wp_print_define_h">
+## In my own words: a phenomenon is
+</Markdown>
+<Ref id="wp_print_define" target="wp_pk_define" format="text" />
+<Markdown id="wp_print_define_dash" when="!isFilled(@wp_pk_define.value)">—</Markdown>
+
+<Markdown id="wp_print_discourse_h">## Discourse read</Markdown>
+<Ref id="wp_print_discourse" target="wp_discourse_analysis" format="text" />
+<Markdown id="wp_print_discourse_dash" when="!isFilled(@wp_discourse_analysis.value)">—</Markdown>
+
+<Markdown id="wp_print_plan_h">## The plan against the moment</Markdown>
+<Ref id="wp_print_plan" target="wp_plan_analysis" format="text" />
+<Markdown id="wp_print_plan_dash" when="!isFilled(@wp_plan_analysis.value)">—</Markdown>
+
+<Markdown id="wp_print_equity_h">## Equity read, answering Jordan</Markdown>
+<Ref id="wp_print_equity" target="wp_equity_analysis" format="text" />
+<Markdown id="wp_print_equity_dash" when="!isFilled(@wp_equity_analysis.value)">—</Markdown>
+
+<Markdown id="wp_print_mirror_h">## Mirror</Markdown>
+<Ref id="wp_print_mirror" target="wp_self_reflect" format="text" />
+<Markdown id="wp_print_mirror_dash" when="!isFilled(@wp_self_reflect.value)">—</Markdown>
+
+<Markdown id="wp_print_replay_h">## My participation choices: what they made possible, and what they cost</Markdown>
+<Ref id="wp_print_replay" target="wp_replay_reflection" format="text" />
+<Markdown id="wp_print_replay_dash" when="!isFilled(@wp_replay_reflection.value)">—</Markdown>
+
+<Markdown id="wp_print_plan2_h">
+---
+
+# My launch
+</Markdown>
+
+<Markdown id="wp_print_anchor_h">## My anchor</Markdown>
+<Use ref="wp_anchor_choice" />
+
+<Markdown id="wp_print_standards_h">## Standards it serves</Markdown>
+<Use ref="wp_plan_standards" />
+
+<Markdown id="wp_print_objective_h">## Objective</Markdown>
+<Ref id="wp_print_objective" target="wp_plan_objective" format="text" />
+<Markdown id="wp_print_objective_dash" when="!isFilled(@wp_plan_objective.value)">—</Markdown>
+
+<Markdown id="wp_print_question_h">## Opening question</Markdown>
+<Ref id="wp_print_question" target="wp_plan_question" format="text" />
+<Markdown id="wp_print_question_dash" when="!isFilled(@wp_plan_question.value)">—</Markdown>
+
+<Markdown id="wp_print_puzzle_h">## What makes it puzzling</Markdown>
+<Ref id="wp_print_puzzle" target="wp_plan_puzzle" format="text" />
+<Markdown id="wp_print_puzzle_dash" when="!isFilled(@wp_plan_puzzle.value)">—</Markdown>
+
+<Markdown id="wp_print_timeline_h">## Timeline</Markdown>
+<Markdown id="wp_print_t1_h">**0–5 min**</Markdown>
+<Ref id="wp_print_t1" target="wp_plan_t1" format="text" />
+<Markdown id="wp_print_t1_dash" when="!isFilled(@wp_plan_t1.value)">—</Markdown>
+<Markdown id="wp_print_t2_h">**5–10 min**</Markdown>
+<Ref id="wp_print_t2" target="wp_plan_t2" format="text" />
+<Markdown id="wp_print_t2_dash" when="!isFilled(@wp_plan_t2.value)">—</Markdown>
+<Markdown id="wp_print_t3_h">**10–20 min**</Markdown>
+<Ref id="wp_print_t3" target="wp_plan_t3" format="text" />
+<Markdown id="wp_print_t3_dash" when="!isFilled(@wp_plan_t3.value)">—</Markdown>
+<Markdown id="wp_print_t4_h">**20–30 min**</Markdown>
+<Ref id="wp_print_t4" target="wp_plan_t4" format="text" />
+<Markdown id="wp_print_t4_dash" when="!isFilled(@wp_plan_t4.value)">—</Markdown>
+<Markdown id="wp_print_t5_h">**30–40 min**</Markdown>
+<Ref id="wp_print_t5" target="wp_plan_t5" format="text" />
+<Markdown id="wp_print_t5_dash" when="!isFilled(@wp_plan_t5.value)">—</Markdown>
+<Markdown id="wp_print_t6_h">**40–45 min**</Markdown>
+<Ref id="wp_print_t6" target="wp_plan_t6" format="text" />
+<Markdown id="wp_print_t6_dash" when="!isFilled(@wp_plan_t6.value)">—</Markdown>
+
+<Markdown id="wp_print_anticipated_h">## Anticipated responses and my moves</Markdown>
+<Markdown id="wp_print_anticipated">
+1. {{@wp_plan_ant1.value || '—'}} → {{@wp_plan_move1.value || '—'}}
+2. {{@wp_plan_ant2.value || '—'}} → {{@wp_plan_move2.value || '—'}}
+3. {{@wp_plan_ant3.value || '—'}} → {{@wp_plan_move3.value || '—'}}
+</Markdown>
+
+<Markdown id="wp_print_diego_h">## What Diego does</Markdown>
+<Ref id="wp_print_diego" target="wp_plan_diego" format="text" />
+<Markdown id="wp_print_diego_dash" when="!isFilled(@wp_plan_diego.value)">—</Markdown>
+
+<Markdown id="wp_print_kenny_h">## How Kenny gets in</Markdown>
+<Ref id="wp_print_kenny" target="wp_plan_kenny" format="text" />
+<Markdown id="wp_print_kenny_dash" when="!isFilled(@wp_plan_kenny.value)">—</Markdown>
+
+<Markdown id="wp_print_home_h">## Knowledge from home</Markdown>
+<Ref id="wp_print_home" target="wp_plan_home" format="text" />
+<Markdown id="wp_print_home_dash" when="!isFilled(@wp_plan_home.value)">—</Markdown>
+
+<Markdown id="wp_print_offpath_h">## Off the path</Markdown>
+<Ref id="wp_print_offpath" target="wp_plan_offpath" format="text" />
+<Markdown id="wp_print_offpath_dash" when="!isFilled(@wp_plan_offpath.value)">—</Markdown>
+
+<Markdown id="wp_print_exit_h">## How I'll know what they think</Markdown>
+<Ref id="wp_print_exit" target="wp_plan_exit" format="text" />
+<Markdown id="wp_print_exit_dash" when="!isFilled(@wp_plan_exit.value)">—</Markdown>
+
+<Markdown id="wp_print_justify_h">## Why it's rigorous, relevant, and accessible</Markdown>
+<Ref id="wp_print_justify" target="wp_redesign_justify" format="text" />
+<Markdown id="wp_print_justify_dash" when="!isFilled(@wp_redesign_justify.value)">—</Markdown>
+
+<Markdown id="wp_print_path">
+---
+
+## Replay path
+
+{{@wp_ra1.value}} → {{@wp_ra2.value}} → {{@wp_rb1.value}} → {{@wp_rb2.value}} → {{@wp_rb3.value}} → {{@wp_rc1.value}} → {{@wp_rc2.value}} → {{@wp_rd1.value}} → {{@wp_rd2.value}} → {{@wp_re1.value}} → {{@wp_re2.value}} → {{@wp_rf1.value}} → {{@wp_rf2.value}} → {{@wp_rg1.value}} → {{@wp_rg2.value}} → {{@wp_rg3.value}} → {{@wp_rh1.value}} → {{@wp_rh2.value}}
+</Markdown>
+
+<Markdown id="wp_print_lookfors_h">## The framework's five qualities of an anchoring phenomenon</Markdown>
+<Use ref="wp_lookfors_match_problem" />
+
+<Markdown id="wp_print_topic_h">## Phenomenon or topic?</Markdown>
+<Use ref="wp_pk_topic_problem" />
+
+<Markdown id="wp_print_kinds_h">## The framework's kinds of teacher question</Markdown>
+<Use ref="wp_discourse_match_problem" />
+
+<Markdown id="wp_print_questions_h">## Ms. Boyd's questions, in order</Markdown>
+<Use ref="wp_questions_problem" />
+
+<Markdown id="wp_print_moments_h">## Who belongs here?</Markdown>
+<Use ref="wp_equity_moments" />
+
+<Markdown id="wp_print_rubric_h">## Where I placed myself on the rubric</Markdown>
+<Use ref="wp_selfassess" />
+
+<Markdown id="wp_print_okafor_h">
+---
+
+## What Dr. Okafor read back to me
+</Markdown>
+<Use ref="wp_synthesis_feedback" />
+
+</Vertical>
+
+</Vertical>

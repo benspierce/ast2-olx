@@ -1,0 +1,91 @@
+<!-- wp_replay_g.olx — Episode G: the slides. Transcribed from notes/replay/ep-g.md. -->
+
+<Vertical id="wp_rg" title="The slides">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rg_reveal">
+
+<Markdown id="wp_rg_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty.*</Markdown>
+<Markdown id="wp_rg_s02">*Lights down. Slide five: three clip-art pictures in a row, an ice cube, a glass half full, a cloud. No words under them. The chart paper is full down one side.*</Markdown>
+
+<ChoiceInput id="wp_rg1">
+<Markdown id="wp_rg1_prompt">Your plan says slide five: name the three states, then slide six, the freezer question with its answer printed under it. What do you say?</Markdown>
+  <Key id="wp_rg1_as_written" value="as_written" code="540">"Matter comes in three states. Who can name the three states of matter for me?"</Key>
+  <Key id="wp_rg1_predict" value="predict" code="600">"Here's a bottle of water. It goes in the freezer overnight. Tell your partner what it looks like in the morning, and I want a reason."</Key>
+</ChoiceInput>
+
+<!-- wp_rg1 = as_written -->
+<Markdown id="wp_rg_s03" when="@wp_rg1.value === 'as_written'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Darnell's hand is up before you finish.*</Markdown>
+<TalkBubble id="wp_rg_l04" who="Darnell" face="smileBig" side="primary" when="@wp_rg1.value === 'as_written' &amp;&amp; !(@wp_ra2.value === 'press_again')">
+<Markdown id="wp_rg_l04_md">Solid, liquid, and gas!</Markdown>
+</TalkBubble>
+<TalkBubble id="wp_rg_l05" who="Marcus" face="cheeky" side="primary" when="@wp_rg1.value === 'as_written' &amp;&amp; (@wp_ra2.value === 'press_again')">
+<Markdown id="wp_rg_l05_md">Solid, liquid, gas. Ice, water, and the steam one.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rg_s06" when="@wp_rg1.value === 'as_written' &amp;&amp; (@wp_ra2.value === 'press_again')">*Darnell's hand is still up. He puts it down.*</Markdown>
+<Markdown id="wp_rg_s07" when="@wp_rg1.value === 'as_written'">*SOLID, LIQUID, GAS go on the board, all three at once, while you say them.*</Markdown>
+
+<!-- wp_rg1 = predict -->
+<Markdown id="wp_rg_s08" when="@wp_rg1.value === 'predict' &amp;&amp; !(((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2)">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Pairs. Half the room says it looks the same. Amani, unasked, draws a bottle on his half sheet with a bulge in one side.*</Markdown>
+<TalkBubble id="wp_rg_l09" who="Kenny" face="calm" side="primary" when="@wp_rg1.value === 'predict' &amp;&amp; !(((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2)">
+<Markdown id="wp_rg_l09_md">Same. It's just cold. It's water but hard.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rg_s10" when="@wp_rg1.value === 'predict' &amp;&amp; (@wp_rb1.value === 'take_up') &amp;&amp; !(((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2)">*Aaliyah draws a bottle with a crack down it and does not raise her hand.*</Markdown>
+<Markdown id="wp_rg_s11" when="@wp_rg1.value === 'predict' &amp;&amp; (((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2)">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Pairs. Two hands come up after. Darnell's is one of them.*</Markdown>
+<TalkBubble id="wp_rg_l12" who="Darnell" face="calm" side="primary" when="@wp_rg1.value === 'predict' &amp;&amp; (((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2)">
+<Markdown id="wp_rg_l12_md">Same.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rg_s13" when="@wp_rg1.value === 'predict' &amp;&amp; (((@wp_rb1.value === 'redirect' ? 1 : 0) + (@wp_re1.value === 'redirect' ? 1 : 0) + (@wp_rf1.value === 'redirect' ? 1 : 0) + (@wp_rc1.value === 'answer' ? 1 : 0)) &gt;= 2)">*You take it. The other hand goes down. The room waits for the slide.*</Markdown>
+<Markdown id="wp_rg_s14" when="@wp_rg1.value === 'predict'">*SOLID, LIQUID, GAS go on the board, all three at once, while you say them.*</Markdown>
+
+<Markdown id="wp_rg_s15">*Slide six. The freezer question in a box, and under it, same slide, red type, no click between them: It freezes. It becomes a SOLID. Ice is lighter than water, so it floats.*</Markdown>
+
+<ChoiceInput id="wp_rg2">
+<Markdown id="wp_rg2_prompt">The answer is on the screen behind you, in red, whether you read it or not. What do you do with the freezer question?</Markdown>
+  <Key id="wp_rg2_as_authored" value="as_authored" code="0">"What happens to a bottle of water left in the freezer overnight? It freezes. It becomes a solid. And ice is lighter than water, so it floats."</Key>
+  <Key id="wp_rg2_wait" value="wait" code="90">"What happens to a bottle of water left in the freezer overnight? Don't tell me yet. Think about it." *You step into the beam so the red type lands on your shirt.*</Key>
+</ChoiceInput>
+
+<!-- wp_rg2 = as_authored -->
+<Markdown id="wp_rg_s16" when="@wp_rg2.value === 'as_authored'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. "ice is lighter than water, it floats" goes on the board in your hand, underlined twice.*</Markdown>
+<TalkBubble id="wp_rg_l17" who="Bri" face="concerned" side="primary" when="@wp_rg2.value === 'as_authored' &amp;&amp; (@wp_rb2.value === 'name_it' || @wp_rb2.value === 'press_science' || @wp_rb3.value === 'bridge')">
+<Markdown id="wp_rg_l17_md">But it's bigger. You wrote it. It's right there.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rg_s18" when="@wp_rg2.value === 'as_authored' &amp;&amp; (@wp_rb2.value === 'name_it' || @wp_rb2.value === 'press_science' || @wp_rb3.value === 'bridge')">*She is pointing at the chart. Two children look from the chart to the board and back.*</Markdown>
+<Markdown id="wp_rg_s19" when="@wp_rg2.value === 'as_authored' &amp;&amp; !(@wp_rb2.value === 'name_it' || @wp_rb2.value === 'press_science' || @wp_rb3.value === 'bridge')">*Pencils. It goes onto half sheets.*</Markdown>
+
+<!-- wp_rg2 = wait -->
+<Markdown id="wp_rg_s20" when="@wp_rg2.value === 'wait'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. One. Two. Three. Four. Five. Three hands.*</Markdown>
+<TalkBubble id="wp_rg_l21" who="Kenny" face="calm" side="primary" when="@wp_rg2.value === 'wait'">
+<Markdown id="wp_rg_l21_md">Same. It's just colder.</Markdown>
+</TalkBubble>
+<TalkBubble id="wp_rg_l22" who="Thuy" face="explaining" side="primary" when="@wp_rg2.value === 'wait'">
+<Markdown id="wp_rg_l22_md">It'll crack. Ours did, the glass one, and my grandma had to throw it out.</Markdown>
+</TalkBubble>
+<TalkBubble id="wp_rg_l23" who="Aaliyah" face="explaining" side="primary" when="@wp_rg2.value === 'wait' &amp;&amp; (@wp_rb1.value === 'take_up')">
+<Markdown id="wp_rg_l23_md">It gets bigger. That's what busted our pipe.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rg_s24" when="@wp_rg2.value === 'wait' &amp;&amp; (@wp_rb1.value === 'redirect')">*Aaliyah does not look up from her half sheet.*</Markdown>
+<Markdown id="wp_rg_s25" when="@wp_rg2.value === 'wait'">*Two predictions on the board in blue, three if Aaliyah's. The red type is still on your shirt.*</Markdown>
+
+  <ChoiceInput id="wp_rg3" when="@wp_rg2.value === 'wait'">
+  <Markdown id="wp_rg3_prompt">Their predictions are on the board. The slide still says "lighter." What goes up next to them?</Markdown>
+    <Key id="wp_rg3_reveal" value="reveal" code="0">"Let's see what the kit says." *You step out of the beam.* "It freezes. It becomes a solid. And ice is lighter than water, so it floats."</Key>
+    <Key id="wp_rg3_rewrite" value="rewrite" code="15">"It freezes. It becomes a solid. And write this one down: ice takes up more room than the water did."</Key>
+  </ChoiceInput>
+
+<!-- wp_rg3 = reveal -->
+  <Markdown id="wp_rg_s26" when="@wp_rg2.value === 'wait' &amp;&amp; @wp_rg3.value === 'reveal'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. The red type is on the wall again. "lighter" goes on the board under Kenny's "same," which gets a line through it.*</Markdown>
+  <TalkBubble id="wp_rg_l27" who="Bri" face="concerned" side="primary" when="@wp_rg2.value === 'wait' &amp;&amp; @wp_rg3.value === 'reveal' &amp;&amp; (@wp_rb2.value === 'name_it' || @wp_rb2.value === 'press_science' || @wp_rb3.value === 'bridge')">
+  <Markdown id="wp_rg_l27_md">But it's bigger. You wrote it. How is it lighter if it's bigger?</Markdown>
+  </TalkBubble>
+  <Markdown id="wp_rg_s28" when="@wp_rg2.value === 'wait' &amp;&amp; @wp_rg3.value === 'reveal' &amp;&amp; !(@wp_rb2.value === 'name_it' || @wp_rb2.value === 'press_science' || @wp_rb3.value === 'bridge')">*Thuy looks at the slide, then at her own prediction, and does not say anything.*</Markdown>
+
+<!-- wp_rg3 = rewrite -->
+  <Markdown id="wp_rg_s29" when="@wp_rg2.value === 'wait' &amp;&amp; @wp_rg3.value === 'rewrite'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. "ice takes up more room" goes on the board in your hand. The slide's red type stays where it is, on the wall behind it, saying something else.*</Markdown>
+  <TalkBubble id="wp_rg_l30" who="Thuy" face="smile" side="primary" when="@wp_rg2.value === 'wait' &amp;&amp; @wp_rg3.value === 'rewrite'">
+  <Markdown id="wp_rg_l30_md">That's why it cracked. It got too big for the glass.</Markdown>
+  </TalkBubble>
+  <Markdown id="wp_rg_s31" when="@wp_rg2.value === 'wait' &amp;&amp; @wp_rg3.value === 'rewrite' &amp;&amp; (@wp_rb1.value === 'take_up')">*Aaliyah looks at the board for a while and then copies it.*</Markdown>
+
+</NextReveal>
+</Vertical>

@@ -1,0 +1,93 @@
+<!-- wp_replay_f.olx — Episode F: Keisha. Transcribed from notes/replay/ep-f.md.
+     The whole-episode gate (F_TAKEN) belongs on <Use ref="wp_rf" when="…"/> in
+     the Sequential, not here. Macro expressions are pasted verbatim from the
+     table in wp_replay_meters.olx; && is written &amp;&amp; in an attribute. -->
+
+<Vertical id="wp_rf" title="Keisha">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rf_reveal">
+
+<Markdown id="wp_rf_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty.*</Markdown>
+
+<Markdown id="wp_rf_s02" when="(@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">*Keisha's hand has been up since Marcus. She has switched arms twice.*</Markdown>
+
+<Markdown id="wp_rf_s03" when="(@wp_rd1.value === 'jaylen' &amp;&amp; @wp_rd2.value === 'keisha')">*Your plan, in your own hand: cap share-out at 5 hands.*</Markdown>
+
+<TalkBubble id="wp_rf_l04" who="Keisha" face="calm" side="primary" when="(@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">
+<Markdown id="wp_rf_l04_md">I been waiting. Is the lake water salty? Because my cousin said the ocean don't freeze.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rf_l05" who="Keisha" face="calm" side="primary" when="!(@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">
+<Markdown id="wp_rf_l05_md">Is the lake water salty? Because my cousin said the ocean don't freeze.</Markdown>
+</TalkBubble>
+
+<ChoiceInput id="wp_rf1">
+<Markdown id="wp_rf1_prompt">Keisha's question is on the unit's path and on nobody's list. Salt water freezes colder than fresh water, and Torch Lake is fresh. What do you say?</Markdown>
+  <Key id="wp_rf1_take_up"  value="take_up"  code="90">"Say more, Keisha. Why would salt matter?"</Key>
+  <Key id="wp_rf1_park"     value="park"     code="50">"Good question. On the chart. We will test it in Lesson 4 with two cups."</Key>
+  <Key id="wp_rf1_redirect" value="redirect" code="30">"Ooh, the ocean. Let's stay with our lake for now, Keisha."</Key>
+</ChoiceInput>
+
+<!-- WHEN wp_rf1=take_up -->
+<TalkBubble id="wp_rf_l06" who="Keisha" face="explaining" side="primary" when="@wp_rf1.value === 'take_up'">
+<Markdown id="wp_rf_l06_md">Because they put salt on the road when it snows and it melts the ice. So salt don't like ice.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rf_l07" who="Marcus" face="cheeky" side="primary" when="@wp_rf1.value === 'take_up'">
+<Markdown id="wp_rf_l07_md">Torch Lake's not salty. It's a lake.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rf_l08" who="Jaylen" face="smile" side="primary" when="@wp_rf1.value === 'take_up' &amp;&amp; (@wp_rd1.value === 'jaylen')">
+<Markdown id="wp_rf_l08_md">Then it can freeze.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rf_l09" who="Kenny" face="smile" side="primary" when="@wp_rf1.value === 'take_up' &amp;&amp; !(@wp_rd1.value === 'jaylen')">
+<Markdown id="wp_rf_l09_md">Then it can freeze.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rf_l10" who="Keisha" face="awe" side="primary" when="@wp_rf1.value === 'take_up'">
+<Markdown id="wp_rf_l10_md">So the ocean can't.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rf_s11" when="@wp_rf1.value === 'take_up'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Bri is writing something on her handout. Amani has looked up.*</Markdown>
+
+<ChoiceInput id="wp_rf2" when="@wp_rf1.value === 'take_up'">
+<Markdown id="wp_rf2_prompt">Three children have built a rule between them: salt stops ice, so the ocean cannot freeze. It is half right. What do you say?</Markdown>
+  <Key id="wp_rf2_chart_rule" value="chart_rule" code="20">"Salt stops ice? That's Keisha's rule. On the chart, with a question mark. Two cups, Lesson 4."</Key>
+  <Key id="wp_rf2_correct"    value="correct"    code="15">"The ocean does freeze, at the top and the bottom of the world. It just has to get colder."</Key>
+  <Key id="wp_rf2_ask_ocean"  value="ask_ocean"  code="40">"Does the ocean freeze anywhere? Has anybody seen it?"</Key>
+</ChoiceInput>
+
+<!-- WHEN wp_rf2=chart_rule -->
+<Markdown id="wp_rf_s12" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'chart_rule'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker under WONDER: "salt stops ice?? (Keisha) two cups, L4." Keisha copies the question marks onto her sheet.*</Markdown>
+
+<!-- WHEN wp_rf2=correct -->
+<Markdown id="wp_rf_s13" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'correct'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Black marker under NOTICE: "the ocean freezes when it gets cold enough." Keisha looks at it.*</Markdown>
+
+<TalkBubble id="wp_rf_l14" who="Keisha" face="blank" side="primary" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'correct'">
+<Markdown id="wp_rf_l14_md">Oh.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rf_s15" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'correct'">*Her hand does not go up again this period.*</Markdown>
+
+<!-- WHEN wp_rf2=ask_ocean -->
+<TalkBubble id="wp_rf_l16" who="Amani" face="smile" side="primary" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'ask_ocean'">
+<Markdown id="wp_rf_l16_md">In the penguin movie. The ice is on the ocean and they slide on it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rf_l17" who="Thuy" face="calm" side="primary" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'ask_ocean'">
+<Markdown id="wp_rf_l17_md">My grandma said the river froze one time. Not all of it. The edges.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rf_s18" when="@wp_rf1.value === 'take_up' &amp;&amp; @wp_rf2.value === 'ask_ocean'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker under WONDER: "does the ocean freeze? where? (Keisha, Amani)." Keisha is still looking at the chart when you turn to the slides.*</Markdown>
+
+<!-- WHEN wp_rf1=park -->
+<Markdown id="wp_rf_s19" when="@wp_rf1.value === 'park'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker under WONDER: "is the lake salty? two cups, L4 (Keisha)." She reads her name and nods once.*</Markdown>
+
+<!-- WHEN wp_rf1=redirect -->
+<Markdown id="wp_rf_s20" when="@wp_rf1.value === 'redirect'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Keisha's hand comes down. She puts her chin on it.*</Markdown>
+
+<Markdown id="wp_rf_s21" when="@wp_rf1.value === 'redirect' &amp;&amp; (10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 22)">*You are behind your own plan and the slides have not started. Keisha does not know that.*</Markdown>
+
+</NextReveal>
+</Vertical>

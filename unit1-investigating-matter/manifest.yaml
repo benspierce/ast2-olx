@@ -1,0 +1,8 @@
+title: "Ambitious Science Teaching · Unit 1: Investigating Matter (SBA preview)"
+namespace: wp
+content_root: .
+eventServerUrl: false        # client-side only; no student data captured
+classes:
+  - no-translanguaging       # disables JIT translanguaging (needs a server)
+routes:
+  "/": wp/wp_sba_part1

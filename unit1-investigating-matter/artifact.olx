@@ -1,0 +1,126 @@
+<!-- My Launch Study (running artifact) for Ambitious Science Teaching, Unit 1:
+     Investigating Matter. Mirrors the sections of wp_print, one Collapsible each.
+     Every section is always here, with a dash where nothing has been written yet:
+     the tab is opened early to see what goes where, and a page that grows section
+     by section reads as broken. Exporting is wp_print's job, not this tab's. -->
+<Vertical id="wp_artifact">
+
+  <Markdown id="wp_artifact_intro">
+## My Launch Study
+
+This page gathers your work in one place as you go: your reading of the launch, your reflection, your replay, and your own plan. Come back any time. The **Export as PDF** button is on the last screen of Unit 1.
+  </Markdown>
+
+  <Collapsible id="wp_artifact_impression" title="My first impression of Room 14">
+    <Ref id="wp_art_impression" target="wp_room14_impression" format="text" />
+    <Markdown id="wp_art_impression_dash" when="!isFilled(@wp_room14_impression.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_define" title="In my own words: a phenomenon is">
+    <Ref id="wp_art_define" target="wp_pk_define" format="text" />
+    <Markdown id="wp_art_define_dash" when="!isFilled(@wp_pk_define.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_discourse" title="Discourse read">
+    <Ref id="wp_art_discourse" target="wp_discourse_analysis" format="text" />
+    <Markdown id="wp_art_discourse_dash" when="!isFilled(@wp_discourse_analysis.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_plan" title="The plan against the moment">
+    <Ref id="wp_art_plan" target="wp_plan_analysis" format="text" />
+    <Markdown id="wp_art_plan_dash" when="!isFilled(@wp_plan_analysis.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_equity" title="Equity read, answering Jordan">
+    <Ref id="wp_art_equity" target="wp_equity_analysis" format="text" />
+    <Markdown id="wp_art_equity_dash" when="!isFilled(@wp_equity_analysis.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_mirror" title="Mirror">
+    <Ref id="wp_art_mirror" target="wp_self_reflect" format="text" />
+    <Markdown id="wp_art_mirror_dash" when="!isFilled(@wp_self_reflect.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_replay" title="My participation choices: what they made possible, and what they cost">
+    <Markdown id="wp_art_path">*My path:* {{@wp_ra1.value}} → {{@wp_ra2.value}} → {{@wp_rb1.value}} → {{@wp_rb2.value}} → {{@wp_rb3.value}} → {{@wp_rc1.value}} → {{@wp_rc2.value}} → {{@wp_rd1.value}} → {{@wp_rd2.value}} → {{@wp_re1.value}} → {{@wp_re2.value}} → {{@wp_rf1.value}} → {{@wp_rf2.value}} → {{@wp_rg1.value}} → {{@wp_rg2.value}} → {{@wp_rg3.value}} → {{@wp_rh1.value}} → {{@wp_rh2.value}}</Markdown>
+    <Ref id="wp_art_replay" target="wp_replay_reflection" format="text" />
+    <Markdown id="wp_art_replay_dash" when="!isFilled(@wp_replay_reflection.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_anchor" title="My launch: anchor and standards">
+    <!-- <Use>, not <Ref>: a Ref shows the stored branch id; <Use> re-renders the
+         choice, showing the sentence the candidate picked. -->
+    <Use ref="wp_anchor_choice" />
+    <Markdown id="wp_art_standards_h">**Standards it serves:**</Markdown>
+    <Use ref="wp_plan_standards" />
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_objective" title="My launch: objective, opening question, and the puzzle">
+    <Markdown id="wp_art_objective">**Objective:** {{@wp_plan_objective.value || '—'}}
+
+**Opening question:** {{@wp_plan_question.value || '—'}}</Markdown>
+    <Markdown id="wp_art_puzzle_h">**What makes it puzzling:**</Markdown>
+    <Ref id="wp_art_puzzle" target="wp_plan_puzzle" format="text" />
+    <Markdown id="wp_art_puzzle_dash" when="!isFilled(@wp_plan_puzzle.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_timeline" title="My launch: timeline">
+    <Markdown id="wp_art_t1_h">**0–5 min**</Markdown>
+    <Ref id="wp_art_t1" target="wp_plan_t1" format="text" />
+    <Markdown id="wp_art_t1_dash" when="!isFilled(@wp_plan_t1.value)">—</Markdown>
+    <Markdown id="wp_art_t2_h">**5–10 min**</Markdown>
+    <Ref id="wp_art_t2" target="wp_plan_t2" format="text" />
+    <Markdown id="wp_art_t2_dash" when="!isFilled(@wp_plan_t2.value)">—</Markdown>
+    <Markdown id="wp_art_t3_h">**10–20 min**</Markdown>
+    <Ref id="wp_art_t3" target="wp_plan_t3" format="text" />
+    <Markdown id="wp_art_t3_dash" when="!isFilled(@wp_plan_t3.value)">—</Markdown>
+    <Markdown id="wp_art_t4_h">**20–30 min**</Markdown>
+    <Ref id="wp_art_t4" target="wp_plan_t4" format="text" />
+    <Markdown id="wp_art_t4_dash" when="!isFilled(@wp_plan_t4.value)">—</Markdown>
+    <Markdown id="wp_art_t5_h">**30–40 min**</Markdown>
+    <Ref id="wp_art_t5" target="wp_plan_t5" format="text" />
+    <Markdown id="wp_art_t5_dash" when="!isFilled(@wp_plan_t5.value)">—</Markdown>
+    <Markdown id="wp_art_t6_h">**40–45 min**</Markdown>
+    <Ref id="wp_art_t6" target="wp_plan_t6" format="text" />
+    <Markdown id="wp_art_t6_dash" when="!isFilled(@wp_plan_t6.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_anticipated" title="My launch: anticipated responses and my moves">
+    <Markdown id="wp_art_anticipated">
+1. {{@wp_plan_ant1.value || '—'}} → {{@wp_plan_move1.value || '—'}}
+2. {{@wp_plan_ant2.value || '—'}} → {{@wp_plan_move2.value || '—'}}
+3. {{@wp_plan_ant3.value || '—'}} → {{@wp_plan_move3.value || '—'}}
+    </Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_children" title="My launch: Diego, Kenny, and knowledge from home">
+    <Markdown id="wp_art_diego_h">**What Diego does:**</Markdown>
+    <Ref id="wp_art_diego" target="wp_plan_diego" format="text" />
+    <Markdown id="wp_art_diego_dash" when="!isFilled(@wp_plan_diego.value)">—</Markdown>
+    <Markdown id="wp_art_kenny_h">**How Kenny gets in:**</Markdown>
+    <Ref id="wp_art_kenny" target="wp_plan_kenny" format="text" />
+    <Markdown id="wp_art_kenny_dash" when="!isFilled(@wp_plan_kenny.value)">—</Markdown>
+    <Markdown id="wp_art_home_h">**Knowledge from home:**</Markdown>
+    <Ref id="wp_art_home" target="wp_plan_home" format="text" />
+    <Markdown id="wp_art_home_dash" when="!isFilled(@wp_plan_home.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_offpath" title="My launch: off the path, and the exit ticket">
+    <Markdown id="wp_art_offpath_h">**When it goes off the path:**</Markdown>
+    <Ref id="wp_art_offpath" target="wp_plan_offpath" format="text" />
+    <Markdown id="wp_art_offpath_dash" when="!isFilled(@wp_plan_offpath.value)">—</Markdown>
+    <Markdown id="wp_art_exit_h">**How I'll know what they think:**</Markdown>
+    <Ref id="wp_art_exit" target="wp_plan_exit" format="text" />
+    <Markdown id="wp_art_exit_dash" when="!isFilled(@wp_plan_exit.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_justify" title="My launch: why it's rigorous, relevant, and accessible">
+    <Ref id="wp_art_justify" target="wp_redesign_justify" format="text" />
+    <Markdown id="wp_art_justify_dash" when="!isFilled(@wp_redesign_justify.value)">—</Markdown>
+  </Collapsible>
+
+  <Collapsible id="wp_artifact_feedback" title="What Dr. Okafor read back to me">
+    <Use ref="wp_synthesis_feedback" />
+  </Collapsible>
+
+</Vertical>

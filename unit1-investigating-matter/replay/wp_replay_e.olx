@@ -1,0 +1,83 @@
+<!-- wp_replay_e.olx — Episode E: Jaylen. Transcribed from notes/replay/ep-e.md.
+     The whole-episode gate (E_TAKEN) belongs on <Use ref="wp_re" when="…"/> in
+     the Sequential, not here. Macro expressions are pasted verbatim from the
+     table in wp_replay_meters.olx; && is written &amp;&amp; in an attribute. -->
+
+<Vertical id="wp_re" title="Jaylen">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_re_reveal">
+
+<Markdown id="wp_re_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty. Jaylen's hand has been up since Marcus.*</Markdown>
+
+<TalkBubble id="wp_re_l02" who="Jaylen" face="smile" side="primary">
+<Markdown id="wp_re_l02_md">My auntie makes rock candy and it goes hard. It starts out like juice and then it's a rock on a string. Is that the same thing?</Markdown>
+</TalkBubble>
+
+<ChoiceInput id="wp_re1">
+<Markdown id="wp_re1_prompt">Rock candy is sugar coming out of syrup, not water freezing. It is a change, it is not the unit's change, and it is not on your list. What do you say?</Markdown>
+  <Key id="wp_re1_take_up"  value="take_up"  code="120">"Tell us how she makes it."</Key>
+  <Key id="wp_re1_park"     value="park"     code="50" >"That is a great question, Jaylen, and it is a different kind of change. Put it in your wonder column. We come back to sugar in the spring."</Key>
+  <Key id="wp_re1_redirect" value="redirect" code="20" >"Not today, Jaylen. Back to the lake."</Key>
+</ChoiceInput>
+
+<!-- WHEN wp_re1=take_up -->
+<Markdown id="wp_re_s03" when="@wp_re1.value === 'take_up'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Jaylen turns round in his chair so the back table can hear.*</Markdown>
+
+<TalkBubble id="wp_re_l04" who="Jaylen" face="explaining" side="primary" when="@wp_re1.value === 'take_up'">
+<Markdown id="wp_re_l04_md">You boil the water and you put in sugar, a whole bag, till it won't take no more. Then you hang a string in the jar and you leave it. A week, about. And it grows on the string.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_re_l05" who="Kenny" face="smileBig" side="primary" when="@wp_re1.value === 'take_up'">
+<Markdown id="wp_re_l05_md">Can we make it?</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_re_s06" when="@wp_re1.value === 'take_up'">*Three children are on candy. Amani has started drawing a jar.*</Markdown>
+
+<ChoiceInput id="wp_re2" when="@wp_re1.value === 'take_up'">
+<Markdown id="wp_re2_prompt">Jaylen has explained it well, and the room is on candy. What do you say?</Markdown>
+  <Key id="wp_re2_distinction" value="distinction" code="30">"Is that freezing, Jaylen? Is it cold?"</Key>
+  <Key id="wp_re2_run"         value="run"         code="60">"Go ahead, Jaylen."</Key>
+</ChoiceInput>
+
+<!-- WHEN wp_re2=distinction -->
+<TalkBubble id="wp_re_l07" who="Jaylen" face="calm" side="primary" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'distinction'">
+<Markdown id="wp_re_l07_md">No. It's not cold. My auntie does it on the stove.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_re_l08" who="Bri" face="cheeky" side="primary" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'distinction'">
+<Markdown id="wp_re_l08_md">It's not cold. It just dries up.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_re_s09" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'distinction'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker, bottom corner of the chart: "rock candy: a change, not our change (Jaylen)." Jaylen reads it and turns back round.*</Markdown>
+
+<!-- WHEN wp_re2=run -->
+<Markdown id="wp_re_s10" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'run' &amp;&amp; (@wp_rd2.value === 'keisha')">*"Then Keisha." Her hand stays up at the back.*</Markdown>
+
+<TalkBubble id="wp_re_l11" who="Jaylen" face="explaining" side="primary" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'run'">
+<Markdown id="wp_re_l11_md">And you can put food colouring in and it goes that colour all the way through. My cousin did blue. And if you don't put enough sugar it don't do nothing, it just stays juice.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_re_l12" who="Kenny" face="smile" side="primary" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'run'">
+<Markdown id="wp_re_l12_md">My grandma does pralines. That goes hard too.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_re_s13" when="@wp_re1.value === 'take_up' &amp;&amp; @wp_re2.value === 'run'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Two children at the back table are on something else. Darnell is looking at the clock over the door.*</Markdown>
+
+<!-- WHEN wp_re1=park -->
+<Markdown id="wp_re_s14" when="@wp_re1.value === 'park'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Jaylen writes it in the wonder column on his half sheet. He looks up at the chart to see whether you are writing it too.*</Markdown>
+
+<TalkBubble id="wp_re_l15" who="Jaylen" face="calm" side="primary" when="@wp_re1.value === 'park'">
+<Markdown id="wp_re_l15_md">Spring's a long time.</Markdown>
+</TalkBubble>
+
+<!-- WHEN wp_re1=redirect -->
+<Markdown id="wp_re_s16" when="@wp_re1.value === 'redirect'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Jaylen shrugs and turns back round. His pencil goes back to the lake.*</Markdown>
+
+<Markdown id="wp_re_s17" when="@wp_re1.value === 'redirect' &amp;&amp; (@wp_rb1.value === 'redirect') &amp;&amp; !(@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">*That is the second Memphis story to go down since Marcus. The hands still up are Marcus's and Darnell's.*</Markdown>
+
+<Markdown id="wp_re_s18" when="@wp_re1.value === 'redirect' &amp;&amp; (@wp_rb1.value === 'redirect') &amp;&amp; (@wp_ra1.value === 'widen' || @wp_rb2.value === 'ask_room')">*That is the second Memphis story to go down since Marcus. The hands still up are Marcus's, Darnell's, and Keisha's, at the back.*</Markdown>
+
+<Markdown id="wp_re_s19" when="@wp_re1.value === 'redirect' &amp;&amp; (10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 22)">*You are behind your own plan and the slides have not started. Jaylen does not know that.*</Markdown>
+
+</NextReveal>
+</Vertical>

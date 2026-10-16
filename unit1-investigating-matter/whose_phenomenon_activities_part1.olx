@@ -1,0 +1,308 @@
+<!--
+---
+description: "Whose Phenomenon? (activity bank). The exercises the session screens mount, defined once each: the look-fors matching, the phenomenon-or-topic gut-check, the definition in your own words, the kinds-of-question matching, the sort of Ms. Boyd's eight questions, the written discourse contrast, the transcript-marking, the written equity read, the mirror, the anchor choice with its four branch guides, and the justification. The transcript itself lives here too."
+category: whose_phenomenon
+index: 97
+lang: en-Latn-US
+---
+-->
+
+
+<Vertical id="wp_activities_part1" title="Whose Phenomenon? — Activities" launchable="true">
+
+  <Markdown id="wp_doc_intro">
+  **Whose Phenomenon? — activity bank.** `wp_session.olx` mounts each exercise below on the screen that needs it; nothing here is a screen. The transcript is defined once and reused on the launch screen, in the Notes tab's annotator, and on the print page. Every writing box shows its word count until its floor is met.
+  </Markdown>
+
+  <!-- ===================================================================
+       THE TRANSCRIPT  (defined once; reused on screen 4, in Notes, in print)
+       =================================================================== -->
+
+  <Markdown id="wp_transcript_body">
+## The phenomenon: how Ms. Boyd introduces it
+
+*Room 14, fourth grade, Tuesday at 1:15: the first day of her unit, Investigating Matter. You were at the back of the room. These are the first four minutes, word for word.*
+
+**[Ms. Boyd dims the lights and plays a short clip: a wide, snow-rimmed lake, small figures skating in the distance.]**
+
+**Ms. Boyd:** This is Torch Lake, up in Michigan, where I grew up. Every winter the whole top froze so solid we'd skate on it, and my dad would drill a hole and go ice fishing. Here's what puzzled me as a kid: if the lake freezes over, how are the fish down underneath still alive and swimming? Turn and tell your partner what you think.
+
+*[Students talk in pairs. Ms. Boyd circulates, then calls them back.]*
+
+**Ms. Boyd:** Okay — who can tell me what they think is happening?
+
+**Marcus:** My grandpa takes me ice fishing when we visit my cousins up north! The fish are fine because the ice is only on the top.
+
+**Ms. Boyd:** Exactly, Marcus — the ice is only on top. Great. So why *only* on top?
+
+**Aaliyah:** In the big freeze last year our pipes busted and water went all in the hallway. My mama said the ice broke the pipe.
+
+**Ms. Boyd:** Ooh — we'll get to ice and pipes later. Right now let's stay with our lake. So, why does the ice float on top instead of sinking to the bottom?
+
+**Bri:** Wait — if ice is just frozen water, why doesn't it sink? It's the same stuff.
+
+**Ms. Boyd:** Good question, Bri — hold onto it. Here's an easier one first. Who can name the three states of matter for me?
+
+**Darnell:** Solid, liquid, and gas!
+
+**Ms. Boyd:** Yes! Solid, liquid, gas. *[She writes them on the board.]* And ice — is that a solid, a liquid, or a gas?
+
+**Class:** Solid!
+
+**Ms. Boyd:** Right. Now — what do you think would happen to a bottle of water if I left it in the freezer overnight; would it stay the same? … It would freeze into ice, of course. So, back to Bri's question: ice is lighter than water, which is why it floats and the fish are safe down below. We're going to spend the whole unit on the states of matter. Diego, can you read the three states off the board for us? … Diego? … Okay — Marcus, read them for us.
+
+*[Diego looks down and doesn't answer.]*
+  </Markdown>
+  <!-- ===================================================================
+       SCREEN 2 — THE WORD
+       The look-fors are learned by matching them, not by reading a list.
+       =================================================================== -->
+
+    <CapaProblem id="wp_lookfors_match_problem" title="The framework's five qualities of an anchoring phenomenon" showAnswer="never" grade="immediate">
+      <MatchingGrader id="wp_lookfors_match_grader">
+        <Markdown id="wp_lookfors_match_prompt">Ambitious Science Teaching names five qualities of a good anchoring phenomenon. Match each quality on the left to what the framework means by it on the right: click the dot beside a quality, then the dot beside its meaning. The count of correct matches updates as you go, so keep adjusting until all five are right. This is a way to learn the terms, not a test.
+
+**Correct so far: {{@wp_lookfors_match_grader.message}}** (the same count appears under the exercise)</Markdown>
+        <MatchingInput id="wp_lookfors_match">
+          <Markdown id="wp_lf_observable">Observable</Markdown>
+          <Markdown id="wp_lf_observable_def">Students can see, hear, or picture it happening. Not an abstract topic like "states of matter."</Markdown>
+
+          <Markdown id="wp_lf_puzzling">Puzzling</Markdown>
+          <Markdown id="wp_lf_puzzling_def">It doesn't match what students expect, so it creates a real need to know.</Markdown>
+
+          <Markdown id="wp_lf_rich">Rich enough to anchor a unit</Markdown>
+          <Markdown id="wp_lf_rich_def">Explaining it takes the target science ideas, not a one-word answer.</Markdown>
+
+          <Markdown id="wp_lf_connected">Connected to students' lives</Markdown>
+          <Markdown id="wp_lf_connected_def">It links to experiences and communities students actually have.</Markdown>
+
+          <Markdown id="wp_lf_open">Held open</Markdown>
+          <Markdown id="wp_lf_open_def">The class keeps working on it; the teacher doesn't resolve it in the first five minutes.</Markdown>
+        </MatchingInput>
+      </MatchingGrader>
+    </CapaProblem>
+  <!-- inline: which of these is a phenomenon. Learning, not assessment: try
+       until it is right; the wrong-answer note says why without naming the
+       answer, and the chat moves on once the distinction has landed. -->
+  <CapaProblem id="wp_pk_topic_problem" title="Phenomenon or topic?" showAnswer="never">
+    <KeyGrader id="wp_pk_topic_grader">
+      <Markdown id="wp_pk_topic_prompt">Which one of these is a phenomenon, not a topic? Choose one and press **Check**. If it's not right, you'll get a hint; try again.</Markdown>
+      <ChoiceInput id="wp_pk_topic">
+        <Distractor id="wp_pk_topic_photosynthesis" value="photosynthesis">Photosynthesis</Distractor>
+        <Key id="wp_pk_topic_maple" value="maple_leaves">The maple tree by the bus loop dropped all its leaves in three days</Key>
+        <Distractor id="wp_pk_topic_states" value="states_of_matter">The states of matter</Distractor>
+        <Distractor id="wp_pk_topic_water_cycle" value="water_cycle">The water cycle</Distractor>
+      </ChoiceInput>
+    </KeyGrader>
+    <Markdown id="wp_pk_topic_right" when="@wp_pk_topic_grader.correct === correctness.correct">
+*Yes. A tree, a place, three days, and no obvious reason. Something happened, and it needs explaining. The other three are what the book is about.*
+    </Markdown>
+    <Markdown id="wp_pk_topic_wrong_photosynthesis" when="@wp_pk_topic_grader.correct === correctness.incorrect &amp;&amp; @wp_pk_topic.value === 'photosynthesis'">
+*Photosynthesis is the name for what leaves do, everywhere, always. Nothing happened. Which one of the four happened once, somewhere?*
+    </Markdown>
+    <Markdown id="wp_pk_topic_wrong_states" when="@wp_pk_topic_grader.correct === correctness.incorrect &amp;&amp; @wp_pk_topic.value === 'states_of_matter'">
+*That is the chapter title. It is where a unit ends up, not the puzzle that makes anyone need to get there. Which one of the four is a puzzle?*
+    </Markdown>
+    <Markdown id="wp_pk_topic_wrong_water_cycle" when="@wp_pk_topic_grader.correct === correctness.incorrect &amp;&amp; @wp_pk_topic.value === 'water_cycle'">
+*The water cycle is a diagram: arrows, true everywhere. A phenomenon is one event in one place that the diagram has to explain. Which one of the four is an event?*
+    </Markdown>
+  </CapaProblem>
+
+  <!-- Room 14: the first impression (moved here from the screen in the October
+       2026 revision so every writing box lives in one place) -->
+  <Vertical id="wp_room14_impression_input">
+    <Markdown id="wp_room14_impression_md">**Your first impression.** Two or three sentences: what strikes you about this school and this room, before you've read a word of the lesson?</Markdown>
+    <TextArea id="wp_room14_impression" rows="4"
+              placeholder="What stands out, and what would you want to know before Tuesday?" />
+    <Markdown id="wp_room14_impression_count" when="wordcount(@wp_room14_impression.value) &lt; 12">*{{wordcount(@wp_room14_impression.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_room14_impression_more" when="wordcount(@wp_room14_impression.value) &gt;= 12 &amp;&amp; wordcount(@wp_room14_impression.value) &lt; 30">*{{wordcount(@wp_room14_impression.value)}} words. That's enough to move on; the strongest answers here usually run closer to 30.*</Markdown>
+  </Vertical>
+
+  <!-- The plan against the moment (screen 7) -->
+  <Vertical id="wp_plan_analysis_input">
+    <TextArea id="wp_plan_analysis" rows="7"
+              placeholder="Was the pipe on the unit's path? ... Taking it up would have cost... Setting it aside cost..." />
+    <Markdown id="wp_plan_analysis_count" when="wordcount(@wp_plan_analysis.value) &lt; 12">*{{wordcount(@wp_plan_analysis.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_plan_analysis_more" when="wordcount(@wp_plan_analysis.value) &gt;= 12 &amp;&amp; wordcount(@wp_plan_analysis.value) &lt; 50">*{{wordcount(@wp_plan_analysis.value)}} words. That's enough to move on; the strongest answers here usually run closer to 50.*</Markdown>
+  </Vertical>
+
+  <!-- inline: define in your own words -->
+  <Vertical id="wp_pk_define_input">
+    <TextArea id="wp_pk_define" rows="3"
+              placeholder="A phenomenon is... A topic is... The difference is..." />
+    <Markdown id="wp_pk_define_count" when="wordcount(@wp_pk_define.value) &lt; 12">*{{wordcount(@wp_pk_define.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_pk_define_more" when="wordcount(@wp_pk_define.value) &gt;= 12 &amp;&amp; wordcount(@wp_pk_define.value) &lt; 25">*{{wordcount(@wp_pk_define.value)}} words. That's enough to move on; a sentence or two more usually makes the difference clearer.*</Markdown>
+  </Vertical>
+
+  <!-- ===================================================================
+       SCREEN 3 / SCREEN 5 — THE SCIENCE TALK IN HER QUESTIONS
+       =================================================================== -->
+
+    <CapaProblem id="wp_discourse_match_problem" title="The framework's kinds of teacher question" showAnswer="never" grade="immediate">
+      <MatchingGrader id="wp_discourse_match_grader">
+        <Markdown id="wp_discourse_match_prompt">Six things a teacher can do with a question. Two are kinds of **opening** question; four are **moves after a child answers**. Match each term on the left to its description on the right: click the dot beside a term, then the dot beside its description. Several of these are near neighbors, so expect a few tries. The count updates as you go; keep adjusting until all six are right.
+
+**Correct so far: {{@wp_discourse_match_grader.message}}** (the same count appears under the exercise)</Markdown>
+        <MatchingInput id="wp_discourse_match">
+          <Markdown id="wp_dg_open">Open, reasoning question</Markdown>
+          <Markdown id="wp_dg_open_def">An opening question that asks for an idea, a prediction, or an explanation: "What do you think is happening?" "What would happen if…?"</Markdown>
+
+          <Markdown id="wp_dg_closed">Closed, recall question</Markdown>
+          <Markdown id="wp_dg_closed_def">An opening question that asks for a fact or the one word the teacher has in mind: "What are the three states of matter?"</Markdown>
+
+          <Markdown id="wp_dg_funneling">Funneling</Markdown>
+          <Markdown id="wp_dg_funneling_def">After a child answers: a chain of narrowing questions that leads the class, step by step, to the answer the teacher already had.</Markdown>
+
+          <Markdown id="wp_dg_focusing">Focusing</Markdown>
+          <Markdown id="wp_dg_focusing_def">After a child answers: the teacher takes that child's idea and asks the class to build on it, so the idea stays the child's.</Markdown>
+
+          <Markdown id="wp_dg_pressing">Pressing for reasoning</Markdown>
+          <Markdown id="wp_dg_pressing_def">After a child answers: "Why do you think that? What's your evidence? Does everyone agree?" The reason has to come from the students.</Markdown>
+
+          <Markdown id="wp_dg_reveal">The reveal reflex</Markdown>
+          <Markdown id="wp_dg_reveal_def">After the teacher asks a good question: she answers it herself, or settles the mystery early. The thinking the question started stops.</Markdown>
+        </MatchingInput>
+      </MatchingGrader>
+    </CapaProblem>
+    <!-- Column labels carry no commas (the grid parser splits on them); rows
+         are quoted because several of her questions contain commas. -->
+    <CapaProblem id="wp_questions_problem" title="Ms. Boyd's questions, in order" showAnswer="attempted">
+      <TabularMCQGrader id="wp_questions_grader">
+        <Markdown id="wp_questions_prompt">Here are Ms. Boyd's eight questions, in the order she asked them. For each one, choose what it did:
+
+- **Opened thinking up**: it asked the children for an idea, a prediction, or a reason.
+- **Asked for a word**: it asked them to recall a fact or say the word she had in mind.
+- **She answered it herself**: a good question, but she gave the answer before the children could work on it.
+
+Then press **Check**. You'll see which ones you sorted the way the framework would, and the conversation picks up from there.</Markdown>
+        <TabularMCQ id="wp_questions">
+cols: Opened thinking up, Asked for a word, She answered it herself
+rows:
+  - "If the lake freezes over, how are the fish underneath still alive?|q1[Opened thinking up]"
+  - "Who can tell me what they think is happening?|q2[Opened thinking up]"
+  - "Why only on top?|q3[Opened thinking up]"
+  - "Why does the ice float instead of sinking?|q4[Opened thinking up]"
+  - "Who can name the three states of matter?|q5[Asked for a word]"
+  - "Is ice a solid, a liquid, or a gas?|q6[Asked for a word]"
+  - "What would happen to a bottle of water left in the freezer overnight?|q7[She answered it herself]"
+  - "Bri's own question: if ice is just frozen water, why doesn't it sink?|q8[She answered it herself]"
+        </TabularMCQ>
+      </TabularMCQGrader>
+    </CapaProblem>
+
+  <!-- inline: the two-question contrast analysis -->
+  <Vertical id="wp_discourse_analysis_input">
+    <TextArea id="wp_discourse_analysis" rows="6"
+              placeholder="A question that opened thinking up: '...' — it did this... / A question that shut it down: '...' — it did this..." />
+    <Markdown id="wp_discourse_analysis_count" when="wordcount(@wp_discourse_analysis.value) &lt; 12">*{{wordcount(@wp_discourse_analysis.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_discourse_analysis_more" when="wordcount(@wp_discourse_analysis.value) &gt;= 12 &amp;&amp; wordcount(@wp_discourse_analysis.value) &lt; 50">*{{wordcount(@wp_discourse_analysis.value)}} words. That's enough to move on; the strongest answers here usually run closer to 50.*</Markdown>
+  </Vertical>
+
+  <!-- ===================================================================
+       SCREEN 7 — WHOSE PHENOMENON
+       =================================================================== -->
+
+    <!-- The student finds the moments in the transcript instead of being told
+         them. Turns are chunks (hidden § markers); the keys are Ms. Boyd's three
+         moves, since the message is sent by what the teacher does with what a
+         child offers. Students' own turns are optional so choosing them costs
+         nothing; the stage directions and her other turns are neutral. -->
+    <SimpleTextSelection id="wp_equity_moments" mode="graded" title="Who belongs here?" separatorRegexp="§" separatorHidden="true">
+Look at what Ms. Boyd does right after a child speaks. Click each of her lines whose response to that child tells the class whose experience counts as science in this room, then press Check. The feedback will tell you if you've missed one.
+---
+Ms. Boyd dims the lights and plays a short clip: a wide, snow-rimmed lake, small figures skating in the distance. §
+Ms. Boyd: This is Torch Lake, up in Michigan, where I grew up. Every winter the whole top froze so solid we'd skate on it, and my dad would drill a hole and go ice fishing. Here's what puzzled me as a kid: if the lake freezes over, how are the fish down underneath still alive and swimming? Turn and tell your partner what you think. §
+Students talk in pairs. Ms. Boyd circulates, then calls them back. §
+Ms. Boyd: Okay. Who can tell me what they think is happening? §
+{Marcus: My grandpa takes me ice fishing when we visit my cousins up north! The fish are fine because the ice is only on the top.} §
+[Ms. Boyd: Exactly, Marcus. The ice is only on top. Great. So why only on top?|marcus] §
+{Aaliyah: In the big freeze last year our pipes busted and water went all in the hallway. My mama said the ice broke the pipe.} §
+[Ms. Boyd: Ooh. We'll get to ice and pipes later. Right now let's stay with our lake. So, why does the ice float on top instead of sinking to the bottom?|aaliyah] §
+{Bri: Wait. If ice is just frozen water, why doesn't it sink? It's the same stuff.} §
+{Ms. Boyd: Good question, Bri. Hold onto it. Here's an easier one first. Who can name the three states of matter for me?} §
+Darnell: Solid, liquid, and gas! §
+Ms. Boyd: Yes! Solid, liquid, gas. And ice, is that a solid, a liquid, or a gas? §
+Class: Solid! §
+[Ms. Boyd: Right. Now, what do you think would happen to a bottle of water if I left it in the freezer overnight; would it stay the same? It would freeze into ice, of course. So, back to Bri's question: ice is lighter than water, which is why it floats and the fish are safe down below. We're going to spend the whole unit on the states of matter. Diego, can you read the three states off the board for us? Diego? Okay, Marcus, read them for us.|diego] §
+Diego looks down and doesn't answer.
+---
+all: All three. Marcus's story is taken up and praised, Aaliyah's is set aside, and Diego is passed over for Marcus. Read together, they say who already belongs here.
+>1: You have some of them. There are three moves of Ms. Boyd's that carry the message; each is what she does with what a child offers, or doesn't.
+: Look at what Ms. Boyd does with what each child offers: Marcus's story, Aaliyah's story, and Diego's silence.
+---
+marcus: Marcus's ice-fishing story matches her phenomenon, and it is rewarded on the spot: "Exactly. Great."
+aaliyah: Aaliyah's burst pipe is the same science, from something the whole class lived through, and it is set aside as off-topic.
+diego: Diego, an emergent multilingual student, is asked to read aloud, doesn't answer, and is passed over for Marcus. Nothing in the launch gave him a way in.
+    </SimpleTextSelection>
+
+  <!-- inline: the equity analysis, answering Jordan -->
+  <Vertical id="wp_equity_analysis_input">
+    <TextArea id="wp_equity_analysis" rows="7"
+              placeholder="Jordan, here's what I see... Whose experiences the phenomenon assumes... The implicit message about who belongs in science... My evidence from the transcript..." />
+    <Markdown id="wp_equity_analysis_count" when="wordcount(@wp_equity_analysis.value) &lt; 12">*{{wordcount(@wp_equity_analysis.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_equity_analysis_more" when="wordcount(@wp_equity_analysis.value) &gt;= 12 &amp;&amp; wordcount(@wp_equity_analysis.value) &lt; 60">*{{wordcount(@wp_equity_analysis.value)}} words. That's enough to move on; the strongest answers here usually run closer to 60.*</Markdown>
+  </Vertical>
+
+  <!-- ===================================================================
+       SCREEN 8 — THE MIRROR
+       =================================================================== -->
+
+  <Markdown id="wp_reflect">
+## A Mirror, Before You Fix Anything
+
+The point of this beat is not Ms. Boyd — it is you. Every teacher's sense of a "good" phenomenon comes from somewhere: the science that excited *you*, the places you have been, the experiences you assume are ordinary.
+
+Answer Dr. Okafor honestly:
+
+- Would you have picked Ms. Boyd's frozen lake? Why or why not?
+- What in **your own** life shapes what feels **rigorous** or **fun** to you as a phenomenon?
+- **Who might that leave out** — and how would you know?
+
+If you don't buy the premise of this session, say so and say why. Disagreement, argued from the transcript, is part of a Launch Study too.
+  </Markdown>
+
+  <!-- inline: the self-examination -->
+  <Vertical id="wp_self_reflect_input">
+    <TextArea id="wp_self_reflect" rows="6"
+              placeholder="I would / would not have picked it because... What shapes my sense of a good phenomenon is... Who that might leave out is..." />
+    <Markdown id="wp_self_reflect_count" when="wordcount(@wp_self_reflect.value) &lt; 12">*{{wordcount(@wp_self_reflect.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_self_reflect_more" when="wordcount(@wp_self_reflect.value) &gt;= 12 &amp;&amp; wordcount(@wp_self_reflect.value) &lt; 40">*{{wordcount(@wp_self_reflect.value)}} words. That's enough to move on; the strongest answers here usually run closer to 40.*</Markdown>
+  </Vertical>
+
+  <!-- ===================================================================
+       SCREEN 11 — RELAUNCH  (branch on the chosen anchor via UseDynamic)
+       =================================================================== -->
+
+  <!-- inline: choose the anchor (drives the UseDynamic branch above;
+       each Key value MUST equal a hidden branch block id) -->
+  <ChoiceInput id="wp_anchor_choice">
+    <Key id="wp_anchor_memphis_freeze" value="wp_branch_memphis_freeze">Anchor it in last year's Memphis freeze — the burst pipes and boil-water week the whole class lived through.</Key>
+    <Key id="wp_anchor_own_phenomenon" value="wp_branch_own_phenomenon">Choose a different everyday phenomenon of my own that anchors the same idea.</Key>
+    <Key id="wp_anchor_lake_reframed" value="wp_branch_lake_reframed">Keep the frozen lake, but reframe how I introduce it.</Key>
+    <Key id="wp_anchor_far" value="wp_branch_far">Something far away, and I will say how a child who has never seen ice gets in.</Key>
+  </ChoiceInput>
+
+  <!-- The four branch guides live in Hidden; UseDynamic mounts only the chosen one. -->
+  <Hidden>
+    <Markdown id="wp_branch_memphis_freeze">
+**Your anchor: the Memphis freeze.** Strong choice — it's an event the whole class lived through, which levels the entry point. To keep it *rigorous*, make sure explaining it still requires the target idea (water expanding as it freezes), not just a story. Push on: *what actually broke the pipe?* Invite students' own footage, family stories, and the dripping-faucet advice everyone heard — and hold the mystery open before naming "states of matter."
+    </Markdown>
+    <Markdown id="wp_branch_own_phenomenon">
+**Your anchor: your own everyday phenomenon.** Good — just hold it to the look-fors. Is it *observable*, *puzzling*, and does explaining it *require* the science target (water expanding when it freezes)? Ideas that work: a soda can that burst in the freezer, a sidewalk or water bottle cracked after a hard freeze, ice cubes that always float in a glass. Make sure it invites *many* students' experiences, not one group's.
+    </Markdown>
+    <Markdown id="wp_branch_lake_reframed">
+**Your anchor: the lake, reframed.** A fair choice — the science is genuinely rich. The work here is the *framing*: don't open from your own childhood as the default. Start from what students have seen water and ice do, elicit and hold their ideas, and take up the connections they offer (like Aaliyah's pipe) instead of redirecting them. Watch that you don't assume frozen-lake experience is universal.
+    </Markdown>
+    <Markdown id="wp_branch_far">
+**Your anchor: far away.** Nyota's choice, and a defensible one. The question you owe the room is the door: what does a child who has seen ice only in a freezer do in your first five minutes? Not "connect it to their lives." What do they do.
+    </Markdown>
+  </Hidden>
+  <!-- inline: justify against the three criteria -->
+  <Vertical id="wp_redesign_justify_input">
+    <TextArea id="wp_redesign_justify" rows="6"
+              placeholder="Rigorous because... Culturally relevant because... Accessible to every learner (including Diego) because..." />
+    <Markdown id="wp_redesign_justify_count" when="wordcount(@wp_redesign_justify.value) &lt; 12">*{{wordcount(@wp_redesign_justify.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+    <Markdown id="wp_redesign_justify_more" when="wordcount(@wp_redesign_justify.value) &gt;= 12 &amp;&amp; wordcount(@wp_redesign_justify.value) &lt; 50">*{{wordcount(@wp_redesign_justify.value)}} words. That's enough to move on; the strongest answers here usually run closer to 50.*</Markdown>
+  </Vertical>
+
+</Vertical>

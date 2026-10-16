@@ -1,0 +1,74 @@
+<!-- wp_replay_h.olx — Episode H: the board. Transcribed from notes/replay/ep-h.md. -->
+
+<Vertical id="wp_rh" title="The board">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rh_reveal">
+
+<Markdown id="wp_rh_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty.*</Markdown>
+<Markdown id="wp_rh_s02">*Your plan, in your own hand: Diego: check at his desk, not cold-call.*</Markdown>
+<Markdown id="wp_rh_s03" when="!(@wp_ra2.value === 'press_again')">*Three words on the board. The half sheets are in a stack on the front table. The last thing before they go round: somebody reads the words.*</Markdown>
+<Markdown id="wp_rh_s04" when="@wp_ra2.value === 'press_again'">*Three words on the board. The half sheets are in a stack on the front table. Marcus's hand is already up.*</Markdown>
+
+<ChoiceInput id="wp_rh1">
+<Markdown id="wp_rh1_prompt">The three states are on the board and the exit ticket is next. Who reads them?</Markdown>
+  <Key id="wp_rh1_cold_call" value="cold_call" code="60">"Diego, can you read the three states off the board for us?"</Key>
+  <Key id="wp_rh1_volunteer" value="volunteer" code="55">"Who wants to read the three states off the board for us?"</Key>
+  <Key id="wp_rh1_together" value="together" code="90">"Everybody, read them with me. Solid. Liquid. Gas. Diego: the ice. Solid or liquid?"</Key>
+  <Key id="wp_rh1_desk_check" value="desk_check" code="70">"Everybody, read them with me. Solid. Liquid. Gas. Good. Half sheets are coming round." Then, once they are working, Diego's desk.</Key>
+</ChoiceInput>
+
+<!-- wp_rh1 = cold_call -->
+<Markdown id="wp_rh_s05" when="@wp_rh1.value === 'cold_call'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Diego looks down at his desk. One. Two.*</Markdown>
+
+  <ChoiceInput id="wp_rh2" when="@wp_rh1.value === 'cold_call'">
+  <Markdown id="wp_rh2_prompt">Two seconds. Twenty-one children are looking at him, and then at you.</Markdown>
+    <Key id="wp_rh2_rescue" value="rescue" code="0">"Marcus, help him out."</Key>
+    <Key id="wp_rh2_wait" value="wait" code="10">Say nothing. Three. Four.</Key>
+    <Key id="wp_rh2_point" value="point" code="10">"Diego, just point. Which one is ice?"</Key>
+  </ChoiceInput>
+
+<!-- wp_rh2 = rescue -->
+  <TalkBubble id="wp_rh_l06" who="Marcus" face="smile" side="primary" when="@wp_rh1.value === 'cold_call' &amp;&amp; @wp_rh2.value === 'rescue'">
+  <Markdown id="wp_rh_l06_md">Solid, liquid, gas.</Markdown>
+  </TalkBubble>
+  <Markdown id="wp_rh_s07" when="@wp_rh1.value === 'cold_call' &amp;&amp; @wp_rh2.value === 'rescue'">*Diego does not look up again this period.*</Markdown>
+
+<!-- wp_rh2 = wait -->
+  <Markdown id="wp_rh_s08" when="@wp_rh1.value === 'cold_call' &amp;&amp; @wp_rh2.value === 'wait'">*Five. Six. A chair scrapes at the back.*</Markdown>
+  <TalkBubble id="wp_rh_l09" who="Diego" face="eyesClosed" side="primary" when="@wp_rh1.value === 'cold_call' &amp;&amp; @wp_rh2.value === 'wait'">
+  <Markdown id="wp_rh_l09_md">Solid.</Markdown>
+  </TalkBubble>
+  <Markdown id="wp_rh_s10" when="@wp_rh1.value === 'cold_call' &amp;&amp; @wp_rh2.value === 'wait'">*To the desk, not to the room. Marcus's hand goes down.*</Markdown>
+
+<!-- wp_rh2 = point -->
+  <Markdown id="wp_rh_s11" when="@wp_rh1.value === 'cold_call' &amp;&amp; @wp_rh2.value === 'point'">*He points at the first word without looking up. Marcus's hand goes down.*</Markdown>
+
+<!-- wp_rh1 = volunteer -->
+<Markdown id="wp_rh_s12" when="@wp_rh1.value === 'volunteer'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Marcus. Again.*</Markdown>
+<TalkBubble id="wp_rh_l13" who="Marcus" face="cheeky" side="primary" when="@wp_rh1.value === 'volunteer'">
+<Markdown id="wp_rh_l13_md">Solid, liquid, gas. Ice, water, steam.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rh_s14" when="@wp_rh1.value === 'volunteer' &amp;&amp; (@wp_ra2.value === 'press_again' &amp;&amp; @wp_rh1.value === 'volunteer')">*Bri's hand, which was half up, goes down. Thuy's goes down. Nobody else's was up.*</Markdown>
+<Markdown id="wp_rh_s15" when="@wp_rh1.value === 'volunteer' &amp;&amp; !(@wp_ra2.value === 'press_again' &amp;&amp; @wp_rh1.value === 'volunteer')">*Diego copies the three words onto his half sheet while Marcus reads them.*</Markdown>
+
+<!-- wp_rh1 = together -->
+<Markdown id="wp_rh_s16" when="@wp_rh1.value === 'together'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Twenty-two voices, then one.*</Markdown>
+<TalkBubble id="wp_rh_l17" who="Diego" face="calm" side="primary" when="@wp_rh1.value === 'together'">
+<Markdown id="wp_rh_l17_md">Solid.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rh_s18" when="@wp_rh1.value === 'together'">*In English, to the board. Espy turns round in her seat.*</Markdown>
+<TalkBubble id="wp_rh_l19" who="Espy" face="smile" side="primary" when="@wp_rh1.value === 'together' &amp;&amp; (@wp_rc1.value === 'hand_to_room')">
+<Markdown id="wp_rh_l19_md">He said that at lunch too. About the ice in his cup.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rh_s20" when="@wp_rh1.value === 'together' &amp;&amp; !(@wp_rc1.value === 'hand_to_room')">*It is the first thing he has said in science this year. Amani looks over at him.*</Markdown>
+
+<!-- wp_rh1 = desk_check -->
+<Markdown id="wp_rh_s21" when="@wp_rh1.value === 'desk_check'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Twenty-two voices. Diego's mouth moves on the third word. The half sheets go round.*</Markdown>
+<Markdown id="wp_rh_s22" when="@wp_rh1.value === 'desk_check'">*During the ticket, twenty seconds at Diego's desk. He has drawn a cup, not a lake: a line of ice across the top, water under it, a fish with a face.*</Markdown>
+<TalkBubble id="wp_rh_l23" who="Diego" face="calm" side="primary" when="@wp_rh1.value === 'desk_check'">
+<Markdown id="wp_rh_l23_md">Solid.</Markdown>
+</TalkBubble>
+<Markdown id="wp_rh_s24" when="@wp_rh1.value === 'desk_check'">*He taps the ice line with his pencil. Nobody else in the room is looking.*</Markdown>
+
+</NextReveal>
+</Vertical>

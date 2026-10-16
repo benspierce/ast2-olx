@@ -1,0 +1,1100 @@
+<!-- Reference pages for Whose Phenomenon?. Seeded once from the research files in the
+     course-team notes (maplewood-school-profile.md, room14-lesson-materials.md,
+     ast-evidence-for.md, ast-evidence-against.md) and edited by hand since; there is
+     no generator to rerun. -->
+<Vertical id="wp_reference">
+
+<!-- The Room 14 page, in five pieces. Each piece is defined once here and
+     reached by id: wp_room14 (the whole page, used by the Room 14 screen)
+     composes all five in their reading order, and the Reference chapter
+     reaches two subsets of the same blocks for direct lookup. Nothing below
+     is duplicated; wp_reference itself is never mounted. -->
+
+<Markdown id="wp_room14_intro">
+## Maplewood Elementary, Room 14
+
+*The school is invented. The district, the numbers, the standards and the storms are real.*
+</Markdown>
+<Markdown id="wp_room14_school">
+### At a glance
+
+| | |
+|---|---|
+| Grades served | PK–5 |
+| Enrollment | 451 |
+| Neighbourhood | "Maplewood," an invented name for a residential pocket off Summer Avenue in **northeast Memphis, between Nutbush and Berclair (38122)** — a real immigrant-receiving corridor ([Nutbush](https://en.wikipedia.org/wiki/Nutbush,_Memphis)). The corridor is real; the neighbourhood name is not. |
+| Title I | Schoolwide |
+| Principal | Dr. Yolanda Kimbrough, fourth year (since 2022); third principal in eight years |
+| Classroom teachers | 29 (plus 2.0 FTE ESL, 1.0 interventionist, 2.4 SPED) |
+| Teachers with 5+ years at Maplewood | 41% (12 of 29) |
+| Student–teacher ratio | 15:1 |
+| Chronically absent | 27% |
+| Instructional coach | 1.0, shared with a second school two days a week |
+
+### Demographics
+
+| Group | Maplewood | MSCS |
+|---|---|---|
+| Black | 54% | 71.5% |
+| Hispanic/Latino | 33% | 19.2% |
+| White | 5% | — |
+| Asian | 4% | — |
+| Two or more races | 4% | — |
+| Economically disadvantaged | 74% | 58.2% |
+| English learners | 26% (117 students) | 7.8% |
+| Students with disabilities | 13% | — |
+
+English learners' home languages at Maplewood: Spanish 88, Arabic 7, Swahili 6, Vietnamese 5, Kinyarwanda 4, French 3, Lingala 2, other 2. The Spanish share (about 75%) is set deliberately below the district's ~90% to reflect a corridor school with a refugee-resettlement footprint.
+
+### Achievement: the percentage of students in grades 3 to 5 who met or exceeded expectations, TCAP 2025
+
+| Subject | Maplewood | MSCS grades 3–5 | Tennessee grades 3–5 |
+|---|---|---|---|
+| ELA | 24% | 29.1% | 43.3% |
+| Math | 21% | 26.9% | 45.4% |
+| Science | 22% | ~26% | 46.5% |
+
+State and district ELA and math figures are real (TDOE Aug 2025; Tennessee Firefly). The district's grades 3–5 **science** figure is not published; ~26% is carried over from the district-wide grades 3–8 science rate of 25.6% and is marked accordingly. Maplewood's own three numbers are invented, set a few points under the district in the pattern of the reference schools above.
+
+### Programs
+
+- **English learners.** Two ESL teachers, caseload about 58 each. Grades K–2 get 45 minutes of daily pull-out; grades 3–5 get push-in support in the ELA block four days a week and pull-out only for newcomers in their first year. In practice no ESL teacher is scheduled into fourth-grade science. WIDA ACCESS annually; Tennessee exits a student at composite 4.4 with literacy 4.2 ([WIDA/TDOE placement guidance](https://wida.wisc.edu/sites/default/files/id-placement/TN-ID-Placement-Guidance.pdf)). A Bilingual Cultural Counselor (Spanish) covers Maplewood and three other schools.
+- **Science.** District pacing guide plus a kit rotation; no named commercial program in this document, because none could be verified for MSCS.
+- **Fourth-grade science time.** Three 45-minute periods a week, 135 minutes, scheduled after lunch. From February to TCAP the fourth-grade team is expected to protect the ELA and math blocks first, and science periods are the ones that get absorbed. Ms. Boyd loses fewer of hers than her colleagues do, which is one of the things the candidate could notice and probably will not.
+- **Partnerships.** An afterschool STEM club, one grade level at a time, run with a hospital outreach programme on the St. Jude model; one MoSH trip per grade band per year under the Title I free-admission programme.
+
+</Markdown>
+<Collapsible id="wp_room14_team_fold" title="The fourth-grade team">
+<Markdown id="wp_room14_team">
+### The fourth-grade team
+
+| Room | Teacher | Experience | Notes |
+|---|---|---|---|
+| 12 | Tanika Oldham | 7th year, all at Maplewood | Grade-level chair. Keeps the pacing guide. Uses Ms. Boyd's materials and says so. |
+| 14 | **Carol Boyd** | 31st year teaching; 22nd at Maplewood | Longest-serving teacher in the building. Nine years in Traverse City, Michigan, before that. Grew up on Torch Lake. Warm, quick, runs the room by pace. |
+| 16 | Marisol Vega | 2nd year | ESL-endorsed, the only fourth-grade teacher who speaks Spanish. Diego is not in her class. |
+
+Ms. Boyd is the team's anchor by tenure rather than by title: nobody appointed her and everybody follows her calendar.
+
+</Markdown>
+</Collapsible>
+<Markdown id="wp_room14_kids">
+## The children who speak
+
+Twenty-two children: 12 Black, 6 Hispanic/Latino, 1 White, 1 Asian, 2 two or more races. Six are English learners (four Spanish, one Swahili, one Vietnamese, the last exiting this spring). Three have IEPs; one has a 504 plan for asthma. Reading spread on the fall benchmark runs from a late-first-grade level to a sixth-grade level, with nine of twenty-two at or above grade level and four more than two years below; the two widest-apart readers sit at the same table.
+
+### Marcus Whitfield, 9
+
+Black, born in Memphis. Father drives a delivery route; mother works nights at a distribution centre near the airport. His grandfather moved to Benton Harbor, Michigan, for factory work in the 1970s — an ordinary Memphis-to-Midwest family line — and the family drives up most Decembers. Marcus has stood on a frozen lake, watched a hole get augered, and held a fish that came out of it. He brings a matched, first-hand version of Ms. Boyd's own childhood, which is why it lands.
+
+*How the transcript's moves land on him.* "Exactly, Marcus. Great" confirms what he already suspected, that his experience is the kind that counts here, and he answers three more times in the next four minutes. Being handed Diego's reading task at the end is the second time in five minutes the room is told whose voice is safe, and Marcus is the only child who does not have to notice it.
+
+### Aaliyah Ross, 9
+
+Black, born in Memphis, lives with her mother and two younger brothers in an apartment off Macon Road. Her mother is a phlebotomist and works rotating shifts. In January 2024 the pipes in their unit split during the freeze and water ran down the hallway; they boiled water for five days, and her mother told her, standing in the kitchen with a stockpot, that water gets bigger when it turns to ice and there was nowhere for it to go. Her grandmother still talks about 2021, ten days of no school and a week of boiling.
+
+*How the transcript's moves land on her.* "We'll get to ice and pipes later" tells her that what she knows from her own hallway is a scheduling problem, not science, and she does not raise her hand again in the transcript. She is the only child in the room who has already been given the mechanism — expansion — and she offered it, and it was filed.
+
+### Bri Caldwell, 9
+
+Black, born in Memphis; twin brother in Room 12. Reads two grades above level and asks questions that stop adults. She has no frozen-lake story and does not need one: she has noticed that "frozen water" and "water" ought to behave the same way and does not see why they do not.
+
+*How the transcript's moves land on her.* "Good question, Bri — hold onto it. Here's an easier one first" reclassifies the best question in the room as a delay, and then the answer arrives four turns later as a fact rather than an investigation ("ice is lighter than water"), which is both wrong in its wording and the end of her question. She does not object; children who get answered instead of taken up learn to ask fewer times, not more.
+
+### Diego Amaya Portillo, 10
+
+Arrived from Santa Bárbara, Honduras, fourteen months ago with his mother; lives with her and an aunt. Repeated a grade at entry, so he is the oldest in the room. WIDA ACCESS composite 2.1 — listening and speaking ahead of reading and writing. He reads Spanish comfortably at roughly fourth-grade level and has a strong content vocabulary in it. He is in the top three in the class on computation and the fastest in the room at multi-digit subtraction. He has seen ice in a freezer tray and in a cup, never on water outdoors, never thick enough to stand on.
+
+*How the transcript's moves land on him.* Being asked to read three words off the board is the only thing he is asked all lesson, and it is the one task that exposes the gap between what he knows and what he can pronounce; he looks down. Being passed to Marcus after two seconds closes it without comment, and the lesson never once asks him what he thinks, in any language, about why something floats.
+
+### The rest of the room
+
+- **Darnell Pryor**, 9 — supplies the states of matter on cue ("Solid, liquid, and gas!"); has learned that fast recall is what gets rewarded and rarely risks an idea.
+- **Amani Kabeya**, 10 — born in a camp in Tanzania to Congolese parents, in Memphis two years; Swahili and some Kinyarwanda at home; reads English slowly and draws diagrams that are better than his sentences.
+- **Thuy Nguyen**, 9 — third-generation Memphian, Vietnamese at her grandmother's; exited EL services last spring and is still monitored.
+- **Esperanza "Espy" Rojas**, 9 — born in Memphis to Guatemalan parents, moves between Spanish and English mid-sentence, translates for Diego at lunch and is not asked to in class.
+- **Kenyatta "Kenny" Boyce**, 10 — IEP for specific learning disability in reading; talks his way through science better than he writes it; gets pulled for intervention during two of the three weekly science periods.
+
+### What Room 14 has already studied this year
+
+- **August–October: Ecosystems (4.LS2).** Food webs from sunlight through producers, consumers and decomposers; introducing and removing a species (4.LS2.1–4.LS2.3).
+- **October–December: Weathering, erosion and deposition (4.ESS2).** Including 4.ESS2.1 and its worked example, **frost wedging** — water freezing in a crack and breaking the rock apart.
+
+Which means Aaliyah's pipe is not a tangent from a unit they have not reached. It is a callback to a unit they finished eight weeks ago, and nobody in the room says so.
+
+</Markdown>
+<Markdown id="wp_room14_context">
+### The district and the state, for scale
+
+Tennessee tests science in grades 3 to 8. In 2025, 46.5 percent of the state's third-to-fifth graders met or exceeded expectations in science. Across Memphis-Shelby County Schools, grades 3 to 8, the figure was 25.6 percent. A fourth grader outside Memphis is about twice as likely to be proficient in science as one inside it. The district enrolls 111,000 children; 71 percent are Black and 19 percent Hispanic or Latino; 58 percent are economically disadvantaged; more than 12,000 are learning English, in 65 languages. In January 2024 a freeze broke 60 to 80 water mains and put 600,000 people under a boil-water advisory for five days. In February 2021 it was every customer, seven days, and school closed for ten. Every child in Room 14 has a pipe story.
+</Markdown>
+
+<!-- The whole page, as the session screen reads it: two tabs over the same two
+     groupings the Reference chapter offers, so there is one definition of each
+     and no duplicated text anywhere. -->
+<Tabs id="wp_room14">
+<Vertical id="wp_room14_tab_school" title="School">
+<Use ref="wp_school" />
+</Vertical>
+<Vertical id="wp_room14_tab_children" title="The children">
+<Use ref="wp_roster" />
+</Vertical>
+</Tabs>
+
+<!-- The same page, split for the Reference chapter: the building and the
+     numbers around it, and the twenty-two children on their own. -->
+<Vertical id="wp_school">
+<Use ref="wp_room14_intro" />
+<Use ref="wp_room14_school" />
+<Use ref="wp_room14_team_fold" />
+<Use ref="wp_room14_context" />
+</Vertical>
+
+<Vertical id="wp_roster">
+<Use ref="wp_room14_kids" />
+</Vertical>
+
+<Vertical id="wp_materials">
+<Markdown id="wp_materials_intro">
+## Ms. Boyd's lesson materials
+
+Three tabs:
+
+- **Her materials** is what an observer would have in hand: her unit plan, her lesson plan for the launch, her slides, the half sheet she handed out, what was on the board and the chart paper at two o'clock, and the observation form the course gives you. Read the launch against these, not against a slogan.
+- **Standards behind the plan** shows how the Tennessee standards and the national ones narrow down to Tuesday's lesson, and where her plan's own codes went wrong.
+- **Frameworks** holds Ambitious Science Teaching and its critical and cultural extension, the job aids you use in this unit, and what "culturally responsive" can mean outside the U.S.
+</Markdown>
+<Tabs id="wp_materials_tabs">
+<Vertical id="wp_materials_tab_hers" title="Her materials">
+<Collapsible id="wp_mat_unit" title="Unit plan">
+<Markdown id="wp_mat_unit_md">
+## UNIT PLAN
+
+```
+MAPLEWOOD ELEMENTARY  ·  GRADE 4  ·  ROOM 14  ·  C. BOYD
+UNIT 5: INVESTIGATING MATTER
+Quarter 3, Weeks 19–21 · 7 science periods · begins Tues Jan 13
+
+STANDARDS (from kit alignment sheet, pp. ii–iii)
+  4.PS1.1  matter exists in states; states have observable properties
+  4.PS1.2  heating and cooling change the state of a substance
+  also touches 4.ESS2.1 (frost wedging / weathering)
+
+
+SCHEDULING
+  45-minute science period, Mon–Thu. Friday period goes to social studies.
+  Unit = 7 periods over 2.5 weeks, allowing for one loss to assembly/weather.
+
+PLACEMENT IN THE YEAR
+  Week 19 of 36. Second week back from winter break. Chosen deliberately:
+  the phenomenon is a frozen lake and it is January.
+
+STORYLINE
+  L1  Frozen lake. Notice and wonder. Name the three states.        [THE LAUNCH]
+  L2  Sort it. Stations: solid / liquid / gas, observable properties.
+  L3  Water is strange. Jar of water in the freezer overnight —
+      it expands. Ice floats. Cracked-pipe photo. Frost wedging.     &lt;-- KEY
+  L4  Melting and freezing. Ice-melt race. Changes we can undo.
+  L5  Where did the puddle go? Evaporation and condensation.
+  L6  Back to Torch Lake. Layers under the ice. How the fish live.
+  L7  Summative task.
+  L3 IS THE PAYOFF LESSON. Why ice floats, why a full bottle cracks, why a
+  pipe bursts, why a rock splits — all of it is L3. Park those questions in
+  L1 and L2. Do not answer them early, it spends the surprise.
+
+SUMMATIVE TASK (L7)
+  "Torch Lake Explanation." Labeled cross-section of the lake in winter:
+  ice layer, water below, fish. Written explanation answering the unit
+  question — How are the fish still alive under the ice? Must use the words
+  solid, liquid, freeze, melt, float. Rubric on back of kit card 12.
+  Extension for early finishers: write four sentences telling a Memphis
+  homeowner why to let a faucet drip on a freeze night.
+
+MATERIALS / KIT
+  MATTER MATTERS! A Hands-On Unit for Grades 3-5
+  Ridgeline Science Kits, 2009 edition. Purchased 2009, my own money, $214.
+  Complete except 3 broken thermometers and the VHS — video replaced with a
+  clip off the internet.
+```
+
+---
+
+</Markdown>
+</Collapsible>
+<Collapsible id="wp_mat_lesson" title="Lesson plan, Lesson 1: the launch">
+<Markdown id="wp_mat_lesson_md">
+## LESSON PLAN — LESSON 1, THE LAUNCH
+
+```
+LESSON 1 OF 7   ·   TUES JAN 13   ·   1:15–2:00   ·   45 MIN
+Kit pp. 4–7, adapted
+
+OBJECTIVE
+  Students will observe a phenomenon and generate questions about it, and will
+  name the three states of matter.
+  (Written on board as: I can notice and wonder about a frozen lake. I can name
+  the three states of matter.)
+
+MATERIALS
+  - Video clip, 90 sec. Frozen lake, skaters, snow on the far shore. No
+    narration, no music, no text. Cued up, full screen, sound off anyway.
+  - Slide deck (8 slides, flash drive) · chart paper, blue + black markers
+  - Handout, half sheet, 24 copies + 3 spare · my Torch Lake photo, Xmas 1998
+
+TIMELINE
+  0–5    Lights down. Play clip. Play it twice if they are quiet. No talking
+         during, they will want to talk during.
+  5–10   Turn and talk: How are the fish still alive under there?
+  10–20  Share out. Take 4–5. Build the NOTICE / WONDER chart as they talk.
+  20–30  Slides 5–6. Three states. Freezer question. Write the three words
+         on the board.
+  30–40  Hand out half sheets. Exit ticket, silent, independent.
+  40–45  Collect. Stack by table. Line up for specials.
+
+ANTICIPATED STUDENT RESPONSES
+  "It's cold" / "it's winter"               — take it, move on
+  "The lake is frozen"                      — good, use the word solid
+  "They're swimming under it"               — yes, where we want to go
+  "Fish would freeze / they'd die"          — good wrong answer, chart it
+  "There's a hole in it" / ice fishing      — likely, several of them fish
+                                              with family
+  "Why does ice float if it's water?"       — EXPECT THIS. Chart it.
+                                              SAVE FOR L3. Do not answer.
+  "How thick is the ice"                    — chart it
+  "Have you been there Ms. Boyd"            — 20 seconds, then move
+  If nobody gets to the fish: ask directly, "so what happens to the fish?"
+
+CLASSROOM MANAGEMENT
+  Keep momentum — this group tangents. Last year's launch ran 12 min over and
+  we never got to the exit ticket. Cap share-out at 5 hands. If a story starts,
+  thank them and take the next hand. Watch the 20-min mark.
+  Diego: check at his desk, not cold-call. He freezes up in front of the room.
+  [different pen: ask Mrs. R about his screening results]
+
+EXIT TICKET
+  On the half sheet. "Draw and label what you think is happening under the ice."
+  Looking for: a line for the ice, water below, a fish. Labels optional today.
+  Not graded — sorted into three piles for L2 grouping.
+```
+
+---
+
+</Markdown>
+</Collapsible>
+<Collapsible id="wp_mat_deck" title="The slides">
+<Markdown id="wp_mat_deck_md">
+## SLIDE DECK — 8 SLIDES
+
+```
+SLIDE 1 ---------------------------------------------------------------
+  INVESTIGATING MATTER
+  Grade 4 Science · Ms. Boyd · Room 14
+  Clip-art snowflake, bottom right. Blue gradient, the default from the
+  old template.
+
+SLIDE 2 ---------------------------------------------------------------
+  Full-bleed photograph, no text. A wide northern lake, frozen white-grey to
+  the far shore, low winter sun. Bare trees and a dock on the right. Two sets
+  of skate tracks curve across the middle; two small figures, far off, skating.
+  Snow on the banks. Slightly pixelated — it has been scaled up.
+  On the note card taped to the laptop: "wait. let them look."
+
+SLIDE 3 ---------------------------------------------------------------
+  TURN AND TALK
+  How are the fish still alive under the ice?
+  Smaller type: 1 minute · both partners talk. Lake photo faded behind.
+
+SLIDE 4 ---------------------------------------------------------------
+  Two-column table, both columns empty.
+  WHAT DO WE NOTICE?  |  WHAT DO WE WONDER?
+  Nothing else — meant to be filled in on chart paper, not typed.
+
+SLIDE 5 ---------------------------------------------------------------
+  MATTER COMES IN THREE STATES
+  Three clip-art icons from the kit CD, in a row: an ice cube (grey, shine
+  lines); a glass half full of blue liquid; a cloud with three wavy lines.
+  No labels under the icons — she says them out loud.
+
+SLIDE 6 ---------------------------------------------------------------
+  SOLID  ·  LIQUID  ·  GAS
+  In a box:  Question: What happens to a bottle of water left in the
+             freezer overnight?
+  Below it, same slide, red type, no animation and no second click:
+             It freezes. It becomes a SOLID.
+             Ice is lighter than water, so it floats.
+
+SLIDE 7 ---------------------------------------------------------------
+  OUR UNIT: INVESTIGATING MATTER
+    1. The frozen lake
+    2. Sorting: solid, liquid, gas
+    3. Water is strange
+    4. Melting and freezing
+    5. Where did the puddle go?
+    6. Back to the lake
+    7. Show what you know
+  Small snowflake bullets.
+
+SLIDE 8 ---------------------------------------------------------------
+  EXIT TICKET
+  Draw and label what you think is happening under the ice.
+  Small image of the half sheet in the corner. Bottom: "Name AND number."
+```
+
+---
+
+</Markdown>
+</Collapsible>
+<Collapsible id="wp_mat_hand" title="The student handout">
+<Markdown id="wp_mat_hand_md">
+## STUDENT HANDOUT / SCIENCE NOTEBOOK PAGE
+
+```
+  Half sheet, landscape, photocopied. The lake photo prints grey and muddy.
+  +--------------------------------------------------------------------+
+  | Name _______________________  #____     Science · Jan 13           |
+  |   [ lake photo, 2" x 1.5", greyscale, a little too dark ]          |
+  |  +-----------------------------+-----------------------------+     |
+  |  |  I NOTICE...               |  I WONDER...                 |     |
+  |  |  ______________________    |  ______________________      |     |
+  |  |  ______________________    |  ______________________      |     |
+  |  |  ______________________    |  ______________________      |     |
+  |  +-----------------------------+-----------------------------+     |
+  |  EXIT TICKET: Draw and label what you think is happening           |
+  |  under the ice.                                                    |
+  |  +---- (blank box, 1.5" tall, rest of the half sheet) ---------+   |
+  +--------------------------------------------------------------------+
+  Footer, tiny, bottom left: Matter Matters! © 2009 Ridgeline Science Kits.
+  Reproducible for classroom use.
+```
+
+---
+
+</Markdown>
+</Collapsible>
+<Collapsible id="wp_mat_chart" title="The board and the chart paper at 2:00">
+<Markdown id="wp_mat_chart_md">
+## THE ANCHOR CHART
+
+What is actually on the board and chart paper at 2:00, in the order it went up.
+
+```
+  BOARD (white, left side, dry erase):
+      INVESTIGATING MATTER
+      I can notice and wonder.
+      I can name the three states of matter.
+      SOLID     LIQUID     GAS       &lt;- ~22 min, all three at once, while
+                                         she says them
+      water -&gt; ice  (freezer)          &lt;- ~26 min
+      ice is lighter, it floats        &lt;- ~27 min, underlined twice
+
+  CHART PAPER (taped left of the board, will stay up all unit):
+      WHAT WE NOTICE          |   WHAT WE WONDER
+      ------------------------|--------------------------------
+      the lake is frozen      |   how thick is the ice?
+      people are skating      |   is anybody fishing?
+      it's winter / cold      |   why does ice float?  (Bri) *L3
+      snow on the side        |
+      you can't see the fish  |
+      * starred and marked L3 in the margin, in blue
+
+  NOT ON EITHER SURFACE:
+      Marcus's ice-fishing story — praised out loud, nothing written
+      Aaliyah's pipes — nothing written, nothing marked
+      Diego — no contribution recorded
+```
+
+---
+
+</Markdown>
+</Collapsible>
+<Collapsible id="wp_mat_proto" title="Your observation form">
+<Markdown id="wp_mat_proto_md">
+## CANDIDATE OBSERVATION PROTOCOL — BLANK FORM
+
+```
+  UNIVERSITY OF MEMPHIS · COLLEGE OF EDUCATION
+  ELED 3261 — Teaching Elementary Science · Field Observation Form B
+  Submit within 48 hours. One form per lesson observed.
+  Candidate __________________  Date ________  Mentor ________________
+  School ____________________  Grade _____  # students present _____
+  Lesson topic ___________________________________________________
+  Observation window   start ______  end ______  (total ____ min)
+
+  TIME-STAMPED RECORD  — write what you can see and hear, not what you think of it.
+  +--------+--------------------------------+---------------------------+
+  | TIME   | TEACHER QUESTION OR MOVE       | WHAT STUDENTS DID WITH IT |
+  +--------+--------------------------------+---------------------------+
+  |        |                                |                           |
+  +--------+--------------------------------+---------------------------+
+        ... (8 blank rows on the printed form) ...   (continue on back)
+
+  STUDENT CONTRIBUTIONS
+  +-------------------------------------+-----------------------------------+
+  | TAKEN UP                            | SET ASIDE                         |
+  | (what the teacher did with it)      | (what was said about it, if any)  |
+  |          (5 blank lines)            |          (5 blank lines)          |
+  +-------------------------------------+-----------------------------------+
+
+  WHO SPOKE  (tally; first names only if the mentor permits)
+  ____________________________________________________________________
+
+  MATERIALS YOU WERE GIVEN OR SAW  (unit plan, lesson plan, slides, handouts,
+  charts, kit, pacing guide — list what you had, and what you did not)
+  ____________________________________________________________________
+  ____________________________________________________________________
+
+  ONE QUESTION FOR YOUR MENTOR  (ask it; record the answer before you write up)
+  ____________________________________________________________________
+                                                    Form B rev. 8/24 — p. 1 of 1
+```
+
+---
+
+</Markdown>
+</Collapsible>
+</Vertical>
+
+<!-- Tab 2: the standards behind her plan. The crosswalk is the new piece (Oct 2026,
+     at Wesam Salem's request): the general standards on one side, Lesson 1 on the
+     other, so a candidate can see how a plan narrows a standard to one day. The
+     Tennessee quotations are the ones verified in wp_std_1; the NGSS performance
+     expectations were checked against nextgenscience.org on 16 October 2026. -->
+<Vertical id="wp_materials_tab_standards" title="Standards behind the plan">
+<Markdown id="wp_std_crosswalk">
+## From the standards to Tuesday's lesson
+
+A standard says what most children should be able to do by the end of a grade. A lesson plan narrows that down to one piece of one day. Here is how that narrowing works for Ms. Boyd's Lesson 1, and where her plan's own codes went wrong.
+
+| Source | What it says | How it narrows to Lesson 1 |
+|---|---|---|
+| **Her unit plan** | 4.PS1.1 and 4.PS1.2, copied from a 2009 kit's alignment sheet | **Neither code exists in Tennessee's current standards.** There is no grade-4 matter strand. |
+| **Tennessee, grade 3** | 3.PS1.1: "Develop a model of solids, liquids, and gasses to describe that each state of matter is made of particles too small to be seen." | Room 14 met this last year. "Name the three states of matter" reviews it. |
+| **Tennessee, grade 4** | 4.ESS2.1: "Collect and analyze data from observations to provide evidence that rocks, soils, and sediments are broken into smaller pieces through mechanical weathering (e.g., frost wedging, abrasion, tree root wedging) and are transported by water, ice, wind, gravity, and vegetation." | The class studied frost wedging in November. Water expanding as it freezes, which is what split the rocks, is also what split Aaliyah's pipe. |
+| **Tennessee, grade 5** | 5.PS1.1: "Analyze and interpret data from observations and measurements of the physical properties of matter to explain phase changes between a solid, liquid, or gas." | Where the unit is headed: explaining a change of state with evidence. Lesson 3 ("water is strange") is the step toward it. |
+| **NGSS** | 2-PS1-4 (heating and cooling changes, some reversible); 5-PS1-1 (matter is made of particles too small to be seen); 4-ESS2-1 (evidence of weathering by water, ice, wind, or vegetation). Full text below. | The national performance expectations bracket the same idea from second grade to fifth. Tennessee did not adopt NGSS; it wrote its own standards from the same national framework. |
+| **The framework (AST)** | Practice Set 1: choose a phenomenon that needs the target ideas to explain it; launch it; draw out what students already think. | Lesson 1's job is the launch: a puzzling event, and the children's first ideas about it. Not the explanation. |
+| **Lesson 1's objective, as she wrote it** | "I can notice and wonder about a frozen lake. I can name the three states of matter." | Noticing and wondering serves the launch. Naming the states reviews grade 3. Neither asks yet for the grade-4 and grade-5 idea; her plan saves that for Lesson 3. |
+
+**What to take from this.** Her plan's codes are decoration, but her *unit* is coherent: it reviews grade 3, reaches back to the grade-4 weathering unit, and builds toward grade 5. When you plan your own launch at the end of this unit, you'll choose which of these standards it serves.
+</Markdown>
+
+<Use ref="wp_standards_definitions" />
+
+<Collapsible id="wp_std_ngss" title="The NGSS performance expectations, in full">
+<Markdown id="wp_std_ngss_md">
+**Next Generation Science Standards** — the performance expectations that bracket this unit. Text checked against nextgenscience.org.
+
+- **2-PS1-4.** "Construct an argument with evidence that some changes caused by heating or cooling can be reversed and some cannot."
+- **5-PS1-1.** "Develop a model to describe that matter is made of particles too small to be seen."
+- **4-ESS2-1.** "Make observations and/or measurements to provide evidence of the effects of weathering or the rate of erosion by water, ice, wind, or vegetation."
+
+Pages: https://www.nextgenscience.org/pe/2-ps1-4-matter-and-its-interactions · https://www.nextgenscience.org/pe/5-ps1-1-matter-and-its-interactions · https://www.nextgenscience.org/pe/4-ess2-1-earths-systems
+
+Tennessee was an NGSS Lead State Partner but did not adopt NGSS. Its 2022 standards were written "utilizing recommendations found in A Framework for K-12 Science Education," the same National Research Council document NGSS was built from.
+</Markdown>
+</Collapsible>
+
+<Use ref="wp_std_1" />
+<Use ref="wp_std_2" />
+<Use ref="wp_std_3" />
+<Use ref="wp_std_4" />
+<Use ref="wp_std_6" />
+</Vertical>
+
+<!-- Tab 3: the frameworks. The job aids are defined in wp_evidence and reused
+     here; the "outside the U.S." section is new (Oct 2026, item 19 of the
+     September meeting notes). -->
+<Vertical id="wp_materials_tab_frameworks" title="Frameworks">
+<Use ref="wp_std_5" />
+<Collapsible id="wp_fw_lookfors" title="Job aid: what makes a strong anchoring phenomenon">
+<Use ref="wp_lookfors" />
+</Collapsible>
+<Collapsible id="wp_fw_discourse" title="Job aid: what kind of question is it?">
+<Use ref="wp_discourse_guide" />
+</Collapsible>
+<Collapsible id="wp_fw_equity" title="Job aid: whose phenomenon is it?">
+<Use ref="wp_equity_questions" />
+</Collapsible>
+<Collapsible id="wp_fw_target" title="The science, at a fourth-grade level">
+<Use ref="wp_science_target" />
+</Collapsible>
+<Collapsible id="wp_fw_outside" title="Outside the U.S.: what &quot;culturally responsive&quot; can mean elsewhere">
+<Markdown id="wp_frameworks_outside">
+### What "culturally responsive" can mean outside the U.S.
+
+The phrase is American, and so are most of the examples you'll read in this course. Elsewhere, the same commitment (teach the child in front of you, starting from what that child brings) often looks different. Four brief examples for discussion:
+
+- **Nigeria: first a language question.** Nigeria's National Policy on Education has long called for the first years of primary school to be taught in the mother tongue or the language of the local community, with English later. In practice many schools taught in English from the start, because the exams were in English. In late 2022 the federal government approved a new National Language Policy calling for mother-tongue instruction through the first six years of primary school; how fully it has been put into practice is unclear. Dr. Okafor's point in this unit: in Enugu, "relevance" was a question about language before it was ever a question about phenomena.
+- **Tanzania: one language, then another.** Public primary schools teach in Kiswahili; secondary school switches to English. Children who did well in Kiswahili can struggle when the language changes, which is a reminder that "access" can mean access to the language that opens the next door.
+- **Refugee education: the universal curriculum as the goal.** Children in refugee camps have often been taught their home country's curriculum, and many families want exactly what children elsewhere get, not lessons about the camp. That is Nyota's argument: relevance chosen *for* a child can feel like being told you'll stay.
+- **Aotearoa New Zealand: relationships first.** Te Kotahitanga, a research and professional-development project for teachers of Māori students in mainstream secondary schools (Russell Bishop and colleagues, University of Waikato, from 2001), described culturally responsive teaching as a "pedagogy of relations": how teachers talk with, listen to, and hold high expectations of students, more than which topics they choose.
+
+*Brief summaries for discussion, not a literature review. Check the sources before you cite them.*
+</Markdown>
+</Collapsible>
+</Vertical>
+
+</Tabs>
+</Vertical>
+
+<Vertical id="wp_evidence">
+<Markdown id="wp_evidence_intro">
+## The evidence, both ways
+
+Read this before you believe anyone in this session, including Dr. Okafor. The short version, honest in both directions:
+
+- **Teaching children to reason from a phenomenon works.** A randomized trial in elementary science, a meta-analysis of project-based learning, and a randomized trial of dialogic teaching all found gains. Eliciting children's own thinking and building on it raises achievement in randomized studies.
+- **Unguided exploration loses to explicit instruction for novices.** This is not one camp's finding; it holds in a randomized trial with third and fourth graders, in a meta-analysis of 164 studies, and it has a mechanism. The same meta-analyses find that *guided* discovery beats conventional teaching.
+- **The framework as a package is untested.** There is no efficacy trial of Ambitious Science Teaching or of its critical and cultural extension. Its evidence is careful design research about teacher practice plus the strong evidence for its components.
+- **"The phenomenon must come from students' lives" is a design principle, not a finding.** Every strong study used a phenomenon built by curriculum designers. What the evidence supports is that students' *questions about* the phenomenon drive the lessons, and that relevance helps most for students with low confidence.
+- **Instructional minutes are causally valuable, and a room's attention decays fast.** Nothing here settles whether one redirect of one child was the right call.
+
+Every entry below names its design, so that "research shows" can always be answered with "which study, which design, which learners."
+</Markdown>
+<Collapsible id="wp_ev_for" title="For: what supports phenomenon-based, dialogic, responsive science teaching">
+<Markdown id="wp_ev_for_md">
+## 1. Phenomenon-based and project-based science: engagement, sensemaking, achievement
+
+**Krajcik, Schneider, Miller, Chen, Bradford, Baker, Bartz, Miller, Li, Codere &amp; Peek-Brown (2023). Assessing the Effect of Project-Based Learning on Science Learning in Elementary Schools.** *American Educational Research Journal*, 60(1), 70–102. https://doi.org/10.3102/00028312221129247 — **RCT (strongest single study here).**
+A cluster-randomized trial of the Multiple Literacies in Project-Based Learning (ML-PBL) third-grade science curriculum in 46 Michigan schools, 2,371 students. Schools were randomly assigned to the PBL units or business-as-usual science. Students in the PBL classrooms scored about 0.28 standard deviations higher on a standardized science test and reported more self-reflection and collaboration. The What Works Clearinghouse rates it as meeting standards without reservations.
+*Why it is here:* The cleanest causal evidence that phenomenon-driven, question-driven elementary science raises measured science learning.
+
+**Geier, Blumenfeld, Marx, Krajcik, Fishman, Soloway &amp; Clay-Chambers (2008). Standardized test outcomes for students engaged in inquiry-based science curricula in the context of urban reform.** *Journal of Research in Science Teaching*, 45(8), 922–939. https://doi.org/10.1002/tea.20248 — **Quasi-experimental, large urban sample.**
+Detroit middle-schoolers who took project-based science units were compared with district peers on the state science test. Participation predicted higher scores, gains grew with the number of units taken, and the gains persisted more than a year later. The effect was largest for African American boys, narrowing an existing gap.
+*Why it is here:* Evidence that these methods work in exactly the kind of under-resourced urban district this course prepares teachers for — not just in well-resourced pilot schools.
+
+**Chen &amp; Yang (2019). Revisiting the effects of project-based learning on students' academic achievement: A meta-analysis investigating moderators.** *Educational Research Review*, 26, 71–81. https://doi.org/10.1016/j.edurev.2018.11.001 — **Meta-analysis.**
+Pooled 46 effect sizes from 30 studies, 12,585 students in nine countries, comparing project-based learning with traditional instruction. The average effect was d = 0.71, a medium-to-large advantage. Effects varied by subject, hours of instruction, and technology support, but held across grade levels.
+*Why it is here:* Shows the PBL/driving-question family of methods beats lecture-and-worksheet on average, not just in one famous study.
+
+**Reiser, Novak, McGill &amp; Penuel (2021). Storyline Units: An Instructional Model to Support Coherence from the Students' Perspective.** *Journal of Science Teacher Education*, 32(7), 805–829. https://doi.org/10.1080/1046560X.2021.1884784 — **Design-based research / synthesis of prior studies.**
+Lays out the storyline model that OpenSciEd and most NGSS "anchoring phenomenon" curricula use: open with a puzzling phenomenon, harvest students' own questions, and let those questions drive the sequence of lessons. The authors summarize their prior classroom studies showing students in storyline units are more likely to describe their science work as answering questions the class committed to, rather than following directions.
+*Why it is here:* This is the actual design lineage behind "anchoring phenomenon," stated by the people who built it, with its evidence base attached.
+
+**Hulleman &amp; Harackiewicz (2009). Promoting interest and performance in high school science classes.** *Science*, 326(5958), 1410–1412. https://doi.org/10.1126/science.1177067 — **Randomized field experiment (high school, not K–8).**
+High school science students were randomly assigned either to summarize what they had learned or to write about how it connected to their own lives. The relevance-writing group ended the semester with more interest in science and higher course grades — but only among students who had started out with low expectations of success.
+*Why it is here:* The most direct experimental test of "connect it to students' lives." It supports the claim, and it shows the benefit concentrates in the students who are least confident — which is the argument for Diego and Aaliyah, not for the whole class equally.
+
+## 2. Teacher questioning and discourse moves
+
+**Jay, Willis, Thomas, Taylor, Moore, Burnett, Merchant &amp; Stevens (2017). Dialogic Teaching: Evaluation Report and Executive Summary.** Education Endowment Foundation. https://eric.ed.gov/?id=ED581114 · project page: https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/dialogic-teaching — **RCT.**
+78 English primary schools serving above-average numbers of disadvantaged pupils were randomly assigned to a 20-week dialogic-teaching programme (structured talk, open questions, extended student reasoning) or business as usual. Pupils in the programme schools made roughly two extra months' progress in science and English and one in maths. Pupils on free school meals gained about two months in all three subjects.
+*Why it is here:* A real randomized trial showing that changing how teachers talk — not what curriculum they use — moves attainment, with larger gains for poorer children.
+
+**Howe, Hennessy, Mercer, Vrikki &amp; Wheatley (2019). Teacher–Student Dialogue During Classroom Teaching: Does It Really Impact on Student Outcomes?** *Journal of the Learning Sciences*, 28(4–5), 462–512. https://doi.org/10.1080/10508406.2019.1573730 — **Observational/correlational with strong controls.**
+The team video-recorded two lessons in each of 72 demographically diverse classrooms of 10–11-year-olds and coded every dialogic move, then related the codes to six outcome measures while controlling for prior attainment and demographics. Two features predicted better outcomes: students *elaborating* on their own or others' contributions, and students *querying* previous contributions. Notably, several other commonly recommended features showed no independent effect.
+*Why it is here:* It narrows the claim usefully — what helps is students extending and challenging ideas, not classroom talk in general.
+
+**Tobin (1987). The Role of Wait Time in Higher Cognitive Level Learning.** *Review of Educational Research*, 57(1), 69–95. https://doi.org/10.3102/00346543057001069 — **Research review of experimental and quasi-experimental studies.**
+Reviews the wait-time literature across grade levels and subjects. When average pause length after a question passed roughly three seconds, both teacher and student talk changed — longer answers, more student-to-student exchange — and higher-cognitive-level achievement rose in elementary, middle, and high school science, plus middle school maths.
+*Why it is here:* Wait time is the cheapest move in the course and one of the few with a decades-long evidence base; it is also the move Ms. Boyd does not give Diego.
+
+**Colley &amp; Windschitl (2016). Rigor in Elementary Science Students' Discourse: The Role of Responsiveness and Supportive Conditions for Talk.** *Science Education*, 100(6), 1009–1038. https://doi.org/10.1002/sce.21243 — **Design study, four upper-elementary classes.**
+The first author taught an electric-circuits unit to four upper-elementary classes while deliberately responding to student ideas, and the team coded which conditions co-occurred with intellectually rigorous whole-class talk. Rigor rose when open questions, follow-up prompts, references to a shared activity or representation, pre-discussion tasks, and invitations to comment on peers' ideas were used *in combination* — no single move was sufficient.
+*Why it is here:* Elementary, science-specific, and it names the concrete conditions rather than just recommending "good discussion."
+
+**Herbel-Eisenmann &amp; Breyfogle (2005). Questioning Our Patterns of Questioning.** *Mathematics Teaching in the Middle School*, 10(9), 484–489. https://eric.ed.gov/?id=EJ765528 — **Practitioner article (conceptual; widely adopted, not itself an efficacy study).**
+Contrasts *funneling* — a chain of narrow questions that walks students to the teacher's answer — with *focusing* — questions that attend to what the student actually said and press them to explain it. Illustrated with paired classroom transcripts.
+*Why it is here:* It is the source of the funneling/focusing language the course uses; cite it as a lens for analysing transcripts, not as evidence of an effect.
+
+## 3. Culturally relevant, responsive and sustaining pedagogy
+
+**Ladson-Billings (1995). Toward a Theory of Culturally Relevant Pedagogy.** *American Educational Research Journal*, 32(3), 465–491. https://doi.org/10.3102/00028312032003465 — **Qualitative study of eight teachers; theory-building.** Paired with **Paris (2012). Culturally Sustaining Pedagogy: A Needed Change in Stance, Terminology, and Practice.** *Educational Researcher*, 41(3), 93–97. https://doi.org/10.3102/0013189X12441244 — **Conceptual.**
+Ladson-Billings observed eight teachers nominated as exceptionally successful with African American students and derived three commitments: academic success, cultural competence, and critical consciousness. Paris later argued that "relevant" and "responsive" both imply a one-way bridge to the dominant culture, and proposed *sustaining* students' languages and cultural practices as an explicit goal.
+*Why it is here:* These are the framing documents for the whole strand; they are careful theory built from classroom observation, not measured effects.
+
+**Aronson &amp; Laughter (2016). The Theory and Practice of Culturally Relevant Education: A Synthesis of Research Across Content Areas.** *Review of Educational Research*, 86(1), 163–206. https://doi.org/10.3102/0034654315582066 — **Research synthesis (mostly qualitative studies).**
+Collects studies across mathematics, science, social studies, and ELA that connect culturally relevant teaching to student outcomes, and organizes them under Ladson-Billings's three commitments. The synthesized outcomes are mostly engagement, participation, identity, and course-level performance; the underlying studies are largely small and qualitative.
+*Why it is here:* It is the best single map of what has actually been studied — and reading it honestly shows how much of the base is descriptive rather than causal.
+
+**Dee &amp; Penner (2017). The Causal Effects of Cultural Relevance: Evidence From an Ethnic Studies Curriculum.** *American Educational Research Journal*, 54(1), 127–166. https://doi.org/10.3102/0002831216677002 · follow-up: **Bonilla, Dee &amp; Penner (2021). Ethnic studies increases longer-run academic engagement and attainment.** *PNAS*, 118(37), e2026386118. https://doi.org/10.1073/pnas.2026386118 — **Quasi-experimental (fuzzy regression discontinuity).**
+San Francisco high schools automatically assigned ninth-graders with eighth-grade GPAs below a cutoff into an ethnic studies course, which lets researchers compare students just above and just below the line. Assignment raised ninth-grade attendance by 21 percentage points, GPA by 1.4 points, and credits earned by 23. The follow-up tracked the same students and found higher graduation rates and college enrollment.
+*Why it is here:* The strongest causal evidence that culturally relevant *content* changes engagement and attainment — though it is high school humanities, not elementary science.
+
+**Bang &amp; Medin (2010). Cultural processes in science education: Supporting the navigation of multiple epistemologies.** *Science Education*, 94(6), 1008–1026. https://doi.org/10.1002/sce.20392 — **Community-based design research with Native American communities.**
+Reports on urban and rural Indigenous community science programs designed with, not for, the communities, and argues that school science has treated Western epistemology as neutral. The authors present evidence that programs helping students move between community and school ways of knowing — rather than replacing one with the other — support engagement and identification with science.
+*Why it is here:* Shows that "culturally relevant science" can mean redesigning what counts as science, not just choosing friendlier examples.
+
+**Warren, Ballenger, Ogonowski, Rosebery &amp; Hudicourt-Barnes (2001). Rethinking diversity in learning science: The logic of everyday sense-making.** *Journal of Research in Science Teaching*, 38(5), 529–552. https://doi.org/10.1002/tea.1017 — **Analytic case studies of classroom discourse.**
+Close analysis of talk by low-income, ethnic-minority and bilingual children shows their everyday reasoning — analogy, narrative, imagining oneself inside the system — is continuous with scientific sensemaking rather than an obstacle to it. The authors document children whose "off-topic" contributions turn out to contain the key scientific idea.
+*Why it is here:* The scholarly basis for treating a child's odd-sounding comment as a resource; directly relevant to how Aaliyah's two-liter and Diego's contributions get read.
+
+**Moll, Amanti, Neff &amp; González (1992). Funds of knowledge for teaching: Using a qualitative approach to connect homes and classrooms.** *Theory Into Practice*, 31(2), 132–141. https://doi.org/10.1080/00405849209543534 — **Ethnographic/qualitative.**
+Teachers in Mexican-American communities in Tucson visited students' homes as learners, documented the skills and knowledge families used to get by, and built instructional units on them. The paper reports the process and sample units rather than achievement outcomes.
+*Why it is here:* It is the origin of "funds of knowledge," and reading it shows the term means household knowledge documented through actual home visits — a much more demanding idea than "kids talking about home."
+
+## 4. Eliciting and building on students' own ideas
+
+**Carpenter, Fennema, Peterson, Chiang &amp; Loef (1989). Using Knowledge of Children's Mathematics Thinking in Classroom Teaching: An Experimental Study.** *American Educational Research Journal*, 26(4), 499–531. https://doi.org/10.3102/00028312026004499 — **RCT.**
+Forty first-grade teachers were randomly assigned: twenty attended a month-long workshop on how children actually think about addition and subtraction; twenty did not. No teaching method was prescribed. The trained teachers spent more time on problem solving, less on drilling number facts, and listened to student strategies far more — and their students solved word problems better while doing at least as well on number facts.
+*Why it is here:* Direct experimental evidence that teaching teachers to elicit and build on children's own strategies improves children's learning. It is mathematics, and it is the model most often cited when this claim is made about science.
+
+**Sadler, Sonnert, Coyle, Cook-Smith &amp; Miller (2013). The Influence of Teachers' Knowledge on Student Learning in Middle School Physical Science Classrooms.** *American Educational Research Journal*, 50(5), 1020–1049. https://doi.org/10.3102/0002831213477680 — **Large correlational study, 181 teachers and 9,556 students.**
+Teachers and their students took the same physical science items; researchers checked whether teachers could predict students' most common *wrong* answer. On items with a strong common misconception, classes whose teacher could name that misconception gained substantially more than classes whose teacher only knew the right answer.
+*Why it is here:* Knowing the right answer is not enough — knowing what students are likely to think is what predicts learning. This is the empirical case for eliciting ideas before teaching.
+
+**Rosebery, Warren &amp; Conant (1992). Appropriating Scientific Discourse: Findings From Language Minority Classrooms.** *Journal of the Learning Sciences*, 2(1), 61–94. https://doi.org/10.1207/s15327809jls0201_2 · full text: https://files.eric.ed.gov/fulltext/ED352263.pdf — **Design study with pre/post discourse analysis.**
+The Cheche Konnen project had Haitian Creole- and Spanish-speaking middle and high school students investigate questions they raised themselves (water quality in the school fountains, for example). Over a school year, students' reasoning shifted from personal-experience anecdote toward hypothesis, evidence, and explanation, documented through matched pre- and post-interviews.
+*Why it is here:* Bridges sections 4 and 5 — it is the classic demonstration that students labelled as language-deficient do sophisticated science when their own questions drive it.
+
+## 5. Multilingual learners in science
+
+**Llosa, Lee, Jiang, Haas, O'Connor, Van Booven &amp; Kieffer (2016). Impact of a Large-Scale Science Intervention Focused on English Language Learners.** *American Educational Research Journal*, 53(2), 395–424. https://doi.org/10.3102/0002831216637348 · ERIC: https://eric.ed.gov/?id=EJ1095224 — **Cluster RCT.**
+Sixty-six schools across three districts were randomly assigned — 33 to the P-SELL fifth-grade science curriculum plus professional development, 33 to business as usual. On the researchers' science assessment, effects were significant and meaningful for every group: current ELLs, recently reclassified, former ELLs, and non-ELLs. On the state science test the picture was mixed — positive for former ELLs and non-ELLs, but *not* statistically significant for current ELLs.
+*Why it is here:* The best randomized evidence for science instruction designed around multilingual learners — and honest about where the effect did not reach the state test.
+
+**Lee, Quinn &amp; Valdés (2013). Science and Language for English Language Learners in Relation to Next Generation Science Standards.** *Educational Researcher*, 42(4), 223–233. https://doi.org/10.3102/0013189X13480524 — **Conceptual/analytic.**
+Works through the NGSS science and engineering practices one at a time and identifies the language each one demands (arguing, explaining, questioning) and the language-learning opportunity each one offers. The argument is that the practices are a vehicle for language development, not an obstacle for multilingual students — provided students are supported to *do* things with language rather than being asked to display correct English first.
+*Why it is here:* Names the specific claim that a child like Diego should be doing science talk, not gate-kept behind reading aloud fluently.
+
+**Hou, Zhang, JadAllah, Enriquez-Andrade, Tran &amp; Ahmmed (2025). Translanguaging practices in global K-12 science education settings: A systematic literature review.** *Journal of Research in Science Teaching*, 62(1), 270–306. https://doi.org/10.1002/tea.22008 · ERIC: https://eric.ed.gov/?id=EJ1455069 — **Systematic review (of mostly qualitative studies).**
+Reviews the international body of K–12 science studies in which students use their full linguistic repertoire — home language and school language together — during science work. Across settings, students used the home language to reason in everyday terms and the school language to move toward scientific terms, and the review documents how teachers can deliberately make room for both. The underlying studies are predominantly ethnographic and small-scale.
+*Why it is here:* The evidence base for letting multilingual students think in whatever language they think in; strong as description, thin on measured achievement.
+
+## 6. Ambitious Science Teaching and the core-practices movement
+
+**Windschitl, Thompson, Braaten &amp; Stroupe (2012). Proposing a core set of instructional practices and tools for teachers of science.** *Science Education*, 96(5), 878–903. https://doi.org/10.1002/sce.21027 — **Conceptual, grounded in prior classroom research.**
+The founding paper for AST. It argues that teacher preparation should be organized around a small set of high-leverage practices — planning for big ideas, eliciting students' ideas, supporting ongoing changes in thinking, and pressing for evidence-based explanations — rather than around lists of knowledge. Practice Set 1 in the course is the first two of these.
+*Why it is here:* It is the source of the framework being taught, and it is explicit that the four practices were *proposed* on theoretical and observational grounds.
+
+**Thompson, Windschitl &amp; Braaten (2013). Developing a Theory of Ambitious Early-Career Teacher Practice.** *American Educational Research Journal*, 50(3), 574–615. https://doi.org/10.3102/0002831213476334 — **Longitudinal qualitative study of 26 novice teachers.**
+Followed 26 beginning secondary science teachers from preparation into their first years, some landing in schools with ambitious-teaching norms and some in traditional ones. Three distinct trajectories emerged; which one a teacher followed was best explained by the professional community they identified with, how that community talked about student thinking, and which tools they actually used.
+*Why it is here:* The most relevant study for preservice readers — it shows the practices are learnable but that placement and colleagues shape whether they survive.
+
+**Kang, Windschitl, Stroupe &amp; Thompson (2016). Designing, launching, and implementing high quality learning opportunities for students that advance scientific thinking.** *Journal of Research in Science Teaching*, 53(9), 1316–1340. https://doi.org/10.1002/tea.21329 · open copy: https://escholarship.org/uc/item/5qw3675d — **Qualitative multiple case study, 57 lessons by 19 first-year teachers.**
+Examined how choosing a task, *launching* it, and enacting it each shape what students get to think about. Ambitious tasks were routinely flattened at the launch — a rich task framed as "follow these steps" produced procedural work — while modest tasks launched around a genuine question produced real reasoning.
+*Why it is here:* Evidence that how a lesson is launched matters as much as which phenomenon is chosen; directly about the opening minutes the scenario examines.
+
+**Thompson, Hagenah, Kang, Stroupe, Braaten, Colley &amp; Windschitl (2016). Rigor and Responsiveness in Classroom Activity.** *Teachers College Record*, 118(5). https://eric.ed.gov/?id=EJ1089530 · full text: https://education.uw.edu/sites/default/files/profiles/documents/thompson/Rigor%20and%20Responsiveness%20in%20Classroom%20Activity.pdf — **Qualitative analysis of classroom episodes.**
+Coded talk across lesson episodes — warm-ups, small group, whole class — for both rigor and responsiveness. High rigor never occurred where teachers were unresponsive to students' ideas; three forms of responsive talk raised rigor: building on students' science ideas, attending to who is participating, and *folding in students' lived experiences*. Even throwaway episodes like warm-ups became substantive when responsiveness was present.
+*Why it is here:* This is the empirical heart of the critical/cultural extension (C2AST): it shows equity moves and intellectual rigor are not a trade-off, and it names "folding in lived experiences" as a rigor move.
+
+**McDonald, Kazemi &amp; Kavanagh (2013). Core Practices and Pedagogies of Teacher Education: A Call for a Common Language and Collective Activity.** *Journal of Teacher Education*, 64(5), 378–386. https://doi.org/10.1177/0022487113493807 — **Conceptual/position paper.**
+Describes teacher education's shift from specifying what teachers should know to specifying what they should be able to do, and proposes the "cycle of enactment and investigation" — introduce a practice, rehearse it, enact it with students, analyze it — as the pedagogy for learning core practices.
+*Why it is here:* Explains why this course has you rehearse a launch rather than write an essay about launches.
+
+---
+
+</Markdown>
+<Markdown id="wp_ev_for_close">
+## What this evidence actually supports — and what it does not
+
+Three claims here rest on genuinely strong ground. **Phenomenon- and project-driven science instruction outperforms conventional instruction** — a cluster RCT in elementary science (Krajcik 2023), a meta-analysis across 12,585 students (Chen &amp; Yang 2019), and quasi-experimental results in an urban district (Geier 2008) agree. **Changing how teachers talk changes what students learn** — the EEF trial randomized it and found gains, Howe found the specific features that carry the effect, Tobin's review shows wait time alone does work. And **teaching teachers to elicit and use children's own thinking improves children's achievement** — Carpenter's 1989 RCT and Sadler's 9,556-student study both land on it.
+
+Several other claims in the course are supported *differently* than students usually assume. "Culturally relevant pedagogy raises achievement" has one strong causal study in its favour (Dee &amp; Penner; Bonilla et al.), but it is a high school ethnic studies *course*, not an elementary science *teaching move* — the transfer is plausible, not demonstrated. Most of the culturally relevant science literature (Warren, Bang &amp; Medin, Moll, the translanguaging review) is rich descriptive and design research: it shows convincingly that children's everyday and home reasoning is intellectually substantial and usable, and that students do more science when it is welcomed. It does not establish an effect size.
+
+And one claim is best understood as a **design principle rather than a tested finding**: that the anchoring phenomenon must come from students' own lives or communities. Every strong study above used a phenomenon chosen and engineered by curriculum designers — ML-PBL, OpenSciEd storylines, P-SELL — not phenomena harvested from students. What the evidence supports is that students' *questions and ideas about* the phenomenon must drive the sequence (Reiser 2021; Thompson 2016), and that personal relevance helps most for students with low confidence (Hulleman &amp; Harackiewicz 2009). Finally, note what is absent: there is no efficacy trial of Ambitious Science Teaching as a package. The AST evidence base is careful qualitative and design research about teacher practice, plus the strong general evidence for the components it assembles. That is a reasonable basis for teaching it; it is not the same as saying AST has been shown to raise test scores.
+
+</Markdown>
+</Collapsible>
+<Collapsible id="wp_ev_against" title="Against, and limits: guidance, cognitive load, practice, relevance, time">
+<Markdown id="wp_ev_against_md">
+## 1. Minimal guidance and inquiry vs. explicit instruction
+
+**Kirschner, P. A., Sweller, J., &amp; Clark, R. E. (2006). Why minimal guidance during instruction does not work. *Educational Psychologist*, 41(2), 75–86.** — https://doi.org/10.1207/s15326985ep4102_1
+*Conceptual review of experimental literature.* The founding argument of this whole debate. Not a study: the authors argue that constructivist, discovery, problem-based and inquiry teaching all ask novices to do something working memory cannot do — search a problem space for structure while also learning the content. They assemble decades of controlled studies in which learners given worked examples and direct explanation outperformed learners left to explore.
+*Why it's here:* the single most-cited case against the instructional model AST assumes.
+
+**Mayer, R. E. (2004). Should there be a three-strikes rule against pure discovery learning? *American Psychologist*, 59(1), 14–19.** — https://doi.org/10.1037/0003-066X.59.1.14
+*Narrative review of experimental literature.* Mayer walks through three historical waves of enthusiasm for discovery: problem-solving rules (1960s), Piagetian conservation strategies (1970s), Logo programming (1980s). Each time, controlled comparisons found *guided* discovery beat *pure* discovery on learning and transfer; each time the field ignored the result and readopted pure discovery under a new name.
+*Why it's here:* makes the historical point that "let them figure it out" keeps getting re-sold with new vocabulary.
+
+**Klahr, D., &amp; Nigam, M. (2004). The equivalence of learning paths in early science instruction. *Psychological Science*, 15(10), 661–667.** — https://doi.org/10.1111/j.0956-7976.2004.00737.x
+*RCT, 112 third and fourth graders.* Children were randomly assigned to learn the control-of-variables strategy (change one thing at a time) by discovery or by direct instruction. Far more children mastered it through direct instruction — and on the "authentic" transfer task of evaluating real science-fair posters, the directly-instructed children did just as well as the few discovery children who had succeeded. Discovery bought no extra depth.
+*Why it's here:* the closest thing to a head-to-head test in the same grade band and on the same skill ("how do scientists test ideas?") that ELED 3261 cares about.
+
+**Alfieri, L., Brooks, P. J., Aldrich, N. J., &amp; Tenenbaum, H. R. (2011). Does discovery-based instruction enhance learning? *Journal of Educational Psychology*, 103(1), 1–18.** — https://doi.org/10.1037/a0021017
+*Meta-analysis, 164 studies.* Two analyses. Unassisted discovery lost to explicit instruction under most conditions (d = −0.38, 580 comparisons). But *enhanced* discovery — guided, scaffolded, with feedback, elicited explanations and worked examples — beat other forms of instruction (d = 0.30, 360 comparisons).
+*Why it's here:* the cleanest statement of where the line actually falls. Not "inquiry bad," but "unassisted inquiry bad, guided inquiry good."
+
+**Stockard, J., Wood, T. W., Coughlin, C., &amp; Rasplica Khoury, C. (2018). The effectiveness of Direct Instruction curricula: A meta-analysis of a half century of research. *Review of Educational Research*, 88(4), 479–507.** — https://doi.org/10.3102/0034654317751919
+*Meta-analysis, 328 studies, 1966–2016.* Nearly 4,000 effect sizes. Effects of scripted Direct Instruction programs were positive and significant across reading, math, language and spelling, and — against the "children will hate it" objection — affective outcomes were not negative. Caveats: most primary studies are not randomized, and the author team is affiliated with the DI research community.
+*Why it's here:* the strongest single evidence base for the approach AST is usually positioned against.
+
+**Furtak, E. M., Seidel, T., Iverson, H., &amp; Briggs, D. C. (2012). Experimental and quasi-experimental studies of inquiry-based science teaching: A meta-analysis. *Review of Educational Research*, 82(3), 300–329.** — https://doi.org/10.3102/0034654312457206
+*Meta-analysis, 37 studies.* Inquiry teaching beat comparison conditions overall (mean d = 0.50) — but studies with **teacher-led** activities had effects roughly 0.40 larger than studies with **student-led** activities.
+*Why it's here:* a pro-inquiry meta-analysis whose own internal contrast is a warning — the more the teacher hands over the steering wheel, the smaller the payoff.
+
+**Lazonder, A. W., &amp; Harmsen, R. (2016). Meta-analysis of inquiry-based learning: Effects of guidance. *Review of Educational Research*, 86(3), 681–718.** — https://doi.org/10.3102/0034654315627366
+*Meta-analysis, 72 studies.* Adding guidance to inquiry improved learning activities (d = 0.66), success at the task (d = 0.71) and learning outcomes (d = 0.50). The *type* of guidance mattered far less than its presence.
+*Why it's here:* the active ingredient in inquiry is the scaffolding, not the inquiry. Two lessons can both start with a phenomenon and differ enormously in effect.
+
+**Ashman, G., Kalyuga, S., &amp; Sweller, J. (2020). Problem-solving or explicit instruction: Which should go first when element interactivity is high? *Educational Psychology Review*, 32, 229–247.** — https://doi.org/10.1007/s10648-019-09500-5
+*Experiment, small sample (N = 64 in Exp. 1).* A direct test of Kapur's "productive failure" claim that students should struggle with a problem before being taught. On high-element-interactivity content, explicit instruction followed by problem solving beat the reverse order on similar problems, with no transfer advantage for the struggle-first group.
+*Why it's here:* "let them wrestle with the phenomenon first" is not a safe default when the content is hard and the learners are novices.
+
+**Sinha, T., &amp; Kapur, M. (2021). When problem solving followed by instruction works: Evidence for productive failure. *Review of Educational Research*, 91(5), 761–798.** — https://doi.org/10.3102/00346543211019105
+*Meta-analysis, 53 studies, 166 comparisons.* Struggle-before-instruction does beat instruction-first overall (g = 0.36) — but the review's main contribution is the list of conditions required: a carefully engineered task, relevant prior knowledge, elicited and compared student solutions, and a consolidation lecture afterwards. Fidelity to those conditions raised effects to g = 0.37–0.58; without them, effects shrink.
+*Why it's here:* included honestly. It supports struggle-first, and in doing so documents how much design separates "productive failure" from "open with a phenomenon and hope."
+
+**Bergeron, P.-J., &amp; Rivard, L. (2017). How to engage in pseudoscience with real data: A criticism of John Hattie's arguments in *Visible Learning* from the perspective of a statistician. *McGill Journal of Education*, 52(1).** — https://mje.mcgill.ca/article/view/9475
+*Methodological critique.* Hattie's widely quoted rankings put inquiry-based teaching at d = 0.40, Direct Instruction at d = 0.60, problem-based learning at d = 0.26 (https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/). Bergeron and Rivard, writing as statisticians, argue those numbers should not be compared at all: Hattie averages effect sizes computed in incompatible ways from studies with incompatible designs, outcomes and populations. Robert Slavin has argued in parallel that small, short, researcher-made-measure studies inflate the figures.
+*Why it's here:* if a classmate cites "Hattie says direct instruction wins," this is the caveat — and it cuts against using Hattie on the pro-inquiry side too.
+
+---
+
+## 2. Cognitive load and expertise reversal
+
+**Kalyuga, S., Ayres, P., Chandler, P., &amp; Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist*, 38(1), 23–31.** — https://doi.org/10.1207/S15326985EP3801_4
+*Review of controlled experiments.* Instructional formats reverse in effectiveness as learners gain expertise: heavy guidance and worked examples help novices and begin to *hurt* experts, who learn more by solving problems themselves. The mechanism is working-memory load — novices have no stored schemas, so an open task consumes the capacity learning requires.
+*Why it's here:* explains why a practice that works beautifully in a methods seminar full of adults who already know the science can fail with second graders meeting the content for the first time.
+
+**Sweller, J., van Merriënboer, J. J. G., &amp; Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. *Educational Psychology Review*, 31, 261–292.** — https://eric.ed.gov/?id=EJ1217401
+*Theoretical review over a large experimental base.* A twenty-year stocktake of cognitive load theory, including the worked-example effect (for novices, studying a fully worked solution beats solving an equivalent problem) and guidance fading (start with worked examples, withdraw support as competence grows).
+*Why it's here:* the positive prescription behind the critique — and the reason "students' own questions" is a weak curriculum for novices, who do not yet know what is worth asking.
+
+---
+
+## 3. Practice, feedback, and knowing before thinking
+
+**Ericsson, K. A., Krampe, R. T., &amp; Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*, 100(3), 363–406.** — https://doi.org/10.1037/0033-295X.100.3.363
+*Correlational/retrospective; partially replicated.* The origin of "deliberate practice." In studies of violinists and pianists, expert-level skill tracked accumulated hours of effortful, goal-directed work on targeted sub-skills with immediate feedback and correction — not hours of enjoyable, open-ended engagement with the domain. A 2019 replication (Macnamara &amp; Maitra, https://doi.org/10.1098/rsos.190327) found the effect real but considerably smaller than originally claimed, so do not overstate it.
+*Why it's here:* an anchoring phenomenon supplies motivation and context; it does not by itself supply the structured, feedback-rich repetition that skill acquisition needs.
+
+**Willingham, D. T. (2007). Critical thinking: Why is it so hard to teach? *American Educator*, 31(2), 8–19.** — https://www.readingrockets.org/topics/comprehension/articles/critical-thinking-why-it-so-hard-teach (ERIC record: https://eric.ed.gov/?id=EJ794281)
+*Conceptual synthesis of cognitive science.* Willingham argues that scientific and critical thinking are not general skills you can drill and then apply anywhere: they are domain knowledge plus practice recognizing when a strategy applies. Students asked to "think like scientists" about content they do not know fall back on surface features and prior beliefs. The same argument is the spine of his book *Why Don't Students Like School?* (2009).
+*Why it's here:* a direct challenge to the premise that children can do authentic sensemaking about a phenomenon before they have the knowledge that makes sensemaking possible.
+
+---
+
+## 4. Limits of "relevance" and "connected to students' lives"
+
+**Harp, S. F., &amp; Mayer, R. E. (1998). How seductive details do their damage: A theory of cognitive interest in science learning. *Journal of Educational Psychology*, 90(3), 414–434.** — https://eric.ed.gov/?id=EJ576496
+*Four randomized experiments, 357 undergraduates.* Passages on lightning formation were spiced with interesting-but-irrelevant details (dramatic stories, vivid photos). Readers of the spiced versions recalled *fewer* main ideas and produced *fewer* transfer solutions than readers of the plain versions. The engaging material appears to prime the wrong mental model and pull attention off the causal chain.
+*Why it's here:* "make it interesting" and "make it learnable" are not the same goal; an attention-grabbing hook can actively cost comprehension.
+
+**Kaminski, J. A., Sloutsky, V. M., &amp; Heckler, A. F. (2008). The advantage of abstract examples in learning math. *Science*, 320(5875), 454–455.** — https://doi.org/10.1126/science.1154659
+*Randomized experiments; contested replication.* Undergraduates learned a simple mathematical group structure either through concrete real-world stories (measuring cups, pizza slices) or through abstract symbols. The abstract group transferred the idea to a new situation far better; the concrete group stayed stuck in the cover story. **Read alongside the critical replication:** Trninic, Kapur &amp; Sinha (2020), *Cognitive Science*, 44(7), e12851 (https://doi.org/10.1111/cogs.12851) found the advantage disappears once the concrete examples are better designed.
+*Why it's here:* concreteness and personal relevance can bind knowledge to its context and block transfer — but the effect is fragile, and the fix is better concrete examples, not no context.
+
+**Walkington, C., &amp; Bernacki, M. L. (2019). Personalizing algebra to students' individual interests in an intelligent tutoring system: Moderators of impact. *International Journal of Artificial Intelligence in Education*, 29, 58–88.** — https://doi.org/10.1007/s40593-018-0168-1
+*Experimental/quasi-experimental within a tutoring system.* High school algebra students worked story problems rewritten to match interests they had reported (sports, music, gaming). Effects were real but **conditional**: shallow personalization — swapping a few nouns — did little; benefit depended on how quantitatively rich the student's interest area actually was, and on prior knowledge.
+*Why it's here:* "connect it to their lives" is not a lever you pull. Done shallowly it is cosmetic, and it helps some students more than others.
+
+**Hidi, S., &amp; Renninger, K. A. (2006). The four-phase model of interest development. *Educational Psychologist*, 41(2), 111–127.** — https://doi.org/10.1207/s15326985ep4102_4
+*Theoretical model synthesizing empirical interest research.* Interest is not a fixed trait students walk in with; it develops through four phases, and the first — triggered situational interest — is generated by features of the material and the teaching: novelty, surprise, incongruity, hands-on work. Existing personal interest is only one route in.
+*Why it's here:* undercuts the premise that a phenomenon must come from a child's own life to engage them. Black holes, volcanoes and deep-sea creatures motivate *because* they are far away.
+
+---
+
+## 5. The evidence base for culturally relevant / responsive pedagogy
+
+**Aronson, B., &amp; Laughter, J. (2016). The theory and practice of culturally relevant education: A synthesis of research across content areas. *Review of Educational Research*, 86(1), 163–206.** — https://doi.org/10.3102/0034654315582066
+*Research synthesis of largely qualitative primary studies.* A sympathetic review that set out to find studies connecting culturally relevant education to positive student outcomes across subject areas — and found them. But the corpus is dominated by qualitative case studies, small samples, self-report, and single classrooms; very little of it is comparative or causal.
+*Why it's here:* the field's own friendly review documents how thin the outcome evidence is.
+
+**Bottiani, J. H., Larson, K. E., Debnam, K. J., Bischoff, C. M., &amp; Bradshaw, C. P. (2018). Promoting educators' use of culturally responsive practices: A systematic review of inservice interventions. *Journal of Teacher Education*, 69(4), 367–385.** — https://doi.org/10.1177/0022487117722553
+*Systematic review.* Out of a very large published literature on culturally responsive practice, only **ten** empirical impact studies of teacher training met inclusion criteria — two quantitative, eight qualitative — and none established a causal effect on student outcomes. The authors flag small samples, missing comparison groups, and no measurement of actual classroom practice.
+*Why it's here:* the sharpest available statement that culturally responsive practice is a promising *hypothesis* with an underdeveloped causal evidence base.
+
+**Sleeter, C. E. (2011). *The academic and social value of ethnic studies: A research review.* National Education Association.** — https://eric.ed.gov/?id=ED521869
+*Advocacy-framed research review; author acknowledges design limits.* Commissioned by the NEA and written by a leading advocate. Sleeter reports consistent positive findings for ethnic studies on engagement, identity and achievement, and is candid that the literature is mostly small-scale, that programs vary enormously, and that rigorous comparative designs are scarce — which is why she calls for more and better research.
+*Why it's here:* the caveats come from the movement's own leading reviewer, not from an opponent.
+
+**Pashler, H., McDaniel, M., Rohrer, D., &amp; Bjork, R. (2008). Learning styles: Concepts and evidence. *Psychological Science in the Public Interest*, 9(3), 105–119.** — https://doi.org/10.1111/j.1539-6053.2009.01038.x
+*Methodological review of experimental evidence.* The authors first specify what evidence a "match instruction to the learner's type" claim requires — a crossover interaction in a randomized design — then search the literature and find almost no studies using that design; the few that do mostly fail to find the interaction.
+*Why it's here:* not about culture, but the *reasoning pattern* is the same as a strong reading of cultural matching. It models the question to ask: what study design would show this is true, and has anyone run it?
+
+---
+
+## 6. Ambitious Science Teaching and the core-practices movement
+
+**Windschitl, M., Thompson, J., Braaten, M., &amp; Stroupe, D. (2012). Proposing a core set of instructional practices and tools for teachers of science. *Science Education*, 96(5), 878–903.** — https://doi.org/10.1002/sce.21027
+*Conceptual / design-based research.* The foundational article behind the AST book, and explicitly a *proposal*: the core practices are derived from theory, from studies of accomplished practice, and from the authors' work with novice teachers, and are validated mainly through design-based research on teacher learning and classroom discourse. It reports no student-achievement effects from a controlled comparison.
+*Why it's here:* AST's own founding paper shows the framework rests on design studies and professional judgement. There is no published independent randomized or quasi-experimental evaluation of AST as a whole package — absence of evidence, not evidence of failure, but worth saying out loud.
+
+**Philip, T. M., Souto-Manning, M., Anderson, L., Horn, I., Carter Andrews, D. J., Stillman, J., &amp; Varghese, M. (2019). Making justice peripheral by constructing practice as "core." *Journal of Teacher Education*, 70(3), 251–264.** — https://doi.org/10.1177/0022487118798324
+*Conceptual critique from inside teacher education.* Naming a short list of "core practices" makes teaching teachable and assessable, but it also makes equity and justice look like optional add-ons, narrows teaching to what can be rehearsed and rubric-scored, and links teacher education to market-oriented reform agendas. Kenneth Zeichner (2012, *JTE*, 63(5), 376–382, https://doi.org/10.1177/0022487112445789) raised parallel concerns about what a practice list leaves out.
+*Why it's here:* it cuts both ways — it questions the core-practices *form* that AST takes, while coming from the tradition that motivates the C2AST extension (which itself has essentially no outcome evidence).
+
+**Zhang, L., Kirschner, P. A., Cobern, W. W., &amp; Sweller, J. (2022). There is an evidence crisis in science educational policy. *Educational Psychology Review*, 34, 1157–1176.** — https://doi.org/10.1007/s10648-021-09646-1
+*Critique / evidence review with a clear authorial standpoint.* The authors argue that NGSS-era science standards rest largely on "program-based studies" — evaluations of whole reform programs, often by their developers, without controls — while a substantial body of randomized and correlational work showing minimal support for inquiry-heavy policy was set aside as irrelevant. Read as a strongly argued position piece from a known camp, not a neutral audit.
+*Why it's here:* the most direct published challenge to the evidentiary warrant of the standards framework that makes phenomena-first teaching the default.
+
+---
+
+## 7. Time, momentum, and off-task tangents
+
+**Godwin, K. E., Almeda, M. V., Seltman, H., Kai, S., Skerbetz, M. D., Baker, R. S., &amp; Fisher, A. V. (2016). Off-task behavior in elementary school children. *Learning and Instruction*, 44, 128–143.** — https://www.sciencedirect.com/science/article/abs/pii/S0959475216300275 (ERIC: https://eric.ed.gov/?id=ED568936)
+*Large observational study, 22 + 30 K–4 classrooms.* Systematic observation of where children's attention actually goes during instruction. Children spent a substantial share of instructional time off task; off-task rates rose as an activity stretched from 10 to 30 minutes, and were *highest* in whole-group formats — exactly the format a whole-class phenomenon discussion uses.
+*Why it's here:* puts numbers behind the peer's worry. Whole-class attention is a scarce, decaying resource, and a long tangent spends it.
+
+**Korpershoek, H., Harms, T., de Boer, H., van Kuijk, M., &amp; Doolaard, S. (2016). A meta-analysis of the effects of classroom management strategies and classroom management programs. *Review of Educational Research*, 86(3), 643–680.** — https://doi.org/10.3102/0034654315626799
+*Meta-analysis, 54 controlled intervention studies, 2003–2013.* Classroom management interventions produced small but consistent effects on academic, behavioral and social-emotional outcomes (average g = 0.22). Teacher-focused programs mattered most for academic outcomes; social-emotional components mattered most for behaviour and relationships.
+*Why it's here:* management is a real, measurable contributor to learning — not a distraction from "real" teaching, and not something a compelling phenomenon makes unnecessary.
+
+**Lavy, V. (2015). Do differences in schools' instruction time explain international achievement gaps? *The Economic Journal*, 125(588), F397–F424.** — https://doi.org/10.1111/ecoj.12233
+*Quasi-experimental, within-student across subjects, 50+ countries (PISA).* Comparing the same student across subjects that get different amounts of instructional time, Lavy finds more time in a subject raises achievement in that subject, with effects large relative to other school-level interventions.
+*Why it's here:* instructional minutes are causally valuable — the strongest version of "redirecting an off-topic story is stewardship of a finite resource, not callousness." It says nothing about whether a *particular* redirection was handled well.
+
+---
+
+## 8. Ethics and consent when children's lives become the curriculum
+
+**Zipin, L. (2009). Dark funds of knowledge, deep funds of pedagogy: Exploring boundaries between lifeworlds and schools. *Discourse: Studies in the Cultural Politics of Education*, 30(3), 317–331.** — https://doi.org/10.1080/01596300903037044
+*Conceptual, grounded in school-based fieldwork; written to deepen rather than abolish funds-of-knowledge work.* Working with high-poverty secondary schools, Zipin argues that teachers who build curriculum from students' lives systematically select the "light" funds of knowledge — cooking, family trades, music — and steer around the "dark" ones: violence, addiction, deportation, loss. The result can be a sanitized, partial version of a child's life handed back to them, and students notice.
+*Why it's here:* the most direct scholarly treatment of what goes wrong when home life becomes lesson content.
+
+**Borshuk, C. (2017). Managing student self-disclosure in class settings: Lessons from feminist pedagogy. *Journal of the Scholarship of Teaching and Learning*, 17(1), 78–86.** — https://eric.ed.gov/?id=EJ1136407
+*Conceptual / practitioner scholarship; higher-education context.* Teaching strategies that invite students to speak from personal experience carry real risks: students may disclose more than they intended in front of peers, cannot un-disclose it, and may feel that sharing is what participation credit requires. Borshuk proposes explicit norms and genuine opt-outs rather than abandoning experience-based teaching.
+*Why it's here:* the consent question. A child cannot meaningfully decline to contribute their home life when the teacher has already made it the lesson. (Written about adults — apply to children with more caution, not less.)
+
+**Gorski, P. C. (2016). Poverty and the ideological imperative: A call to unhook from deficit and grit ideology and to strive for structural ideology in teacher education. *Journal of Education for Teaching*, 42(4), 378–386.** — https://doi.org/10.1080/02607476.2016.1215546
+*Conceptual critique.* Gorski examines how teachers' ideological frames shape what they do with students' economic circumstances. Deficit framing treats poor families' lives as problems to be corrected; even well-meant "celebrate their culture" moves can flatten families into stereotypes while leaving structural causes untouched.
+*Why it's here:* the guardrail on relevance. Inviting children's lives into the lesson can slide into display or pity — the "poverty tourism" worry in its scholarly form.
+
+---
+
+</Markdown>
+<Markdown id="wp_ev_against_close">
+## What this evidence actually establishes — and what it does not
+
+**Well supported.** For learners new to a topic, *unguided* discovery reliably underperforms explicit instruction. This is not one study or one camp: it holds in a randomized trial with third and fourth graders (Klahr &amp; Nigam), in a 164-study meta-analysis (Alfieri et al.), and in a half-century meta-analysis of Direct Instruction (Stockard et al.), and it has a mechanism — working-memory limits and the absence of schemas — that correctly predicts when the pattern reverses (Kalyuga et al.). Also well supported: relevance is not automatically helpful (Harp &amp; Mayer; Walkington &amp; Bernacki); instructional time is causally valuable (Lavy); whole-class attention in elementary classrooms decays fast (Godwin et al.); and the causal evidence base for culturally responsive practice as an *intervention* is genuinely thin (Bottiani et al.; Aronson &amp; Laughter; Sleeter).
+
+**Not established.** None of this shows that anchoring phenomena are ineffective. The same meta-analyses that condemn unassisted discovery find *guided* discovery superior to conventional instruction (Alfieri et al., d = 0.30; Lazonder &amp; Harmsen, d = 0.50; Furtak et al., d = 0.50) — and AST's practice set, with its explanation-building, its pressing for evidence and its public record of student ideas, is a guidance-heavy design, not a pure-discovery one. Nor does the critique of culturally relevant pedagogy show that it *fails*; it shows it has rarely been tested in designs capable of detecting failure, which is an absence of evidence rather than evidence of absence. And nothing here settles the classroom scenario: the time-on-task literature establishes that instructional minutes matter, not that one particular redirection of one particular child was the right call.
+
+The honest summary for a preservice teacher: the burden this evidence places on AST is that **guidance and knowledge-building must be visible in the lesson plan, not assumed to emerge from the phenomenon** — and that any sentence beginning "research shows students learn best when…" should be met with "which study, which design, which learners?"
+
+</Markdown>
+</Collapsible>
+
+<Collapsible id="wp_ev_frameworks" title="The frameworks, as the course states them">
+<Markdown id="wp_ev_frameworks_note">
+These are the course's own job aids, stated the way the framework states them. Two of them are what you matched in Part 1; one of them, "connected to students' lives," is the line Nyota argues with. They are here so you can check what is claimed against what the evidence above supports.
+</Markdown>
+<Markdown id="wp_lookfors">
+### What the framework looks for in an anchoring phenomenon
+
+In Ambitious Science Teaching, an anchoring phenomenon is an **observable event** the whole unit works to explain. The framework says a good one tends to be:
+
+- **Observable** — students can see, hear, or picture it happening (not an abstract topic like "states of matter").
+- **Puzzling** — it doesn't match what students expect, so it creates a real *need to know*.
+- **Rich enough to anchor a unit** — explaining it takes the target science ideas, not a one-word answer.
+- **Connected to students' lives** — it links to experiences and communities students actually have.
+- **Held open** — the class keeps working on it; the teacher doesn't resolve it in the first five minutes.
+
+*Watch for the slide from a phenomenon ("why don't the fish freeze?") to a topic ("the three states of matter"). The topic is where you are going; the phenomenon is how students get the need to go there.*
+</Markdown>
+<Markdown id="wp_discourse_guide">
+### What kind of question is it?
+
+**Opening questions**
+
+- **Open, reasoning question** — An opening question that asks for an idea, a prediction, or an explanation: "What do you think is happening?" "What would happen if…?"
+- **Closed, recall question** — An opening question that asks for a fact or the one word the teacher has in mind: "What are the three states of matter?"
+
+**After a child answers**
+
+- **Funneling** — After a child answers: a chain of narrowing questions that leads the class, step by step, to the answer the teacher already had.
+- **Focusing** — After a child answers: the teacher takes that child's idea and asks the class to build on it, so the idea stays the child's.
+- **Pressing for reasoning** — After a child answers: "Why do you think that? What's your evidence? Does everyone agree?" The reason has to come from the students.
+- **The reveal reflex** — After the teacher asks a good question: she answers it herself, or settles the mystery early. The thinking the question started stops.
+</Markdown>
+<Markdown id="wp_equity_questions">
+### Whose phenomenon is it? The critical and cultural reading
+
+Selecting and introducing a phenomenon is an equity decision. Ask:
+
+- **Whose experiences does this phenomenon assume** students have had? Who is included, and who is left out?
+- Does it connect to students' **communities, cultures, and everyday lives**, or to one person's world?
+- **Whose ways of knowing and talking** count as "doing science" here? Whose contributions get taken up, and whose get set aside?
+- Are there **multiple entry points**, including for **multilingual learners** like Diego?
+- What **implicit message** does the launch send about **who belongs in science**?
+</Markdown>
+<Markdown id="wp_science_target">
+### The science, stated at a fourth-grade level
+
+- **Matter comes in states**, solid, liquid, gas, and **cooling or heating can change the state** (liquid water to solid ice and back).
+- **Water is unusual:** when it freezes it **expands**; it takes up more room as ice than it did as liquid water. That is why **ice floats**, why a full bottle cracks, why a pipe bursts, and why a rock splits along a wet crack in a freeze, which is the weathering this class studied in November.
+
+A strong anchor is one students can only fully explain by working this out. Keep the science; change the way in.
+</Markdown>
+</Collapsible>
+</Vertical>
+
+<!-- ===================================================================
+     STANDARDS, CURRICULA, FRAMEWORKS — the Reference page behind Okafor's
+     growth-chart / menu / advice distinction on screen 4. Definitions from
+     notes/standards-definitions.md; documents from notes/standards-links.md,
+     one Collapsible per numbered section. Both verbatim; each section's own
+     "## N." heading becomes its Collapsible title.
+     =================================================================== -->
+<Vertical id="wp_standards">
+
+<Markdown id="wp_standards_definitions">
+## Three words that are not one word
+
+You will hear these used interchangeably, by people who should know better, in documents with the state seal on them. They are three different things, and a teacher who cannot tell them apart cannot change anything for the child in front of her.
+
+**A standard is a growth chart.** It says what most children should be able to do by the end of a grade, and the state tests it. That is all it says. Like a growth chart, it describes a population: if most fourth graders in a state cannot do what the fourth-grade standard says, something is wrong with the state. If one child cannot, that is a child, and there may be nothing wrong at all. A standard does not say when in the year to teach a thing, in what order, with what materials, or through what example. Tennessee's fourth-grade science standards fit on one page. Read them below; notice how little they say.
+
+**A curriculum is a menu.** It is a specific sequence: these units, in this order, with these materials, so that a room usually arrives at the standards by June. Ms. Boyd's kit is a curriculum. The district's pacing guide is a curriculum. A good default menu is a gift; nobody should invent breakfast from scratch every morning, and most teachers, most years, should follow it. But it is a default. A child who is on fire about astronomy in the year the menu says earthworms is not out of compliance with anything. A teacher whose strength is one context and whose menu insists on another is being wasted, not aligned. When a menu is treated as law, personalisation, differentiation, and every other useful thing become impossible, and the room becomes a treadmill.
+
+**A framework is advice about how to cook.** It says how teaching or curriculum should be organised, and it has no force except its argument. Ambitious Science Teaching, the framework this course teaches, is advice: launch with a phenomenon, elicit what children think, press for reasoning, build explanations over a unit. The National Research Council's *Framework for K-12 Science Education* is a different kind of advice, about what science education should contain, and most states' standards, Tennessee's included, were written with it open on the desk. A framework can shape a menu without being one, and it can be argued with, which is what Nyota does in this session.
+
+**Alignment** is the word that does the damage. Aligning a menu to a growth chart is sensible: the units should, over a year, get most children to the standards. Aligning every minute of every lesson to a code is not alignment; it is serving spinach because the guide says lettuce is in season. The one place the growth chart really binds is the test, and a teacher who guards her minutes because of it is not wrong. She is answering a real pressure. The question this session asks is what that pressure costs, and who pays.
+
+**What this means for Ms. Boyd.** The standard codes on her unit plan were copied from a kit's alignment sheet in 2009 and do not exist in Tennessee. That is decoration. Her unit teaches matter in fourth grade, where the growth chart puts it in third and fifth; that is her menu and the district's, and it may be a perfectly good choice. Nothing on this page settles whether she should have taken up Aaliyah's pipe. That is a cooking question, and it is judged against her own plan and her own room.
+</Markdown>
+
+<Markdown id="wp_standards_links_intro">
+# Standards, curriculum, framework: the actual documents
+
+Links verified 15 September 2026. Quotations were checked against the fetched page or PDF.
+</Markdown>
+
+<Collapsible id="wp_std_1" title="Tennessee's science standards">
+<Markdown id="wp_std_1_md">
+**Tennessee Academic Standards for Science (adopted October 2022; in classrooms 2025–26)** — the full K–12 standards document, 135 pages.
+PDF: https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/standards/science/New%2010-28-22%20Science%20Standards.pdf
+Landing page: https://www.tn.gov/education/districts/academic-standards/science-standards.html
+> "The state board adopted Tennessee Academic Standards for Science in October 2022, and they will be implemented in classrooms in the 2025-26 school year." (landing page)
+> "The revised science standards were developed utilizing recommendations found in A Framework for K-12 Science Education: Practices, Crosscutting Concepts, and Core Ideas." (landing page)
+
+**Every grade-4 standard** (PDF pp. 41–43, "FOURTH GRADE: ACADEMIC STANDARDS"). The document prints the strand heading and then numbers the standards 1), 2), 3); the codes below combine the two, as the document's own progression table does.
+
+*4.PS3: Energy*
+- 4.PS3.1 — "Use evidence to explain the cause and effect relationship between the speed of an object and the energy of an object."
+- 4.PS3.2 — "Carry out an investigation to show how faster speeds during a collision can cause a bigger change in the shape of the colliding objects."
+- 4.PS3.3 — "Describe how stored energy can be converted into another form for practical use in a system."
+
+*4.PS4: Waves and their Application in Technologies for Information Transfer*
+- 4.PS4.1 — "Use a model of a simple wave to describe amplitude, wavelength, and explain how waves can add or cancel each other as they cross."
+- 4.PS4.2 — "Construct an explanation for how the colors of available light sources and the bending of light waves determine what we see."
+- 4.PS4.3 — "Investigate how lenses enhance human senses and digital devices (e.g., computers and cell phones) use waves to receive and decode information over distances."
+
+*4.LS2: Ecosystems: Interactions, Energy, and Dynamics*
+- 4.LS2.1 — "Develop and use models to illustrate the flow of matter through a food web/food chain beginning with sunlight and including producers, consumers, and decomposers."
+- 4.LS2.2 — "Using information about the roles of organisms (producers, consumers, decomposers) in an ecosystem, evaluate how those roles are interconnected in a food web, and communicate how the organisms are continuously able to meet their needs in a stable food web."
+- 4.LS2.3 — "Develop and use models to determine the effects of introducing a species to, or removing a species from, an ecosystem and how either one can damage the balance of an ecosystem."
+- 4.LS2.4 — "Analyze and interpret data about changes in the environment to explain how some organisms may survive and reproduce, some may not survive, others move to new locations, yet others move into the transformed environment."
+
+*4.LS4: Biological Change: Unity and Diversity*
+- 4.LS4.1 — "Obtain, evaluate, and communicate information about what a fossil is and ways a fossil can provide information about the past, such as a) the nature of environments and b) animals that existed long ago but no longer exist."
+
+*4.ESS1: Earth's Place in the Universe*
+- 4.ESS1.1 — "Generate and support a claim with evidence that over long periods of time, erosion (i.e., weathering and transportation) and deposition have changed landscapes and created new landforms."
+- 4.ESS1.2 — "Use evidence from the presence and location of fossils to determine the order in which rock strata were formed."
+
+*4.ESS2: Earth's Systems*
+- 4.ESS2.1 — "Collect and analyze data from observations to provide evidence that rocks, soils, and sediments are broken into smaller pieces through mechanical weathering (e.g., frost wedging, abrasion, tree root wedging) and are transported by water, ice, wind, gravity, and vegetation."
+- 4.ESS2.2 — "Explain how data from maps and other reliable sources can be used to determine patterns for the locations of mountain ranges, deep ocean trenches, volcanoes, and earthquakes."
+- 4.ESS2.3 — "Provide examples to support the claim that organisms affect the physical characteristics of their regions (e.g., plants' roots hold soil in place, beaver shelters alter the flow of water, paved surfaces affect runoff, leaves from trees can obstruct waterways)."
+
+*4.ESS3: Earth and Human Activity*
+- 4.ESS3.1 — "Obtain and combine information to describe that energy, fuels, and materials are derived from natural resources and that some resources are renewable (e.g., sunlight, wind, water) and some are not (e.g., fossil fuels and minerals)."
+- 4.ESS3.2 — "Engage in an argument, using evidence from research, that human activity (e.g., farming, mining, building) can affect the land and ocean in positive and/or negative ways."
+
+*4.ETS1: Engineering Design*
+- 4.ETS1.1 — "Categorize the effectiveness of design solutions by testing and comparing them to specified criteria and constraints."
+
+*4.ETS2: Links Among Engineering, Technology, Science, and Society*
+- 4.ETS2.1 — "Explain how existing technologies have been designed or improved to increase their benefits, to decrease known risks, and to meet societal demands (e.g., artificial limbs, seatbelts, cell phones)."
+
+**There is no grade-4 PS1 (matter) strand**, and no grade-4 PS2 either. The grade-4 standards run 4.PS3, 4.PS4, 4.LS2, 4.LS4, 4.ESS1, 4.ESS2, 4.ESS3, 4.ETS1, 4.ETS2 — that is the whole list. Matter sits on either side of fourth grade:
+- 3.PS1.1 — "Develop a model of solids, liquids, and gasses to describe that each state of matter is made of particles too small to be seen."
+- 5.PS1.1 — "Analyze and interpret data from observations and measurements of the physical properties of matter to explain phase changes between a solid, liquid, or gas."
+
+**TCAP Science** — the state test; science is tested in grades 3–8 (and Biology in high school).
+https://www.tn.gov/education/districts/lea-operations/assessment/tnready/tnready-science.html
+> "For grades 3 and 4, the science assessment consists of one, 50-minute subpart. For grades 5 through 8, the science assessment consists of two, 45-minute subparts."
+
+**2026 TCAP state results overview (June 2026)** — science scores were held back while new cut scores were set against the new standards.
+https://www.tn.gov/content/dam/tn/education/data/TCAP_State_Results_Summer2026.pdf
+> "Science TCAP assessments and EOCs, which are undergoing a standards-setting process." … "Science will be made available after SBE approval in August."
+Chalkbeat's coverage of the August 2026 school-level release discusses ELA, math, and social studies only: https://www.chalkbeat.org/tennessee/2026/08/27/2026-tcap-school-level-results/
+</Markdown>
+</Collapsible>
+
+<Collapsible id="wp_std_2" title="Tennessee on standards versus curriculum">
+<Markdown id="wp_std_2_md">
+**TDOE Academic Standards page** — the state's definition, plus who picks curriculum.
+https://www.tn.gov/education/districts/academic-standards.html
+> "The Tennessee Academic Standards provide a common set of expectations for what students will know and be able to do at the end of a grade for each subject area."
+> "While academic standards establish desired learning outcomes, high-quality materials provide instructional programming designed to help students reach these outcomes. Districts should locally establish curricular programs that support student mastery of the Tennessee Academic Standards while reflecting unique community values."
+The same page carries the review schedule: "Science | October 2022 | 2025-26 | 2025-26" (final read, classroom implementation, aligned assessment).
+
+**The standards document's own value statement** (PDF p. 1, link above).
+> "To achieve this end, school systems employ standards to craft meaningful local curricula that are innovative and provide myriad learning opportunities that extend beyond mastery of basic scientific principles."
+
+**Textbook Review, Approval, and Adoption Process** — Tennessee Textbook and Instructional Materials Quality Commission; the state approves a list, districts choose from it.
+https://www.tn.gov/textbook-commission/textbook-adoption-process.html
+> "Districts are best positioned to choose which textbooks and instructional materials meet the needs of their students, educators, and community. Local school systems must subsequently adopt books on the official list or submit a waiver request to the department to use textbooks or instructional materials not on the approved list."
+The page cites Tennessee Code Annotated, Title 49, Chapter 6, Part 22 (the commission and the official list: T.C.A. § 49-6-2201, § 49-6-2202; local adoption: § 49-6-2207).
+
+**Official lists** — science is Schedule D, local adoption year 2025 (copyright 2025 materials), i.e. districts were choosing science programs in the year the new standards took effect.
+List page: https://www.tn.gov/textbook-commission/textbook-reviews.html
+Science adoption list PDF: https://www.tn.gov/content/dam/tn/textbook-commission/documents/instruction-materials/Schedule_D_Adoption_List.pdf
+Approved science programs on that list include STEMscopes Science Tennessee (Accelerate Learning, K–8 including "STEMSCOPES SCIENCE TENNESSEE- GRADE 4"), Kiddom OpenSciEd Tennessee, McGraw Hill "Tennessee Science," Savvas, Cengage, Carolina, Kendall Hunt.
+</Markdown>
+</Collapsible>
+
+<Collapsible id="wp_std_3" title="Memphis-Shelby County Schools">
+<Markdown id="wp_std_3_md">
+**MSCS Curriculum &amp; Instruction — science** — this is where district curriculum maps and pacing guides would live.
+https://www.scsk12.org/ci/science?sv=Pacing+Guides (also https://www.scsk12.org/ci/?PN=285)
+Plainly: I could not read these pages. Every request to scsk12.org from this session — the science page, the district home page, the MSCS Academic Plan 2025-2030 PDF (https://www.scsk12.org/academic/files/25/MSCS%20Academic%20Plan%202025-2030.pdf) — returned HTTP 403. Search-engine snippets of the C&amp;I page indicate the curriculum maps are housed on an MSCS SharePoint site reached with an MSCS email and password, which would mean the pacing guides are not public even when the site is reachable. Treat that as unconfirmed. For classroom purposes: ask the district or a cooperating teacher for the current elementary science map, and expect it to be built around whichever program MSCS adopted from the state's 2025 science list (§2 above).
+</Markdown>
+</Collapsible>
+
+<Collapsible id="wp_std_4" title="The national framework and standards">
+<Markdown id="wp_std_4_md">
+**A Framework for K-12 Science Education: Practices, Crosscutting Concepts, and Core Ideas** (National Research Council, National Academies Press, 2012) — the research synthesis that states and NGSS were built from; free PDF.
+https://www.nationalacademies.org/publications/13165 (was nap.edu/catalog/13165)
+> "A Framework for K-12 Science Education proposes a new approach to K-12 science education that will capture students' interest and provide them with the necessary foundational knowledge in the field."
+
+**Next Generation Science Standards** — standards written from that Framework, released April 2013.
+https://www.nextgenscience.org/developing-standards/developing-standards
+> "Achieve coordinated the work of twenty-six Lead State Partners and collaborated with critical partners, including the National Research Council, the National Science Teachers Association, and the American Association for the Advancement of Science."
+The NRC wrote the Framework first; states then wrote standards against it.
+
+**Tennessee and NGSS.** Tennessee was an NGSS Lead State Partner in 2011 (https://www.nextgenscience.org/lead-state-tennessee), but it did not adopt NGSS. It wrote its own standards "utilizing recommendations found in A Framework for K-12 Science Education" (TDOE science standards page, §1). Tennessee does not appear among the states listed as adopting NGSS.
+</Markdown>
+</Collapsible>
+
+<Collapsible id="wp_std_5" title="The instructional frameworks this course uses">
+<Markdown id="wp_std_5_md">
+**Ambitious Science Teaching**, Mark Windschitl, Jessica Thompson, and Melissa Braaten (Harvard Education Press, 2018; ISBN 9781682531624) — a book of advice about how to teach science, organized around four sets of core practices. Not a standard; nothing in it is tested.
+Publisher: https://hep.gse.harvard.edu/9781682531624/ambitious-science-teaching/ · ERIC record: https://eric.ed.gov/?id=ED583076
+
+**ambitiousscienceteaching.org** — the free companion site with the practice sets, primers, tools, and video.
+https://ambitiousscienceteaching.org/
+> "Ambitious teaching can be learned. Ambitious Science Teaching supports students in tackling authentic and meaningful science phenomena with attention to students' histories, social interactions, and local and global communities."
+The four practice sets: planning for engagement with important science ideas; eliciting students' ideas; supporting ongoing changes in thinking; pressing for evidence-based explanations.
+
+**C2AST: Critical and Cultural Approaches to Ambitious Science Teaching** — Thompson, Mawyer, Johnson, Scipio, and Luehmann, *The Science Teacher*, September/October 2021 — the critical and cultural extension of AST; again advice, not a standard.
+https://www.nsta.org/science-teacher/science-teacher-septemberoctober-2021/c2ast-critical-and-cultural-approaches
+</Markdown>
+</Collapsible>
+
+<Collapsible id="wp_std_6" title="When the words get confused">
+<Markdown id="wp_std_6_md">
+**(a) Massachusetts calls its standards documents "curriculum frameworks."** The naming is exactly the confusion: the document is standards, not curriculum, and it says so inside.
+DESE frameworks page: https://www.doe.mass.edu/frameworks/ · current list: https://www.doe.mass.edu/frameworks/current.html
+> "The Massachusetts Curriculum Frameworks provide teachers, students and families with clear and shared expectations for what all students should know and be able to do at the end of each year." (DESE)
+*2016 Massachusetts Science and Technology/Engineering Curriculum Framework* (https://www.doe.mass.edu/frameworks/scitech/2016-04.pdf), under the heading "Relationship of Standards to Curriculum and Instruction":
+> "The standards are outcomes, or goals, that reflect what a student should know and be able to do. They do not dictate a manner or methods of teaching. The standards are written in a way that expresses the concept and skills to be achieved and demonstrated by students, but leaves curricular and instructional decisions to districts, schools, and teachers. The standards are not a set of instructional activities or assessment tasks."
+
+**(b) Rigid pacing versus teacher judgment.** Jane L. David, "What Research Says About… Pacing Guides," *Educational Leadership*, October 1, 2008, Vol. 66, No. 2 (ASCD).
+https://www.ascd.org/el/articles/pacing-guides
+> "Teachers are caught between a rock and a hard place: Slow down and risk lack of coverage, or speed up and sacrifice depth of learning."
+> "Cobb, McClain, de Silva Lamberg, and Dean (2003) found that in the United States, most guides do not address the development of student reasoning and that teachers rarely deviate from the guides."
+The same article notes the other side — new teachers "can benefit from resources such as pacing guides designed to help them figure out what to teach and how."
+</Markdown>
+</Collapsible>
+
+<!-- From notes/standards-links.md, kept off the student page but kept on the
+     record.
+
+## What I could not verify
+
+1. Memphis-Shelby County Schools: every scsk12.org URL returned 403, so nothing about MSCS's adopted science program, Academic Plan, or pacing guides is confirmed here — only that the pages exist at the URLs listed in §3.
+2. Whether the State Board actually approved science cut scores in August 2026 and released 2026 science TCAP results; the June 2026 state overview promised August, and I found no release confirming it happened.
+3. M.G.L. c.69 §1D/§1E: malegislature.gov and the mirror sites refused every connection from this session, so the statutory definitions of "academic standards" and "curriculum frameworks" are uncited here.
+4. The code "4.PS3.3": the standards PDF numbers that standard "3)" under 4.PS3, but the document's own progression table lists only 4.PS3.1 and 4.PS3.2 for grade 4, so the third code is inferred from the numbering pattern.
+5. The claim that MSCS curriculum maps sit behind an MSCS SharePoint login comes from a search-engine snippet of the C&I page, not from the page itself.
+     -->
+
+</Vertical>
+
+</Vertical>

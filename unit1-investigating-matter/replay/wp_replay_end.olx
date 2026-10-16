@@ -1,0 +1,117 @@
+<!-- Replay, Ending: The pile. Transcribed from notes/replay/ep-end.md per
+     notes/replay/CONTRACT.md. Text verbatim; nothing added.
+
+     Macros are substituted verbatim from the contract's table; see the macro
+     table at the head of wp_replay_meters.olx. ALL_CODES is the eighteen
+     @wp_rXn.code terms.
+-->
+
+<Vertical id="wp_rend" title="The pile">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rend_reveal">
+
+<Markdown id="wp_rend_s01">*The half sheets are on the corner of your desk. The clock says minute {{Math.round(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. The exit ticket was at thirty.*</Markdown>
+
+<Markdown id="wp_rend_s02" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 33">*Ten minutes. "Draw and label what you think is happening under the ice." Silent. You sort the sheets at your desk while they line up for specials, into three piles for Lesson 2.*</Markdown>
+
+<Markdown id="wp_rend_s03" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 33 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 37">*"Just draw it. Labels if you have time." Two children are still drawing when you collect. You sort the sheets after they line up, into three piles for Lesson 2.*</Markdown>
+
+<Markdown id="wp_rend_s04" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 37 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 41">*"Quick sketch. Two minutes." The bell goes while Amani is still drawing. You sort them at four o'clock, and most of them are a lake with a line across it.*</Markdown>
+
+<Markdown id="wp_rend_s05" when="10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41">*The bell. The half sheets are still in their stack, twenty-four copies and three spare. Lesson 2's groups come from memory: Marcus, Aaliyah, Bri, Darnell{{(@wp_rb1.value === 'take_up') ? ', Kenny' : ''}}{{(@wp_rb2.value === 'ask_room') ? ', Thuy, Espy' : ''}}{{(@wp_rc1.value === 'hand_to_room') ? ', Espy' : ''}}{{(@wp_rd1.value === 'jaylen') ? ', Jaylen' : ''}}{{(@wp_rd2.value === 'keisha') ? ', Keisha' : ''}}{{(@wp_rh1.value === 'together') ? ', Diego' : ''}}. Diego goes in whichever group has a space.*</Markdown>
+
+<!-- Per-child placement and the reason, from ep-end.md section 3. For the
+     builder and for Piotr; not rendered.
+
+     - Marcus: pile 1 always. He has stood on the ice and held the fish.
+     - Aaliyah: pile 1 always. Her mother gave her the mechanism in the kitchen.
+       What the lesson did to her is in the corner of the sheet, not in the pile.
+     - Bri: pile 1 always. She had the question; what is written under the ice varies.
+     - Diego: pile 1 always. He has seen ice on top of a cup. Whether anything is
+       written under it varies.
+     - Amani: pile 1 always. He draws better than he writes.
+     - Darnell: pile 1 if the room reasoned about floating in front of him (C_ROOM,
+       B_BRIDGED, G_WAITED); otherwise pile 2, the fish drawn on the ice beside the
+       skaters, because recall gave him three words and nothing to draw from.
+     - Thuy: pile 1 if she predicted or heard the bridge (G_WAITED, B_BRIDGED,
+       C_ROOM); otherwise pile 2.
+     - Espy: pile 1 if she relayed Diego's cup (C_ROOM); otherwise pile 2.
+     - Kenny: pile 3 if the room did pipes (B_ROOM): he drew his building with the
+       water coming down the stairs. Otherwise pile 2.
+     - Jaylen: pile 1 with a jar in the margin if E_CHARTED; pile 3 if E_RUN, the
+       jar and the string and no lake; otherwise pile 2.
+     - Keisha: pile 1 if F_RULE or F_CHARTED, with "two cups" in the margin;
+       otherwise pile 2.
+-->
+
+<Markdown id="wp_rend_m06" when="(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 33) || (10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 33 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 37)">**Ice, water, fish:** Marcus, Aaliyah, Bri, Diego, Amani{{(@wp_rc1.value === 'hand_to_room' || @wp_rb3.value === 'bridge' || @wp_rg2.value === 'wait') ? ', Darnell' : ''}}{{(@wp_rg2.value === 'wait' || @wp_rb3.value === 'bridge' || @wp_rc1.value === 'hand_to_room') ? ', Thuy' : ''}}{{(@wp_rc1.value === 'hand_to_room') ? ', Espy' : ''}}{{(@wp_re1.value === 'park' || @wp_re2.value === 'distinction') ? ', Jaylen' : ''}}{{(@wp_rf1.value === 'take_up' || @wp_rf1.value === 'park' || @wp_rf2.value === 'chart_rule' || @wp_rf2.value === 'ask_ocean') ? ', Keisha' : ''}}, and most of the rest of the room.</Markdown>
+
+<Markdown id="wp_rend_m07" when="(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 33) || (10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 33 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 37)">**Fish on top of the ice:** {{!(@wp_rc1.value === 'hand_to_room' || @wp_rb3.value === 'bridge' || @wp_rg2.value === 'wait') ? 'Darnell, ' : ''}}{{!(@wp_rg2.value === 'wait' || @wp_rb3.value === 'bridge' || @wp_rc1.value === 'hand_to_room') ? 'Thuy, ' : ''}}{{!(@wp_rc1.value === 'hand_to_room') ? 'Espy, ' : ''}}{{!(@wp_rb2.value === 'ask_room') ? 'Kenny, ' : ''}}{{!(@wp_re1.value === 'park' || @wp_re2.value === 'distinction') &amp;&amp; !(@wp_re2.value === 'run') ? 'Jaylen, ' : ''}}{{!(@wp_rf1.value === 'take_up' || @wp_rf1.value === 'park' || @wp_rf2.value === 'chart_rule' || @wp_rf2.value === 'ask_ocean') ? 'Keisha, ' : ''}}and four you do not know as well.</Markdown>
+
+<Markdown id="wp_rend_m08" when="(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 33) || (10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 33 &amp;&amp; 10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &lt;= 37)">**Blank, or something else:** {{(@wp_rb2.value === 'ask_room') ? 'Kenny, ' : ''}}{{(@wp_re2.value === 'run') ? 'Jaylen, ' : ''}}and two who drew the skaters and nothing under them.</Markdown>
+
+<Markdown id="wp_rend_m09" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rb1.value === 'redirect')">**Aaliyah's sheet.** The lake, the ice, a fish. In the bottom corner, small, a pipe with a crack in it. No label.</Markdown>
+
+<Markdown id="wp_rend_m10" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rb1.value === 'park')">**Aaliyah's sheet.** The lake, the ice, a fish, and under it "L3", copied off the chart, where she could see her name.</Markdown>
+
+<Markdown id="wp_rend_m11" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rb1.value === 'take_up')">**Aaliyah's sheet.** The ice drawn thick, thicker than the water, and one word beside it: "bigger".</Markdown>
+
+<Markdown id="wp_rend_m12" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rc1.value === 'answer')">**Bri's sheet.** The lake and the fish, and along the ice, in her best handwriting, "ice is lighter", copied off the board.</Markdown>
+
+<Markdown id="wp_rend_m13" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rc1.value === 'hold') &amp;&amp; !((@wp_rb3.value === 'bridge') || (@wp_rb2.value === 'press_science'))">**Bri's sheet.** The lake and the fish. On the ice, a question mark.</Markdown>
+
+<Markdown id="wp_rend_m14" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; ((@wp_rb3.value === 'bridge') || (@wp_rb2.value === 'press_science')) &amp;&amp; !(@wp_rc1.value === 'answer')">**Bri's sheet.** The lake on the left, a pipe on the right, and an arrow between them.</Markdown>
+
+<Markdown id="wp_rend_m15" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rc1.value === 'hand_to_room') &amp;&amp; !(@wp_rb3.value === 'bridge') &amp;&amp; !(@wp_rb2.value === 'press_science')">**Bri's sheet.** The lake and the fish, and three answers written along the ice with a line through two of them.</Markdown>
+
+<Markdown id="wp_rend_m16" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rh1.value === 'together' || @wp_rh1.value === 'desk_check' || @wp_rh2.value === 'wait' || @wp_rh2.value === 'point')">**Diego's sheet.** A cup, not a lake. Ice on top, water under, a fish in the water. Under the ice, copied from the board: SOLID.</Markdown>
+
+<Markdown id="wp_rend_m17" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rh2.value === 'rescue')">**Diego's sheet.** A cup, not a lake. Ice on top, water under, a fish in the water. Nothing written.</Markdown>
+
+<Markdown id="wp_rend_m18" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; !(@wp_rh1.value === 'together' || @wp_rh1.value === 'desk_check' || @wp_rh2.value === 'wait' || @wp_rh2.value === 'point') &amp;&amp; !(@wp_rh2.value === 'rescue')">**Diego's sheet.** A cup, not a lake. Ice on top, water under, a fish in the water. No labels today; they were optional.</Markdown>
+
+<Markdown id="wp_rend_m19" when="!(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60 &gt; 41) &amp;&amp; (@wp_rg1.value === 'predict')">**Amani's sheet.** The lake, and in the margin, a bottle with a bulge in it. Nobody asked for the bottle.</Markdown>
+
+<Markdown id="wp_rend_m20">**The chart, as it stays up all unit.** NOTICE: the lake is frozen · people are skating · it's winter · you can't see the fish. WONDER: how thick is the ice? · is anybody fishing?</Markdown>
+
+<Markdown id="wp_rend_s21" when="@wp_ra2.value === 'chart'">*"cold comes from the sky (Marcus)", in blue, under NOTICE. It stays up until February. Lesson 6 is about where the lake's heat goes, and it goes up, not down.*</Markdown>
+
+<Markdown id="wp_rend_s22" when="(@wp_rb1.value === 'park') || (@wp_rb2.value === 'name_it')">*"Aaliyah: pipes busted in the freeze. L3", in blue, under WONDER.*</Markdown>
+
+<Markdown id="wp_rend_s23" when="@wp_rb3.value === 'bridge'">*"same ice: busts a pipe, sits on a lake?", in blue, under WONDER.*</Markdown>
+
+<Markdown id="wp_rend_s24" when="@wp_rc1.value === 'hold'">*"why does ice float? (Bri)", starred, "L3" in the margin.*</Markdown>
+
+<Markdown id="wp_rend_s25" when="@wp_re1.value === 'park' || @wp_re2.value === 'distinction'">*"rock candy: a change, not our change (Jaylen)", small, in the corner.*</Markdown>
+
+<Markdown id="wp_rend_s26" when="@wp_rf1.value === 'park' || @wp_rf2.value === 'chart_rule' || @wp_rf2.value === 'ask_ocean'">*"does the ocean freeze? two cups (Keisha)", under WONDER.*</Markdown>
+
+<Markdown id="wp_rend_s27" when="@wp_rg3.value === 'rewrite'">*On the board, under the three words: "ice takes up more room". Nothing underlined.*</Markdown>
+
+<Markdown id="wp_rend_s28" when="!(@wp_rg3.value === 'rewrite')">*On the board, under the three words: "ice is lighter, it floats", underlined twice.*</Markdown>
+
+<Markdown id="wp_rend_s29" when="@wp_ra1.value === 'praise_next'">*Not on either surface: Marcus's ice fishing.*</Markdown>
+
+<Markdown id="wp_rend_s30" when="@wp_rb1.value === 'redirect'">*Not on either surface: Aaliyah's pipes.*</Markdown>
+
+<Markdown id="wp_rend_m31">## Your choices: what they made possible, and what they cost</Markdown>
+
+<Markdown id="wp_rend_m32">
+There was no path through that launch that took up every child and still made the exit ticket, so this isn't about whether you got it right. It's about the reasoning behind your choices of who to call on and whose ideas to take up.
+
+Look at the clock, the strip, and the pile. Then, in a few sentences:
+
+- name **one choice that made something possible**: for which child, or for the science;
+- say **what it cost**: in minutes, in another child's turn, or in the plan;
+- and say whether you'd **make that trade again**, and why.
+
+Name at least one child and one minute.
+</Markdown>
+
+<TextArea id="wp_replay_reflection" rows="5"
+          placeholder="When I... it made it possible for... It cost... I would / wouldn't make that trade again because..." />
+<Markdown id="wp_replay_reflection_count" when="wordcount(@wp_replay_reflection.value) &lt; 12">*{{wordcount(@wp_replay_reflection.value)}} of 12 words. Write at least 12 to continue.*</Markdown>
+<Markdown id="wp_replay_reflection_more" when="wordcount(@wp_replay_reflection.value) &gt;= 12 &amp;&amp; wordcount(@wp_replay_reflection.value) &lt; 40">*{{wordcount(@wp_replay_reflection.value)}} words. That's enough to move on; the strongest answers here usually run closer to 40.*</Markdown>
+
+</NextReveal>
+</Vertical>

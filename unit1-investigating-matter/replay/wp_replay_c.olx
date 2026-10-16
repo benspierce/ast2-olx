@@ -1,0 +1,109 @@
+<!-- wp_replay_c.olx — Episode C: Bri. Transcribed from notes/replay/ep-c.md. -->
+
+<Vertical id="wp_rc" title="Bri">
+<Use ref="wp_meters"/>
+<NextReveal id="wp_rc_reveal">
+
+<Markdown id="wp_rc_s01">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Exit ticket at thirty.*</Markdown>
+
+<TalkBubble id="wp_rc_l02" who="Marcus" face="driven" side="primary" when="@wp_ra2.value === 'press_again'">
+<Markdown id="wp_rc_l02_md">Also the fish can breathe under there because there's air holes where the ice cracks. My grandpa showed me.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s03" when="@wp_rb1.value === 'redirect'">*Bri's hand is halfway up. She says it to her desk.*</Markdown>
+
+<TalkBubble id="wp_rc_l04" who="Bri" face="concerned" side="primary" when="@wp_rb1.value === 'redirect'">
+<Markdown id="wp_rc_l04_md">Um. If ice is just frozen water, why doesn't it sink?</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l05" who="Bri" face="driven" side="primary" when="@wp_rb1.value === 'park'">
+<Markdown id="wp_rc_l05_md">Wait. If ice is just frozen water, why doesn't it sink? It's the same stuff. Write mine down too.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l06" who="Bri" face="awe" side="primary" when="!(@wp_rb1.value === 'redirect') &amp;&amp; !(@wp_rb1.value === 'park') &amp;&amp; !(@wp_rb2.value === 'press_science')">
+<Markdown id="wp_rc_l06_md">Wait. If ice is just frozen water, why doesn't it sink? It's the same stuff.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l07" who="Darnell" face="cheeky" side="primary" when="@wp_rb2.value === 'press_science'">
+<Markdown id="wp_rc_l07_md">So is ice heavier or lighter? Because Bri said spread out, and spread out is lighter.</Markdown>
+</TalkBubble>
+
+<ChoiceInput id="wp_rc1">
+<Markdown id="wp_rc1_prompt">The question your plan expected, starred, and saved for Lesson 3 has arrived. What do you do?</Markdown>
+  <Key id="wp_rc1_hold"         value="hold"         code="60" >"Good question. Hold on to that one." Write "why does ice float?" under WONDER, star it, L3.</Key>
+  <Key id="wp_rc1_answer"       value="answer"       code="60" >"Ice is lighter than water, that's why. Hold on to that, it's coming."</Key>
+  <Key id="wp_rc1_hand_to_room" value="hand_to_room" code="210">"What do you all think? Talk to your partner. Thirty seconds. I want a reason."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rc_s08" when="@wp_rc1.value === 'hold'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Blue marker: "why does ice float?" A star, and L3 in the margin.*</Markdown>
+
+<TalkBubble id="wp_rc_l09" who="Bri" face="calm" side="primary" when="@wp_rc1.value === 'hold' &amp;&amp; !(@wp_rb2.value === 'press_science')">
+<Markdown id="wp_rc_l09_md">Okay. It's still weird though.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l10" who="Darnell" face="cheeky" side="primary" when="@wp_rc1.value === 'hold' &amp;&amp; (@wp_rb2.value === 'press_science')">
+<Markdown id="wp_rc_l10_md">I said lighter though.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s11" when="@wp_rc1.value === 'hold' &amp;&amp; (@wp_rb1.value === 'redirect')">*Bri looks at her question on the wall. Aaliyah looks at the wall too.*</Markdown>
+
+<Markdown id="wp_rc_s12" when="@wp_rc1.value === 'hold' &amp;&amp; (@wp_rb1.value === 'park')">*Two names on the wall now. Bri checks that hers is spelled right.*</Markdown>
+
+<Markdown id="wp_rc_s13" when="@wp_rc1.value === 'answer'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}.*</Markdown>
+
+<TalkBubble id="wp_rc_l14" who="Bri" face="blank" side="primary" when="@wp_rc1.value === 'answer' &amp;&amp; !(@wp_rb2.value === 'press_science')">
+<Markdown id="wp_rc_l14_md">Oh.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s15" when="@wp_rc1.value === 'answer' &amp;&amp; !(@wp_rb2.value === 'press_science')">*She writes "ice is lighter" on her handout and underlines it.*</Markdown>
+
+<TalkBubble id="wp_rc_l16" who="Darnell" face="smile" side="primary" when="@wp_rc1.value === 'answer' &amp;&amp; (@wp_rb2.value === 'press_science')">
+<Markdown id="wp_rc_l16_md">Lighter. I said that.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s17" when="@wp_rc1.value === 'answer'">*Bri's hand is down. Nobody else's goes up.*</Markdown>
+
+<Markdown id="wp_rc_s18" when="@wp_rc1.value === 'hand_to_room'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Thirty seconds of twenty-two children talking. Forty more to get them back.*</Markdown>
+
+<TalkBubble id="wp_rc_l19" who="Marcus" face="driven" side="primary" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; (@wp_ra2.value === 'press_again')">
+<Markdown id="wp_rc_l19_md">It's lighter. My grandpa said the heavy water goes to the bottom and the fish go with it.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l20" who="Marcus" face="smile" side="primary" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; !(@wp_ra2.value === 'press_again')">
+<Markdown id="wp_rc_l20_md">It's lighter than the water. That's all it is.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l21" who="Darnell" face="explaining" side="primary" when="@wp_rc1.value === 'hand_to_room'">
+<Markdown id="wp_rc_l21_md">It's got air in it. A boat has air in it and that's why a boat floats.</Markdown>
+</TalkBubble>
+
+<TalkBubble id="wp_rc_l22" who="Espy" face="cheeky" side="primary" when="@wp_rc1.value === 'hand_to_room'">
+<Markdown id="wp_rc_l22_md">Diego says in his cup the ice is always on top of the juice. He said it, I'm just saying it louder.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s23" when="@wp_rc1.value === 'hand_to_room'">*Diego is looking at Espy, not at you.*</Markdown>
+
+<ChoiceInput id="wp_rc2" when="@wp_rc1.value === 'hand_to_room'">
+<Markdown id="wp_rc2_prompt">Three ideas on the floor: lighter, air inside, ice sits on top of juice. One is an observation from a child who has not spoken in science this year. What do you do?</Markdown>
+  <Key id="wp_rc2_chart_all" value="chart_all" code="30">"Three ideas. I'm writing all three down and we are not deciding today." Write "lighter? air inside? floats in a cup (Diego)" under WONDER.</Key>
+  <Key id="wp_rc2_ask_diego" value="ask_diego" code="20">"Diego, is that right? Point at the ice."</Key>
+</ChoiceInput>
+
+<Markdown id="wp_rc_s24" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; @wp_rc2.value === 'chart_all'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Three lines in blue. Diego's name on the wall, in your handwriting, under Marcus's.*</Markdown>
+
+<TalkBubble id="wp_rc_l25" who="Bri" face="awe" side="primary" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; @wp_rc2.value === 'chart_all'">
+<Markdown id="wp_rc_l25_md">So which one is it? Ms. Boyd. Which one?</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s26" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; @wp_rc2.value === 'chart_all'">*She keeps looking at the three lines.*</Markdown>
+
+<Markdown id="wp_rc_s27" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; @wp_rc2.value === 'ask_diego'">*Minute {{Math.floor(10 + sum([@wp_ra1.code, @wp_ra2.code, @wp_rb1.code, @wp_rb2.code, @wp_rb3.code, @wp_rc1.code, @wp_rc2.code, @wp_rd1.code, @wp_rd2.code, @wp_re1.code, @wp_re2.code, @wp_rf1.code, @wp_rf2.code, @wp_rg1.code, @wp_rg2.code, @wp_rg3.code, @wp_rh1.code, @wp_rh2.code]) / 60)}}. Diego looks at Espy. Espy nods at the screen. He points at the ice on the lake, then at the top of it.*</Markdown>
+
+<TalkBubble id="wp_rc_l28" who="Espy" face="smile" side="primary" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; @wp_rc2.value === 'ask_diego'">
+<Markdown id="wp_rc_l28_md">See.</Markdown>
+</TalkBubble>
+
+<Markdown id="wp_rc_s29" when="@wp_rc1.value === 'hand_to_room' &amp;&amp; @wp_rc2.value === 'ask_diego'">*Diego puts his hand down. Marcus is looking at him.*</Markdown>
+
+</NextReveal>
+</Vertical>

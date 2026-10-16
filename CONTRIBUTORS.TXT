@@ -1,0 +1,33 @@
+Contributors
+============
+
+Course
+======
+
+Wesam Salem, instructor of ELED 3261 (Elementary Science Methods) at the
+University of Memphis, is the author of the course abstract and the
+learning goals this activity is built on, and directed revisions to its
+content.
+
+Scenario and courseware
+=======================
+
+The design document was prepared by Benjamin Pierce from the course
+abstract. The scenario, characters, and OLX in this repository were
+developed by Piotr Mitros, and revised by Benjamin Pierce after review
+with the course instructor in the fall of 2026.
+
+Platform
+========
+
+This activity runs on lo-blocks. The platform, as well as the Learning
+Observer project it is part of, and the Open edX platform they are based
+on, were originally conceived of and created by Piotr Mitros. Platform
+contributors are listed at https://github.com/olxhub/lo-blocks/.
+
+Copyright
+=========
+
+Everyone who contributed to the course content and the system holds
+copyright to portions of the work, mutually cross-licensed under the
+AGPL. See LICENSE.TXT and NOTICE.TXT.
