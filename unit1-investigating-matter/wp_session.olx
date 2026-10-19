@@ -153,11 +153,11 @@ This morning, before you go back in for your next placement block, Dr. Okafor (y
 <Vertical id="wp_s3_lookfors">
 <Use ref="wp_lookfors_match_problem" />
 <IntakeGate id="wp_s3_g1" ready="@wp_lookfors_match_grader.correct === correctness.correct || @wp_ok_s3.value">
-<Markdown id="wp_s3_lock1">🔒 *Get all five matched correctly and the conversation continues.*</Markdown>
+<Markdown id="wp_s3_lock1">🔒 *Get all six matched correctly and the conversation continues.*</Markdown>
 <NextReveal id="wp_s3_reveal_b">
 
 <TalkBubble id="wp_s3_jordan1" who="Jordan" face="cheeky" side="secondary">
-<Markdown id="wp_s3_jordan1_md">Okay, "held open" is the one I'd have missed. So the teacher's not supposed to answer it? Like, at all?</Markdown>
+<Markdown id="wp_s3_jordan1_md">Okay, "open-ended" is the one I'd have gotten wrong. So the teacher's not supposed to answer it? Like, at all?</Markdown>
 </TalkBubble>
 
 <TalkBubble id="wp_s3_okafor3" who="Okafor" face="explaining" side="primary">
@@ -207,9 +207,33 @@ This morning, before you go back in for your next placement block, Dr. Okafor (y
 <Vertical id="wp_s4" title="Ambitious Science Teaching">
 <NextReveal id="wp_s4_reveal">
 
+<!-- ===================================================================
+     SHORT VERSION (October 2026). This unit now runs later in the semester,
+     when students already know the framework, so this screen was compacted:
+     a shorter opening line, and the standards/curriculum/framework talk, the
+     vocabulary matching (kinds of teacher question), and the conversation that
+     followed it are commented out below, not deleted.
+
+     TO RESTORE THE LONG VERSION:
+       1. delete the two blocks marked SHORT (wp_s4_okafor1_short and
+          wp_s4_end_short);
+       2. uncomment the two blocks marked LONG;
+       3. in the print page at the bottom of this file, uncomment the
+          "kinds of teacher question" section.
+     The matching exercise itself (wp_discourse_match_problem) is still
+     defined in whose_phenomenon_activities_part1.olx.
+     =================================================================== -->
+
+<!-- SHORT: replaces wp_s4_okafor1 -->
+<TalkBubble id="wp_s4_okafor1_short" who="Okafor" face="explaining" side="primary">
+<Markdown id="wp_s4_okafor1_short_md">You know Ambitious Science Teaching by now, so just the part that matters today. Launch with a phenomenon worth explaining, then draw out what students already think, so their ideas, not the teacher's, drive the unit. The critical and cultural reading adds a question: whose experiences does the phenomenon assume, and whose contributions get taken up? That's what Ms. Boyd's launch is held to today.</Markdown>
+</TalkBubble>
+
+<!-- LONG: the original opening line.
 <TalkBubble id="wp_s4_okafor1" who="Okafor" face="explaining" side="primary">
 <Markdown id="wp_s4_okafor1_md">The framework this course teaches is called Ambitious Science Teaching. Its first set of practices is the one you just learned the vocabulary for: pick a phenomenon worth explaining, launch it, and draw out what students already think, so that their ideas, not the teacher's, drive the lessons that follow. There's also a critical and cultural reading of it, which adds a question: whose experiences does the phenomenon assume, and whose contributions get taken up? That's the reading Ms. Boyd's launch is going to be held to.</Markdown>
 </TalkBubble>
+-->
 
 <TalkBubble id="wp_s4_luke1" who="Luke" face="serious" side="secondary">
 <Markdown id="wp_s4_luke1_md">With respect, Dr. Okafor, can I ask something before we start? Is this a framework we're learning, or a conclusion we're supposed to get to? Because the evidence page says nobody's ever run a trial of AST as a whole.</Markdown>
@@ -223,6 +247,10 @@ This morning, before you go back in for your next placement block, Dr. Okafor (y
 <Markdown id="wp_s4_nyota1_md">For the record, I don't buy the second half yet either. Not for Luke's reasons. I'll make my case when we have the transcript in front of us.</Markdown>
 </TalkBubble>
 
+<!-- LONG: from here to the end of wp_s4_discourse. The standards/curriculum/
+     framework distinction (the "standards behind the plan" crosswalk in s7 and
+     in Reference covers that ground now), the vocabulary matching, and the
+     conversation after it.
 <TalkBubble id="wp_s4_jordan1" who="Jordan" face="cheeky" side="secondary">
 <Markdown id="wp_s4_jordan1_md">Okay, I love this already. Two people out before we've even read it.</Markdown>
 </TalkBubble>
@@ -292,6 +320,22 @@ This morning, before you go back in for your next placement block, Dr. Okafor (y
 
 </NextReveal>
 </IntakeGate>
+</Vertical>
+END OF LONG BLOCK -->
+
+<!-- SHORT: replaces the evidence pointer and ground rule that closed the long version -->
+<Vertical id="wp_s4_end_short">
+<TalkBubble id="wp_s4_okafor6_short" who="Okafor" face="serious" side="primary">
+<Markdown id="wp_s4_okafor6_short_md">The research is in Reference, both sides of it, with every study's design named. When anyone in this room, including me, says "research shows," ask which study. And one ground rule for today: nobody says what a move *meant* until they've quoted it.</Markdown>
+</TalkBubble>
+<Markdown id="wp_s4_evidence_pointer_short">
+> 📎 **Reference › The evidence**: what supports phenomenon-based, responsive science teaching, and what cuts against it.
+</Markdown>
+<ActionButton id="wp_s4_go_evidence" label="Open The evidence in Reference">
+<SetFieldAction id="wp_s4_go_evidence_sel" target="wp_course" field="selectedChild" value="wp/wp_ref_evidence" />
+<SetFieldAction id="wp_s4_go_evidence_exp" target="wp_course" field="expandedChapter" value="wp_ref" />
+</ActionButton>
+<OnShow id="wp_s4_latch_short"><SetFieldAction id="wp_s4_latch_set_short" target="wp_ok_s4" field="value" value="yes" /></OnShow>
 </Vertical>
 
 </NextReveal>
@@ -1073,14 +1117,17 @@ Ambitious Science Teaching · Unit 1: Investigating Matter
 {{@wp_ra1.value}} → {{@wp_ra2.value}} → {{@wp_rb1.value}} → {{@wp_rb2.value}} → {{@wp_rb3.value}} → {{@wp_rc1.value}} → {{@wp_rc2.value}} → {{@wp_rd1.value}} → {{@wp_rd2.value}} → {{@wp_re1.value}} → {{@wp_re2.value}} → {{@wp_rf1.value}} → {{@wp_rf2.value}} → {{@wp_rg1.value}} → {{@wp_rg2.value}} → {{@wp_rg3.value}} → {{@wp_rh1.value}} → {{@wp_rh2.value}}
 </Markdown>
 
-<Markdown id="wp_print_lookfors_h">## The framework's five qualities of an anchoring phenomenon</Markdown>
+<Markdown id="wp_print_lookfors_h">## The framework's six qualities of an anchoring phenomenon</Markdown>
 <Use ref="wp_lookfors_match_problem" />
 
 <Markdown id="wp_print_topic_h">## Phenomenon or topic?</Markdown>
 <Use ref="wp_pk_topic_problem" />
 
+<!-- LONG (October 2026): the vocabulary matching was removed from screen 4 in the
+     short version, so it is left out of the print page too. Uncomment to restore.
 <Markdown id="wp_print_kinds_h">## The framework's kinds of teacher question</Markdown>
 <Use ref="wp_discourse_match_problem" />
+-->
 
 <Markdown id="wp_print_questions_h">## Ms. Boyd's questions, in order</Markdown>
 <Use ref="wp_questions_problem" />

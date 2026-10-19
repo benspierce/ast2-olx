@@ -860,8 +860,20 @@ The honest summary for a preservice teacher: the burden this evidence places on 
 
 <Collapsible id="wp_ev_frameworks" title="The frameworks, as the course states them">
 <Markdown id="wp_ev_frameworks_note">
-These are the course's own job aids, stated the way the framework states them. Two of them are what you matched in Part 1; one of them, "connected to students' lives," is the line Nyota argues with. They are here so you can check what is claimed against what the evidence above supports.
+These are the course's own job aids, stated the way the framework states them. The first is the one you matched at the start of the unit; one of its qualities, "relevant," is the one Nyota argues with. They are here so you can check what is claimed against what the evidence above supports.
 </Markdown>
+<!-- October 2026: renamed to match the matching exercise (six qualities). The
+     original five bullets, kept for reference:
+       Observable: students can see, hear, or picture it happening (not an
+         abstract topic like "states of matter").
+       Puzzling: it doesn't match what students expect, so it creates a real
+         need to know.
+       Rich enough to anchor a unit: explaining it takes the target science
+         ideas, not a one-word answer.
+       Connected to students' lives: it links to experiences and communities
+         students actually have.
+       Held open: the class keeps working on it; the teacher doesn't resolve it
+         in the first five minutes. -->
 <Markdown id="wp_lookfors">
 ### What the framework looks for in an anchoring phenomenon
 
@@ -869,9 +881,10 @@ In Ambitious Science Teaching, an anchoring phenomenon is an **observable event*
 
 - **Observable** — students can see, hear, or picture it happening (not an abstract topic like "states of matter").
 - **Puzzling** — it doesn't match what students expect, so it creates a real *need to know*.
-- **Rich enough to anchor a unit** — explaining it takes the target science ideas, not a one-word answer.
-- **Connected to students' lives** — it links to experiences and communities students actually have.
-- **Held open** — the class keeps working on it; the teacher doesn't resolve it in the first five minutes.
+- **Engaging** — it catches students' attention and gets them talking, the way a vivid video, demonstration, or story does.
+- **Relevant** — it connects to experiences and communities students actually have.
+- **Open-ended** — it has no one-word answer, so the class keeps working on it instead of settling it in the first five minutes.
+- **Inquiry-based** — students can investigate it: make predictions, test their ideas, and gather evidence across the unit to explain it.
 
 *Watch for the slide from a phenomenon ("why don't the fish freeze?") to a topic ("the three states of matter"). The topic is where you are going; the phenomenon is how students get the need to go there.*
 </Markdown>

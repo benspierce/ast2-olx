@@ -58,9 +58,24 @@ lang: en-Latn-US
        The look-fors are learned by matching them, not by reading a list.
        =================================================================== -->
 
-    <CapaProblem id="wp_lookfors_match_problem" title="The framework's five qualities of an anchoring phenomenon" showAnswer="never" grade="immediate">
+    <!-- October 2026: the qualities were renamed at the instructor's request
+         (observable, puzzling, engaging, relevant, open-ended) and a sixth,
+         inquiry-based, was added. The original five, kept for reference:
+           Observable: Students can see, hear, or picture it happening. Not an
+             abstract topic like "states of matter."
+           Puzzling: It doesn't match what students expect, so it creates a real
+             need to know.
+           Rich enough to anchor a unit: Explaining it takes the target science
+             ideas, not a one-word answer.
+           Connected to students' lives: It links to experiences and communities
+             students actually have.
+           Held open: The class keeps working on it; the teacher doesn't resolve
+             it in the first five minutes.
+         (ids were wp_lf_observable, wp_lf_puzzling, wp_lf_rich, wp_lf_connected,
+         wp_lf_open, each with a _def partner.) -->
+    <CapaProblem id="wp_lookfors_match_problem" title="The framework's six qualities of an anchoring phenomenon" showAnswer="never" grade="immediate">
       <MatchingGrader id="wp_lookfors_match_grader">
-        <Markdown id="wp_lookfors_match_prompt">Ambitious Science Teaching names five qualities of a good anchoring phenomenon. Match each quality on the left to what the framework means by it on the right: click the dot beside a quality, then the dot beside its meaning. The count of correct matches updates as you go, so keep adjusting until all five are right. This is a way to learn the terms, not a test.
+        <Markdown id="wp_lookfors_match_prompt">Ambitious Science Teaching names six qualities of a good anchoring phenomenon. Match each quality on the left to what the framework means by it on the right: click the dot beside a quality, then the dot beside its meaning. The count of correct matches updates as you go, so keep adjusting until all six are right. This is a way to learn the terms, not a test.
 
 **Correct so far: {{@wp_lookfors_match_grader.message}}** (the same count appears under the exercise)</Markdown>
         <MatchingInput id="wp_lookfors_match">
@@ -70,14 +85,17 @@ lang: en-Latn-US
           <Markdown id="wp_lf_puzzling">Puzzling</Markdown>
           <Markdown id="wp_lf_puzzling_def">It doesn't match what students expect, so it creates a real need to know.</Markdown>
 
-          <Markdown id="wp_lf_rich">Rich enough to anchor a unit</Markdown>
-          <Markdown id="wp_lf_rich_def">Explaining it takes the target science ideas, not a one-word answer.</Markdown>
+          <Markdown id="wp_lf_engaging">Engaging</Markdown>
+          <Markdown id="wp_lf_engaging_def">It catches students' attention and gets them talking, the way a vivid video, demonstration, or story does.</Markdown>
 
-          <Markdown id="wp_lf_connected">Connected to students' lives</Markdown>
-          <Markdown id="wp_lf_connected_def">It links to experiences and communities students actually have.</Markdown>
+          <Markdown id="wp_lf_relevant">Relevant</Markdown>
+          <Markdown id="wp_lf_relevant_def">It connects to experiences and communities students actually have.</Markdown>
 
-          <Markdown id="wp_lf_open">Held open</Markdown>
-          <Markdown id="wp_lf_open_def">The class keeps working on it; the teacher doesn't resolve it in the first five minutes.</Markdown>
+          <Markdown id="wp_lf_openended">Open-ended</Markdown>
+          <Markdown id="wp_lf_openended_def">It has no one-word answer, so the class keeps working on it instead of settling it in the first five minutes.</Markdown>
+
+          <Markdown id="wp_lf_inquiry">Inquiry-based</Markdown>
+          <Markdown id="wp_lf_inquiry_def">Students can investigate it: make predictions, test their ideas, and gather evidence across the unit to explain it.</Markdown>
         </MatchingInput>
       </MatchingGrader>
     </CapaProblem>
